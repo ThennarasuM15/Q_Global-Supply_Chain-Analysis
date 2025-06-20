@@ -1,0 +1,5 @@
+WarehouseID,WarehouseName,Location,MaxCapacityUnits
+W-1,Delhi_WH,Delhi,14560
+W-2,Mumbai_WH,Mumbai,15653
+W-3,Kolkata_WH,Kolkata,16600
+W-4,Ahmedabad_WH,Ahmedabad,21165

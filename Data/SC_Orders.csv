@@ -1,0 +1,2001 @@
+OrderID,OrderDate,DispatchDate,ETA,DeliveryDate,OriginPlant,DestinationWarehouse,TransportMode,Supplier,DelayReason
+O-1000,2023-04-25,2023-04-26,2023-04-28,2023-05-01,Pune,Mumbai_WH,Sea,Supplier_A,Traffic
+O-1001,2023-01-04,2023-01-05,2023-01-10,2023-01-11,Hyderabad,Kolkata_WH,Air,Supplier_B,Weather
+O-1002,2023-10-10,2023-10-12,2023-10-18,2023-10-19,Hyderabad,Delhi_WH,Road,Supplier_A,Customs Delay
+O-1003,2023-12-10,2023-12-12,2023-12-14,2023-12-17,Pune,Mumbai_WH,Air,Supplier_C,Customs Delay
+O-1004,2023-04-19,2023-04-22,2023-04-26,2023-04-26,Pune,Delhi_WH,Sea,Supplier_D,None
+O-1005,2023-09-18,2023-09-20,2023-09-22,2023-09-21,Chennai,Mumbai_WH,Road,Supplier_C,None
+O-1006,2023-02-27,2023-03-01,2023-03-06,2023-03-06,Pune,Kolkata_WH,Sea,Supplier_A,None
+O-1007,2023-10-04,2023-10-07,2023-10-09,2023-10-12,Pune,Mumbai_WH,Sea,Supplier_B,Weather
+O-1008,2023-10-09,2023-10-10,2023-10-14,2023-10-17,Chennai,Ahmedabad_WH,Air,Supplier_B,Transport Breakdown
+O-1009,2023-06-23,2023-06-24,2023-06-30,2023-07-03,Chennai,Delhi_WH,Air,Supplier_B,Customs Delay
+O-1010,2023-05-05,2023-05-07,2023-05-12,2023-05-12,Chennai,Ahmedabad_WH,Road,Supplier_B,None
+O-1011,2023-10-02,2023-10-04,2023-10-07,2023-10-09,Chennai,Mumbai_WH,Rail,Supplier_B,Customs Delay
+O-1012,2023-09-04,2023-09-05,2023-09-10,2023-09-09,Hyderabad,Ahmedabad_WH,Air,Supplier_B,None
+O-1013,2023-01-26,2023-01-29,2023-02-03,2023-02-06,Pune,Delhi_WH,Road,Supplier_A,Customs Delay
+O-1014,2023-12-03,2023-12-06,2023-12-12,2023-12-15,Bengaluru,Ahmedabad_WH,Rail,Supplier_A,Weather
+O-1015,2023-02-07,2023-02-10,2023-02-13,2023-02-16,Hyderabad,Delhi_WH,Air,Supplier_A,Weather
+O-1016,2023-05-16,2023-05-17,2023-05-19,2023-05-22,Bengaluru,Mumbai_WH,Rail,Supplier_C,Customs Delay
+O-1017,2023-01-23,2023-01-24,2023-01-28,2023-01-28,Hyderabad,Kolkata_WH,Rail,Supplier_A,None
+O-1018,2023-06-07,2023-06-09,2023-06-11,2023-06-12,Chennai,Delhi_WH,Air,Supplier_D,Customs Delay
+O-1019,2023-06-20,2023-06-22,2023-06-25,2023-06-26,Bengaluru,Mumbai_WH,Road,Supplier_D,Customs Delay
+O-1020,2023-06-18,2023-06-20,2023-06-22,2023-06-23,Chennai,Ahmedabad_WH,Sea,Supplier_A,Weather
+O-1021,2023-07-17,2023-07-20,2023-07-23,2023-07-24,Hyderabad,Delhi_WH,Sea,Supplier_C,Traffic
+O-1022,2023-06-17,2023-06-19,2023-06-23,2023-06-26,Pune,Ahmedabad_WH,Air,Supplier_C,Customs Delay
+O-1023,2023-12-12,2023-12-13,2023-12-19,2023-12-21,Hyderabad,Ahmedabad_WH,Road,Supplier_D,Customs Delay
+O-1024,2023-11-09,2023-11-10,2023-11-15,2023-11-17,Chennai,Ahmedabad_WH,Sea,Supplier_A,Customs Delay
+O-1025,2023-08-22,2023-08-23,2023-08-28,2023-08-31,Chennai,Delhi_WH,Sea,Supplier_A,Weather
+O-1026,2023-11-17,2023-11-18,2023-11-22,2023-11-24,Pune,Ahmedabad_WH,Rail,Supplier_B,Traffic
+O-1027,2023-10-05,2023-10-07,2023-10-12,2023-10-11,Hyderabad,Kolkata_WH,Air,Supplier_D,None
+O-1028,2023-04-23,2023-04-25,2023-04-30,2023-05-02,Chennai,Ahmedabad_WH,Sea,Supplier_D,Traffic
+O-1029,2023-08-25,2023-08-26,2023-08-28,2023-08-29,Hyderabad,Mumbai_WH,Rail,Supplier_A,Transport Breakdown
+O-1030,2023-11-30,2023-12-01,2023-12-03,2023-12-03,Chennai,Delhi_WH,Air,Supplier_C,None
+O-1031,2023-06-09,2023-06-10,2023-06-16,2023-06-15,Bengaluru,Mumbai_WH,Rail,Supplier_B,None
+O-1032,2023-12-05,2023-12-07,2023-12-09,2023-12-12,Pune,Ahmedabad_WH,Road,Supplier_A,Weather
+O-1033,2023-10-31,2023-11-02,2023-11-06,2023-11-06,Hyderabad,Ahmedabad_WH,Road,Supplier_D,None
+O-1034,2023-05-13,2023-05-15,2023-05-19,2023-05-22,Chennai,Kolkata_WH,Road,Supplier_D,Weather
+O-1035,2023-05-31,2023-06-01,2023-06-06,2023-06-06,Bengaluru,Delhi_WH,Rail,Supplier_D,None
+O-1036,2023-04-09,2023-04-11,2023-04-13,2023-04-16,Chennai,Delhi_WH,Air,Supplier_C,Customs Delay
+O-1037,2023-01-24,2023-01-25,2023-01-31,2023-02-01,Chennai,Kolkata_WH,Sea,Supplier_A,Customs Delay
+O-1038,2023-09-09,2023-09-10,2023-09-16,2023-09-15,Bengaluru,Ahmedabad_WH,Air,Supplier_A,None
+O-1039,2023-06-02,2023-06-05,2023-06-10,2023-06-11,Hyderabad,Ahmedabad_WH,Road,Supplier_D,Traffic
+O-1040,2023-05-30,2023-05-31,2023-06-03,2023-06-04,Hyderabad,Ahmedabad_WH,Sea,Supplier_D,Weather
+O-1041,2023-01-31,2023-02-01,2023-02-05,2023-02-08,Chennai,Delhi_WH,Sea,Supplier_C,Weather
+O-1042,2023-02-16,2023-02-17,2023-02-23,2023-02-26,Pune,Delhi_WH,Rail,Supplier_C,Traffic
+O-1043,2023-07-29,2023-07-31,2023-08-04,2023-08-03,Hyderabad,Kolkata_WH,Air,Supplier_A,None
+O-1044,2023-07-31,2023-08-01,2023-08-04,2023-08-07,Bengaluru,Ahmedabad_WH,Sea,Supplier_D,Weather
+O-1045,2023-06-09,2023-06-12,2023-06-14,2023-06-17,Chennai,Mumbai_WH,Road,Supplier_A,Transport Breakdown
+O-1046,2023-05-05,2023-05-07,2023-05-13,2023-05-13,Hyderabad,Ahmedabad_WH,Sea,Supplier_D,None
+O-1047,2023-10-03,2023-10-05,2023-10-09,2023-10-10,Chennai,Ahmedabad_WH,Sea,Supplier_D,Transport Breakdown
+O-1048,2023-01-19,2023-01-20,2023-01-26,2023-01-29,Chennai,Ahmedabad_WH,Road,Supplier_D,Weather
+O-1049,2023-06-18,2023-06-21,2023-06-27,2023-06-29,Hyderabad,Delhi_WH,Sea,Supplier_C,Weather
+O-1050,2023-03-27,2023-03-30,2023-04-03,2023-04-02,Bengaluru,Ahmedabad_WH,Road,Supplier_A,None
+O-1051,2023-11-14,2023-11-17,2023-11-20,2023-11-22,Bengaluru,Ahmedabad_WH,Air,Supplier_B,Customs Delay
+O-1052,2023-06-04,2023-06-05,2023-06-10,2023-06-12,Pune,Ahmedabad_WH,Air,Supplier_D,Traffic
+O-1053,2023-11-07,2023-11-09,2023-11-12,2023-11-12,Pune,Mumbai_WH,Rail,Supplier_D,None
+O-1054,2023-06-17,2023-06-20,2023-06-25,2023-06-25,Bengaluru,Kolkata_WH,Air,Supplier_B,None
+O-1055,2023-08-28,2023-08-29,2023-09-01,2023-09-01,Pune,Delhi_WH,Sea,Supplier_C,None
+O-1056,2023-12-12,2023-12-13,2023-12-18,2023-12-17,Pune,Delhi_WH,Rail,Supplier_D,None
+O-1057,2023-02-19,2023-02-20,2023-02-26,2023-02-26,Hyderabad,Delhi_WH,Sea,Supplier_C,None
+O-1058,2023-04-22,2023-04-24,2023-04-29,2023-04-29,Bengaluru,Kolkata_WH,Rail,Supplier_C,None
+O-1059,2023-01-26,2023-01-28,2023-01-31,2023-01-31,Chennai,Delhi_WH,Air,Supplier_A,None
+O-1060,2023-03-31,2023-04-01,2023-04-03,2023-04-03,Chennai,Kolkata_WH,Road,Supplier_B,None
+O-1061,2023-07-05,2023-07-08,2023-07-14,2023-07-13,Hyderabad,Ahmedabad_WH,Sea,Supplier_A,None
+O-1062,2023-12-31,2024-01-02,2024-01-04,2024-01-03,Bengaluru,Ahmedabad_WH,Rail,Supplier_D,None
+O-1063,2023-12-26,2023-12-27,2024-01-02,2024-01-02,Hyderabad,Delhi_WH,Sea,Supplier_D,None
+O-1064,2023-02-04,2023-02-05,2023-02-07,2023-02-06,Chennai,Ahmedabad_WH,Sea,Supplier_C,None
+O-1065,2023-06-30,2023-07-01,2023-07-07,2023-07-10,Pune,Kolkata_WH,Air,Supplier_A,Customs Delay
+O-1066,2023-05-20,2023-05-23,2023-05-27,2023-05-28,Bengaluru,Mumbai_WH,Road,Supplier_C,Weather
+O-1067,2023-07-09,2023-07-11,2023-07-15,2023-07-18,Pune,Mumbai_WH,Road,Supplier_D,Traffic
+O-1068,2023-08-09,2023-08-10,2023-08-14,2023-08-17,Bengaluru,Kolkata_WH,Rail,Supplier_B,Transport Breakdown
+O-1069,2023-09-12,2023-09-15,2023-09-20,2023-09-20,Bengaluru,Delhi_WH,Air,Supplier_C,None
+O-1070,2023-10-22,2023-10-24,2023-10-30,2023-11-01,Bengaluru,Kolkata_WH,Rail,Supplier_D,Transport Breakdown
+O-1071,2023-07-22,2023-07-24,2023-07-28,2023-07-28,Hyderabad,Delhi_WH,Rail,Supplier_D,None
+O-1072,2023-05-12,2023-05-13,2023-05-16,2023-05-19,Bengaluru,Mumbai_WH,Road,Supplier_B,Customs Delay
+O-1073,2023-02-04,2023-02-06,2023-02-11,2023-02-12,Chennai,Ahmedabad_WH,Road,Supplier_C,Weather
+O-1074,2023-08-19,2023-08-22,2023-08-25,2023-08-26,Hyderabad,Delhi_WH,Air,Supplier_D,Transport Breakdown
+O-1075,2023-05-25,2023-05-27,2023-06-01,2023-06-02,Pune,Kolkata_WH,Rail,Supplier_B,Traffic
+O-1076,2023-03-08,2023-03-11,2023-03-13,2023-03-14,Pune,Ahmedabad_WH,Rail,Supplier_C,Transport Breakdown
+O-1077,2023-04-26,2023-04-27,2023-04-30,2023-04-29,Hyderabad,Mumbai_WH,Rail,Supplier_C,None
+O-1078,2023-07-30,2023-08-01,2023-08-04,2023-08-06,Hyderabad,Delhi_WH,Sea,Supplier_B,Weather
+O-1079,2023-11-06,2023-11-07,2023-11-11,2023-11-10,Chennai,Mumbai_WH,Sea,Supplier_D,None
+O-1080,2023-08-19,2023-08-21,2023-08-23,2023-08-25,Bengaluru,Mumbai_WH,Sea,Supplier_D,Traffic
+O-1081,2023-08-30,2023-09-02,2023-09-05,2023-09-07,Bengaluru,Kolkata_WH,Road,Supplier_B,Transport Breakdown
+O-1082,2023-08-03,2023-08-06,2023-08-12,2023-08-14,Bengaluru,Mumbai_WH,Road,Supplier_A,Traffic
+O-1083,2023-04-06,2023-04-09,2023-04-11,2023-04-14,Chennai,Ahmedabad_WH,Road,Supplier_C,Weather
+O-1084,2023-02-04,2023-02-06,2023-02-09,2023-02-08,Bengaluru,Kolkata_WH,Rail,Supplier_C,None
+O-1085,2023-04-14,2023-04-15,2023-04-18,2023-04-17,Bengaluru,Kolkata_WH,Rail,Supplier_D,None
+O-1086,2023-07-08,2023-07-10,2023-07-15,2023-07-17,Pune,Delhi_WH,Rail,Supplier_C,Transport Breakdown
+O-1087,2023-02-10,2023-02-12,2023-02-16,2023-02-17,Pune,Delhi_WH,Sea,Supplier_C,Transport Breakdown
+O-1088,2023-09-20,2023-09-23,2023-09-26,2023-09-25,Hyderabad,Kolkata_WH,Air,Supplier_A,None
+O-1089,2023-07-10,2023-07-12,2023-07-14,2023-07-17,Hyderabad,Kolkata_WH,Rail,Supplier_B,Customs Delay
+O-1090,2023-12-22,2023-12-24,2023-12-27,2023-12-26,Chennai,Kolkata_WH,Air,Supplier_D,None
+O-1091,2023-07-05,2023-07-08,2023-07-11,2023-07-10,Chennai,Mumbai_WH,Air,Supplier_C,None
+O-1092,2023-07-23,2023-07-26,2023-07-31,2023-08-03,Bengaluru,Kolkata_WH,Sea,Supplier_A,Transport Breakdown
+O-1093,2023-03-05,2023-03-08,2023-03-11,2023-03-12,Hyderabad,Delhi_WH,Air,Supplier_B,Customs Delay
+O-1094,2023-10-31,2023-11-03,2023-11-06,2023-11-06,Bengaluru,Mumbai_WH,Rail,Supplier_C,None
+O-1095,2023-11-25,2023-11-27,2023-12-02,2023-12-02,Hyderabad,Kolkata_WH,Sea,Supplier_A,None
+O-1096,2023-03-08,2023-03-10,2023-03-16,2023-03-19,Pune,Ahmedabad_WH,Rail,Supplier_C,Traffic
+O-1097,2023-10-23,2023-10-26,2023-10-30,2023-10-30,Chennai,Kolkata_WH,Air,Supplier_B,None
+O-1098,2023-05-25,2023-05-27,2023-06-02,2023-06-04,Bengaluru,Delhi_WH,Road,Supplier_C,Weather
+O-1099,2023-07-17,2023-07-20,2023-07-25,2023-07-28,Pune,Delhi_WH,Road,Supplier_C,Weather
+O-1100,2024-01-01,2024-01-03,2024-01-08,2024-01-11,Bengaluru,Mumbai_WH,Air,Supplier_A,Transport Breakdown
+O-1101,2023-07-08,2023-07-10,2023-07-12,2023-07-14,Hyderabad,Delhi_WH,Road,Supplier_C,Weather
+O-1102,2023-10-21,2023-10-24,2023-10-26,2023-10-26,Chennai,Delhi_WH,Road,Supplier_B,None
+O-1103,2023-12-06,2023-12-08,2023-12-14,2023-12-16,Chennai,Kolkata_WH,Air,Supplier_B,Weather
+O-1104,2023-06-02,2023-06-04,2023-06-07,2023-06-09,Pune,Mumbai_WH,Sea,Supplier_C,Weather
+O-1105,2023-05-28,2023-05-31,2023-06-02,2023-06-03,Pune,Delhi_WH,Rail,Supplier_B,Transport Breakdown
+O-1106,2023-01-27,2023-01-28,2023-02-02,2023-02-03,Chennai,Mumbai_WH,Road,Supplier_A,Transport Breakdown
+O-1107,2023-02-15,2023-02-18,2023-02-24,2023-02-24,Pune,Delhi_WH,Road,Supplier_C,None
+O-1108,2023-11-25,2023-11-28,2023-12-04,2023-12-06,Pune,Ahmedabad_WH,Sea,Supplier_C,Customs Delay
+O-1109,2023-11-09,2023-11-12,2023-11-17,2023-11-19,Chennai,Mumbai_WH,Road,Supplier_C,Weather
+O-1110,2023-05-14,2023-05-17,2023-05-21,2023-05-21,Pune,Delhi_WH,Road,Supplier_C,None
+O-1111,2023-03-10,2023-03-12,2023-03-15,2023-03-17,Chennai,Mumbai_WH,Sea,Supplier_C,Weather
+O-1112,2023-10-08,2023-10-11,2023-10-14,2023-10-17,Bengaluru,Delhi_WH,Air,Supplier_A,Customs Delay
+O-1113,2023-08-22,2023-08-25,2023-08-27,2023-08-30,Chennai,Ahmedabad_WH,Rail,Supplier_D,Transport Breakdown
+O-1114,2023-05-27,2023-05-29,2023-06-01,2023-06-01,Hyderabad,Delhi_WH,Sea,Supplier_A,None
+O-1115,2023-01-02,2023-01-03,2023-01-07,2023-01-09,Chennai,Mumbai_WH,Sea,Supplier_D,Transport Breakdown
+O-1116,2023-02-21,2023-02-24,2023-02-26,2023-02-28,Chennai,Delhi_WH,Air,Supplier_B,Traffic
+O-1117,2023-03-15,2023-03-18,2023-03-24,2023-03-24,Chennai,Kolkata_WH,Sea,Supplier_C,None
+O-1118,2023-03-18,2023-03-20,2023-03-25,2023-03-25,Hyderabad,Ahmedabad_WH,Sea,Supplier_C,None
+O-1119,2023-11-28,2023-11-29,2023-12-04,2023-12-05,Chennai,Kolkata_WH,Air,Supplier_C,Traffic
+O-1120,2023-04-08,2023-04-11,2023-04-13,2023-04-15,Bengaluru,Mumbai_WH,Air,Supplier_C,Customs Delay
+O-1121,2023-06-13,2023-06-14,2023-06-18,2023-06-19,Bengaluru,Ahmedabad_WH,Road,Supplier_D,Transport Breakdown
+O-1122,2023-10-09,2023-10-12,2023-10-16,2023-10-17,Chennai,Ahmedabad_WH,Sea,Supplier_D,Transport Breakdown
+O-1123,2023-01-04,2023-01-06,2023-01-09,2023-01-09,Bengaluru,Delhi_WH,Road,Supplier_A,None
+O-1124,2023-10-02,2023-10-04,2023-10-06,2023-10-09,Bengaluru,Kolkata_WH,Air,Supplier_A,Transport Breakdown
+O-1125,2023-08-24,2023-08-27,2023-08-30,2023-08-30,Pune,Ahmedabad_WH,Rail,Supplier_A,None
+O-1126,2023-11-27,2023-11-29,2023-12-05,2023-12-04,Hyderabad,Ahmedabad_WH,Road,Supplier_A,None
+O-1127,2023-04-17,2023-04-20,2023-04-23,2023-04-25,Pune,Delhi_WH,Rail,Supplier_B,Traffic
+O-1128,2023-08-12,2023-08-13,2023-08-15,2023-08-16,Bengaluru,Delhi_WH,Rail,Supplier_C,Transport Breakdown
+O-1129,2024-01-01,2024-01-02,2024-01-04,2024-01-05,Pune,Mumbai_WH,Sea,Supplier_A,Customs Delay
+O-1130,2023-04-06,2023-04-08,2023-04-13,2023-04-16,Chennai,Delhi_WH,Road,Supplier_A,Transport Breakdown
+O-1131,2023-03-28,2023-03-29,2023-04-02,2023-04-03,Chennai,Ahmedabad_WH,Sea,Supplier_B,Weather
+O-1132,2023-03-11,2023-03-13,2023-03-15,2023-03-17,Hyderabad,Delhi_WH,Sea,Supplier_B,Weather
+O-1133,2023-07-23,2023-07-25,2023-07-29,2023-07-31,Pune,Mumbai_WH,Rail,Supplier_D,Customs Delay
+O-1134,2023-12-21,2023-12-22,2023-12-27,2023-12-29,Hyderabad,Kolkata_WH,Rail,Supplier_B,Customs Delay
+O-1135,2023-02-25,2023-02-26,2023-03-02,2023-03-02,Pune,Delhi_WH,Road,Supplier_A,None
+O-1136,2023-08-26,2023-08-29,2023-09-04,2023-09-07,Pune,Ahmedabad_WH,Rail,Supplier_D,Customs Delay
+O-1137,2023-02-19,2023-02-21,2023-02-26,2023-02-27,Pune,Ahmedabad_WH,Rail,Supplier_D,Traffic
+O-1138,2023-08-25,2023-08-26,2023-08-31,2023-08-31,Pune,Ahmedabad_WH,Air,Supplier_B,None
+O-1139,2023-10-02,2023-10-03,2023-10-07,2023-10-08,Bengaluru,Delhi_WH,Sea,Supplier_C,Customs Delay
+O-1140,2023-12-11,2023-12-14,2023-12-18,2023-12-21,Hyderabad,Mumbai_WH,Air,Supplier_C,Traffic
+O-1141,2023-11-22,2023-11-25,2023-11-28,2023-12-01,Chennai,Ahmedabad_WH,Sea,Supplier_D,Customs Delay
+O-1142,2023-08-01,2023-08-04,2023-08-09,2023-08-11,Hyderabad,Ahmedabad_WH,Road,Supplier_D,Customs Delay
+O-1143,2023-10-06,2023-10-08,2023-10-14,2023-10-13,Bengaluru,Kolkata_WH,Sea,Supplier_A,None
+O-1144,2023-04-18,2023-04-21,2023-04-27,2023-04-28,Bengaluru,Mumbai_WH,Air,Supplier_D,Transport Breakdown
+O-1145,2023-03-11,2023-03-13,2023-03-15,2023-03-16,Pune,Delhi_WH,Air,Supplier_C,Customs Delay
+O-1146,2023-12-22,2023-12-24,2023-12-29,2023-12-31,Hyderabad,Kolkata_WH,Road,Supplier_A,Weather
+O-1147,2023-09-11,2023-09-13,2023-09-17,2023-09-18,Hyderabad,Mumbai_WH,Air,Supplier_B,Weather
+O-1148,2023-08-08,2023-08-09,2023-08-12,2023-08-13,Hyderabad,Delhi_WH,Rail,Supplier_D,Customs Delay
+O-1149,2023-01-01,2023-01-02,2023-01-07,2023-01-06,Bengaluru,Delhi_WH,Air,Supplier_D,None
+O-1150,2023-07-16,2023-07-17,2023-07-19,2023-07-18,Bengaluru,Mumbai_WH,Rail,Supplier_D,None
+O-1151,2023-11-18,2023-11-21,2023-11-24,2023-11-26,Pune,Mumbai_WH,Air,Supplier_D,Transport Breakdown
+O-1152,2023-12-20,2023-12-21,2023-12-25,2023-12-25,Chennai,Kolkata_WH,Air,Supplier_A,None
+O-1153,2023-07-18,2023-07-21,2023-07-26,2023-07-27,Pune,Mumbai_WH,Sea,Supplier_C,Customs Delay
+O-1154,2023-12-26,2023-12-28,2023-12-30,2024-01-02,Hyderabad,Ahmedabad_WH,Rail,Supplier_C,Customs Delay
+O-1155,2023-08-11,2023-08-12,2023-08-17,2023-08-20,Chennai,Delhi_WH,Rail,Supplier_A,Traffic
+O-1156,2023-05-18,2023-05-21,2023-05-23,2023-05-22,Pune,Mumbai_WH,Rail,Supplier_B,None
+O-1157,2023-03-22,2023-03-24,2023-03-26,2023-03-29,Chennai,Kolkata_WH,Air,Supplier_D,Traffic
+O-1158,2023-05-08,2023-05-10,2023-05-14,2023-05-15,Chennai,Kolkata_WH,Rail,Supplier_D,Traffic
+O-1159,2023-10-11,2023-10-13,2023-10-15,2023-10-16,Pune,Delhi_WH,Rail,Supplier_C,Customs Delay
+O-1160,2023-01-13,2023-01-14,2023-01-20,2023-01-21,Bengaluru,Ahmedabad_WH,Rail,Supplier_B,Traffic
+O-1161,2023-04-29,2023-05-02,2023-05-07,2023-05-08,Bengaluru,Delhi_WH,Road,Supplier_C,Transport Breakdown
+O-1162,2023-12-25,2023-12-28,2024-01-01,2024-01-02,Pune,Ahmedabad_WH,Rail,Supplier_C,Transport Breakdown
+O-1163,2023-06-07,2023-06-09,2023-06-13,2023-06-12,Chennai,Ahmedabad_WH,Road,Supplier_C,None
+O-1164,2023-01-16,2023-01-18,2023-01-23,2023-01-26,Pune,Mumbai_WH,Road,Supplier_C,Customs Delay
+O-1165,2023-01-12,2023-01-13,2023-01-16,2023-01-18,Pune,Delhi_WH,Road,Supplier_A,Customs Delay
+O-1166,2023-12-16,2023-12-18,2023-12-21,2023-12-22,Bengaluru,Ahmedabad_WH,Air,Supplier_D,Customs Delay
+O-1167,2023-07-16,2023-07-17,2023-07-22,2023-07-22,Bengaluru,Kolkata_WH,Air,Supplier_A,None
+O-1168,2023-01-14,2023-01-16,2023-01-22,2023-01-22,Pune,Mumbai_WH,Road,Supplier_D,None
+O-1169,2023-10-22,2023-10-24,2023-10-28,2023-10-28,Bengaluru,Mumbai_WH,Air,Supplier_C,None
+O-1170,2023-01-20,2023-01-21,2023-01-23,2023-01-23,Chennai,Ahmedabad_WH,Air,Supplier_C,None
+O-1171,2023-10-28,2023-10-31,2023-11-03,2023-11-02,Bengaluru,Mumbai_WH,Rail,Supplier_A,None
+O-1172,2023-12-29,2024-01-01,2024-01-07,2024-01-08,Pune,Mumbai_WH,Air,Supplier_D,Customs Delay
+O-1173,2023-11-24,2023-11-27,2023-11-29,2023-12-01,Pune,Mumbai_WH,Rail,Supplier_B,Customs Delay
+O-1174,2023-02-25,2023-02-28,2023-03-02,2023-03-01,Pune,Kolkata_WH,Sea,Supplier_A,None
+O-1175,2023-01-18,2023-01-20,2023-01-22,2023-01-23,Hyderabad,Delhi_WH,Road,Supplier_B,Weather
+O-1176,2023-11-07,2023-11-09,2023-11-12,2023-11-11,Hyderabad,Mumbai_WH,Road,Supplier_A,None
+O-1177,2023-07-04,2023-07-05,2023-07-10,2023-07-09,Chennai,Delhi_WH,Rail,Supplier_D,None
+O-1178,2023-08-30,2023-09-01,2023-09-05,2023-09-04,Pune,Ahmedabad_WH,Sea,Supplier_A,None
+O-1179,2023-02-13,2023-02-16,2023-02-20,2023-02-23,Chennai,Delhi_WH,Air,Supplier_A,Transport Breakdown
+O-1180,2023-09-15,2023-09-18,2023-09-24,2023-09-27,Hyderabad,Delhi_WH,Road,Supplier_A,Customs Delay
+O-1181,2023-02-04,2023-02-05,2023-02-10,2023-02-13,Pune,Kolkata_WH,Rail,Supplier_B,Transport Breakdown
+O-1182,2023-10-02,2023-10-04,2023-10-09,2023-10-10,Bengaluru,Kolkata_WH,Sea,Supplier_A,Transport Breakdown
+O-1183,2023-05-18,2023-05-20,2023-05-22,2023-05-23,Bengaluru,Ahmedabad_WH,Rail,Supplier_B,Weather
+O-1184,2023-04-19,2023-04-21,2023-04-26,2023-04-29,Chennai,Ahmedabad_WH,Road,Supplier_A,Weather
+O-1185,2023-08-22,2023-08-23,2023-08-27,2023-08-27,Chennai,Delhi_WH,Rail,Supplier_A,None
+O-1186,2023-03-25,2023-03-27,2023-03-29,2023-03-30,Pune,Kolkata_WH,Sea,Supplier_D,Traffic
+O-1187,2023-11-28,2023-11-29,2023-12-05,2023-12-04,Hyderabad,Mumbai_WH,Air,Supplier_A,None
+O-1188,2023-10-27,2023-10-28,2023-10-30,2023-11-02,Pune,Ahmedabad_WH,Rail,Supplier_D,Weather
+O-1189,2023-01-30,2023-02-02,2023-02-07,2023-02-08,Chennai,Mumbai_WH,Road,Supplier_B,Customs Delay
+O-1190,2023-12-10,2023-12-12,2023-12-18,2023-12-19,Chennai,Ahmedabad_WH,Air,Supplier_C,Customs Delay
+O-1191,2023-07-10,2023-07-12,2023-07-18,2023-07-19,Hyderabad,Kolkata_WH,Road,Supplier_C,Transport Breakdown
+O-1192,2023-03-19,2023-03-20,2023-03-23,2023-03-24,Hyderabad,Delhi_WH,Sea,Supplier_C,Transport Breakdown
+O-1193,2023-10-23,2023-10-24,2023-10-29,2023-10-28,Chennai,Mumbai_WH,Air,Supplier_C,None
+O-1194,2023-12-13,2023-12-14,2023-12-17,2023-12-17,Chennai,Delhi_WH,Rail,Supplier_C,None
+O-1195,2023-09-08,2023-09-10,2023-09-13,2023-09-13,Chennai,Kolkata_WH,Sea,Supplier_D,None
+O-1196,2023-11-01,2023-11-02,2023-11-04,2023-11-03,Pune,Delhi_WH,Road,Supplier_D,None
+O-1197,2023-12-06,2023-12-09,2023-12-13,2023-12-16,Hyderabad,Delhi_WH,Sea,Supplier_C,Customs Delay
+O-1198,2023-03-24,2023-03-25,2023-03-31,2023-04-02,Hyderabad,Kolkata_WH,Sea,Supplier_C,Customs Delay
+O-1199,2023-08-22,2023-08-24,2023-08-28,2023-08-30,Pune,Mumbai_WH,Road,Supplier_A,Traffic
+O-1200,2023-06-18,2023-06-20,2023-06-25,2023-06-28,Chennai,Mumbai_WH,Road,Supplier_A,Weather
+O-1201,2023-12-23,2023-12-26,2023-12-28,2023-12-28,Bengaluru,Mumbai_WH,Road,Supplier_B,None
+O-1202,2023-07-30,2023-08-01,2023-08-03,2023-08-02,Hyderabad,Delhi_WH,Rail,Supplier_D,None
+O-1203,2023-06-27,2023-06-30,2023-07-05,2023-07-05,Chennai,Ahmedabad_WH,Road,Supplier_D,None
+O-1204,2023-07-26,2023-07-27,2023-07-29,2023-07-31,Chennai,Ahmedabad_WH,Sea,Supplier_A,Transport Breakdown
+O-1205,2023-12-02,2023-12-05,2023-12-10,2023-12-11,Pune,Mumbai_WH,Road,Supplier_A,Weather
+O-1206,2023-01-02,2023-01-04,2023-01-08,2023-01-09,Bengaluru,Mumbai_WH,Road,Supplier_A,Weather
+O-1207,2023-06-23,2023-06-24,2023-06-29,2023-06-28,Hyderabad,Mumbai_WH,Road,Supplier_B,None
+O-1208,2023-02-23,2023-02-25,2023-03-03,2023-03-06,Chennai,Mumbai_WH,Sea,Supplier_B,Weather
+O-1209,2023-04-18,2023-04-21,2023-04-25,2023-04-26,Chennai,Mumbai_WH,Air,Supplier_C,Customs Delay
+O-1210,2023-09-25,2023-09-26,2023-09-28,2023-09-30,Hyderabad,Delhi_WH,Road,Supplier_C,Customs Delay
+O-1211,2023-11-12,2023-11-15,2023-11-21,2023-11-21,Hyderabad,Delhi_WH,Sea,Supplier_C,None
+O-1212,2023-11-21,2023-11-24,2023-11-28,2023-12-01,Hyderabad,Mumbai_WH,Air,Supplier_B,Customs Delay
+O-1213,2023-01-03,2023-01-05,2023-01-10,2023-01-10,Chennai,Kolkata_WH,Road,Supplier_B,None
+O-1214,2023-09-24,2023-09-25,2023-10-01,2023-10-01,Chennai,Mumbai_WH,Sea,Supplier_C,None
+O-1215,2023-08-17,2023-08-18,2023-08-24,2023-08-27,Bengaluru,Kolkata_WH,Road,Supplier_A,Customs Delay
+O-1216,2023-06-01,2023-06-04,2023-06-07,2023-06-08,Hyderabad,Delhi_WH,Road,Supplier_D,Traffic
+O-1217,2023-11-28,2023-11-29,2023-12-02,2023-12-01,Chennai,Ahmedabad_WH,Sea,Supplier_A,None
+O-1218,2023-11-19,2023-11-21,2023-11-26,2023-11-27,Hyderabad,Ahmedabad_WH,Sea,Supplier_D,Traffic
+O-1219,2023-07-22,2023-07-25,2023-07-27,2023-07-29,Hyderabad,Ahmedabad_WH,Air,Supplier_C,Customs Delay
+O-1220,2023-10-21,2023-10-24,2023-10-29,2023-11-01,Bengaluru,Delhi_WH,Rail,Supplier_A,Traffic
+O-1221,2023-12-10,2023-12-13,2023-12-15,2023-12-18,Bengaluru,Mumbai_WH,Road,Supplier_B,Transport Breakdown
+O-1222,2023-04-10,2023-04-12,2023-04-17,2023-04-19,Pune,Delhi_WH,Rail,Supplier_A,Weather
+O-1223,2023-12-14,2023-12-17,2023-12-21,2023-12-23,Pune,Mumbai_WH,Sea,Supplier_C,Transport Breakdown
+O-1224,2023-02-08,2023-02-09,2023-02-15,2023-02-14,Pune,Delhi_WH,Sea,Supplier_B,None
+O-1225,2023-08-26,2023-08-29,2023-09-04,2023-09-03,Pune,Mumbai_WH,Sea,Supplier_B,None
+O-1226,2023-04-23,2023-04-25,2023-04-28,2023-04-27,Pune,Delhi_WH,Rail,Supplier_D,None
+O-1227,2023-10-24,2023-10-27,2023-11-02,2023-11-02,Pune,Kolkata_WH,Sea,Supplier_A,None
+O-1228,2023-09-14,2023-09-15,2023-09-20,2023-09-20,Hyderabad,Delhi_WH,Air,Supplier_D,None
+O-1229,2023-09-03,2023-09-04,2023-09-10,2023-09-10,Hyderabad,Ahmedabad_WH,Sea,Supplier_A,None
+O-1230,2023-11-03,2023-11-06,2023-11-08,2023-11-09,Chennai,Ahmedabad_WH,Air,Supplier_C,Traffic
+O-1231,2023-08-21,2023-08-24,2023-08-30,2023-08-29,Chennai,Kolkata_WH,Air,Supplier_C,None
+O-1232,2023-02-17,2023-02-19,2023-02-22,2023-02-25,Bengaluru,Delhi_WH,Sea,Supplier_D,Traffic
+O-1233,2023-09-02,2023-09-03,2023-09-05,2023-09-06,Chennai,Kolkata_WH,Rail,Supplier_D,Transport Breakdown
+O-1234,2023-03-21,2023-03-23,2023-03-29,2023-03-30,Pune,Delhi_WH,Sea,Supplier_D,Weather
+O-1235,2023-12-28,2023-12-30,2024-01-02,2024-01-01,Pune,Kolkata_WH,Air,Supplier_C,None
+O-1236,2023-02-16,2023-02-17,2023-02-22,2023-02-25,Hyderabad,Delhi_WH,Road,Supplier_B,Transport Breakdown
+O-1237,2023-01-06,2023-01-07,2023-01-13,2023-01-14,Hyderabad,Ahmedabad_WH,Road,Supplier_B,Customs Delay
+O-1238,2023-06-30,2023-07-03,2023-07-08,2023-07-10,Pune,Ahmedabad_WH,Road,Supplier_A,Customs Delay
+O-1239,2023-10-22,2023-10-23,2023-10-27,2023-10-27,Hyderabad,Ahmedabad_WH,Sea,Supplier_B,None
+O-1240,2023-05-05,2023-05-07,2023-05-12,2023-05-14,Hyderabad,Ahmedabad_WH,Sea,Supplier_D,Traffic
+O-1241,2023-02-08,2023-02-11,2023-02-14,2023-02-16,Hyderabad,Kolkata_WH,Rail,Supplier_A,Weather
+O-1242,2023-02-24,2023-02-25,2023-02-27,2023-03-01,Pune,Mumbai_WH,Road,Supplier_B,Traffic
+O-1243,2023-01-28,2023-01-31,2023-02-05,2023-02-07,Chennai,Mumbai_WH,Rail,Supplier_D,Traffic
+O-1244,2023-07-05,2023-07-08,2023-07-12,2023-07-12,Bengaluru,Kolkata_WH,Rail,Supplier_D,None
+O-1245,2023-04-03,2023-04-06,2023-04-09,2023-04-12,Pune,Ahmedabad_WH,Road,Supplier_D,Customs Delay
+O-1246,2023-09-07,2023-09-09,2023-09-13,2023-09-16,Chennai,Kolkata_WH,Sea,Supplier_D,Traffic
+O-1247,2023-07-30,2023-07-31,2023-08-04,2023-08-07,Pune,Delhi_WH,Air,Supplier_C,Customs Delay
+O-1248,2023-11-20,2023-11-23,2023-11-29,2023-12-01,Pune,Ahmedabad_WH,Road,Supplier_B,Traffic
+O-1249,2023-04-05,2023-04-06,2023-04-09,2023-04-09,Hyderabad,Mumbai_WH,Rail,Supplier_D,None
+O-1250,2023-02-23,2023-02-25,2023-03-03,2023-03-03,Hyderabad,Delhi_WH,Road,Supplier_A,None
+O-1251,2023-09-01,2023-09-03,2023-09-09,2023-09-10,Pune,Kolkata_WH,Air,Supplier_A,Transport Breakdown
+O-1252,2023-02-15,2023-02-17,2023-02-21,2023-02-22,Hyderabad,Mumbai_WH,Rail,Supplier_C,Transport Breakdown
+O-1253,2023-05-30,2023-06-02,2023-06-05,2023-06-04,Bengaluru,Ahmedabad_WH,Rail,Supplier_C,None
+O-1254,2023-05-26,2023-05-29,2023-06-04,2023-06-05,Chennai,Kolkata_WH,Air,Supplier_D,Transport Breakdown
+O-1255,2023-01-26,2023-01-29,2023-01-31,2023-01-31,Bengaluru,Mumbai_WH,Road,Supplier_C,None
+O-1256,2023-12-23,2023-12-24,2023-12-28,2023-12-27,Pune,Ahmedabad_WH,Air,Supplier_D,None
+O-1257,2023-05-07,2023-05-10,2023-05-12,2023-05-12,Hyderabad,Ahmedabad_WH,Sea,Supplier_B,None
+O-1258,2023-04-12,2023-04-14,2023-04-16,2023-04-16,Hyderabad,Kolkata_WH,Road,Supplier_C,None
+O-1259,2023-02-15,2023-02-16,2023-02-19,2023-02-21,Chennai,Kolkata_WH,Rail,Supplier_D,Traffic
+O-1260,2023-12-19,2023-12-21,2023-12-25,2023-12-25,Chennai,Delhi_WH,Rail,Supplier_D,None
+O-1261,2023-11-03,2023-11-06,2023-11-09,2023-11-08,Hyderabad,Kolkata_WH,Air,Supplier_C,None
+O-1262,2023-12-04,2023-12-07,2023-12-12,2023-12-12,Pune,Delhi_WH,Sea,Supplier_B,None
+O-1263,2023-04-14,2023-04-15,2023-04-20,2023-04-20,Chennai,Delhi_WH,Road,Supplier_B,None
+O-1264,2023-02-10,2023-02-12,2023-02-14,2023-02-15,Chennai,Ahmedabad_WH,Rail,Supplier_A,Transport Breakdown
+O-1265,2023-04-08,2023-04-09,2023-04-15,2023-04-15,Chennai,Ahmedabad_WH,Air,Supplier_A,None
+O-1266,2023-09-16,2023-09-18,2023-09-21,2023-09-24,Chennai,Ahmedabad_WH,Rail,Supplier_B,Transport Breakdown
+O-1267,2023-08-20,2023-08-22,2023-08-27,2023-08-26,Pune,Kolkata_WH,Road,Supplier_D,None
+O-1268,2023-08-24,2023-08-26,2023-08-29,2023-08-29,Bengaluru,Delhi_WH,Rail,Supplier_B,None
+O-1269,2023-09-07,2023-09-10,2023-09-16,2023-09-15,Hyderabad,Mumbai_WH,Rail,Supplier_C,None
+O-1270,2023-11-21,2023-11-24,2023-11-29,2023-11-28,Chennai,Delhi_WH,Rail,Supplier_A,None
+O-1271,2023-08-10,2023-08-12,2023-08-17,2023-08-17,Bengaluru,Mumbai_WH,Air,Supplier_D,None
+O-1272,2023-09-07,2023-09-09,2023-09-15,2023-09-15,Hyderabad,Mumbai_WH,Air,Supplier_B,None
+O-1273,2023-11-01,2023-11-04,2023-11-06,2023-11-07,Pune,Kolkata_WH,Rail,Supplier_B,Customs Delay
+O-1274,2023-11-14,2023-11-15,2023-11-19,2023-11-18,Bengaluru,Mumbai_WH,Rail,Supplier_A,None
+O-1275,2023-07-12,2023-07-15,2023-07-21,2023-07-20,Chennai,Delhi_WH,Rail,Supplier_D,None
+O-1276,2023-11-29,2023-12-01,2023-12-04,2023-12-06,Bengaluru,Kolkata_WH,Rail,Supplier_A,Traffic
+O-1277,2023-03-22,2023-03-23,2023-03-27,2023-03-28,Hyderabad,Ahmedabad_WH,Rail,Supplier_C,Weather
+O-1278,2023-06-24,2023-06-26,2023-06-29,2023-06-28,Chennai,Mumbai_WH,Sea,Supplier_C,None
+O-1279,2023-12-01,2023-12-02,2023-12-08,2023-12-11,Chennai,Mumbai_WH,Air,Supplier_D,Customs Delay
+O-1280,2023-01-16,2023-01-18,2023-01-23,2023-01-25,Pune,Mumbai_WH,Sea,Supplier_B,Weather
+O-1281,2023-12-18,2023-12-19,2023-12-23,2023-12-22,Chennai,Mumbai_WH,Sea,Supplier_B,None
+O-1282,2023-01-08,2023-01-10,2023-01-15,2023-01-15,Bengaluru,Ahmedabad_WH,Air,Supplier_B,None
+O-1283,2023-11-10,2023-11-13,2023-11-19,2023-11-22,Pune,Ahmedabad_WH,Road,Supplier_D,Traffic
+O-1284,2023-07-23,2023-07-25,2023-07-29,2023-07-31,Pune,Ahmedabad_WH,Sea,Supplier_B,Customs Delay
+O-1285,2023-08-19,2023-08-20,2023-08-23,2023-08-25,Hyderabad,Kolkata_WH,Sea,Supplier_D,Customs Delay
+O-1286,2023-01-23,2023-01-24,2023-01-28,2023-01-31,Hyderabad,Ahmedabad_WH,Air,Supplier_B,Customs Delay
+O-1287,2023-01-07,2023-01-09,2023-01-14,2023-01-16,Bengaluru,Kolkata_WH,Sea,Supplier_B,Traffic
+O-1288,2023-01-29,2023-02-01,2023-02-05,2023-02-04,Chennai,Mumbai_WH,Air,Supplier_A,None
+O-1289,2023-01-19,2023-01-20,2023-01-24,2023-01-25,Hyderabad,Kolkata_WH,Sea,Supplier_B,Weather
+O-1290,2023-02-25,2023-02-28,2023-03-06,2023-03-05,Chennai,Delhi_WH,Sea,Supplier_B,None
+O-1291,2023-11-09,2023-11-10,2023-11-14,2023-11-14,Hyderabad,Mumbai_WH,Road,Supplier_D,None
+O-1292,2023-05-11,2023-05-12,2023-05-16,2023-05-17,Chennai,Kolkata_WH,Road,Supplier_A,Weather
+O-1293,2023-09-04,2023-09-05,2023-09-10,2023-09-13,Bengaluru,Mumbai_WH,Sea,Supplier_D,Weather
+O-1294,2023-05-24,2023-05-25,2023-05-29,2023-05-31,Bengaluru,Mumbai_WH,Sea,Supplier_C,Customs Delay
+O-1295,2023-09-26,2023-09-28,2023-10-01,2023-09-30,Pune,Mumbai_WH,Rail,Supplier_D,None
+O-1296,2023-03-15,2023-03-16,2023-03-22,2023-03-22,Pune,Kolkata_WH,Air,Supplier_D,None
+O-1297,2023-02-22,2023-02-25,2023-03-01,2023-02-28,Hyderabad,Delhi_WH,Rail,Supplier_C,None
+O-1298,2023-02-28,2023-03-01,2023-03-07,2023-03-10,Chennai,Kolkata_WH,Air,Supplier_B,Traffic
+O-1299,2023-01-15,2023-01-17,2023-01-19,2023-01-18,Bengaluru,Mumbai_WH,Sea,Supplier_D,None
+O-1300,2023-02-17,2023-02-20,2023-02-25,2023-02-24,Hyderabad,Mumbai_WH,Sea,Supplier_A,None
+O-1301,2023-01-16,2023-01-17,2023-01-22,2023-01-21,Hyderabad,Ahmedabad_WH,Rail,Supplier_C,None
+O-1302,2023-09-30,2023-10-02,2023-10-07,2023-10-10,Bengaluru,Kolkata_WH,Air,Supplier_C,Transport Breakdown
+O-1303,2023-12-31,2024-01-03,2024-01-08,2024-01-07,Chennai,Delhi_WH,Sea,Supplier_B,None
+O-1304,2023-02-16,2023-02-17,2023-02-20,2023-02-23,Hyderabad,Delhi_WH,Air,Supplier_C,Traffic
+O-1305,2023-02-15,2023-02-18,2023-02-20,2023-02-23,Hyderabad,Kolkata_WH,Air,Supplier_C,Transport Breakdown
+O-1306,2023-11-17,2023-11-19,2023-11-24,2023-11-26,Hyderabad,Ahmedabad_WH,Sea,Supplier_B,Transport Breakdown
+O-1307,2023-11-28,2023-11-29,2023-12-02,2023-12-04,Bengaluru,Delhi_WH,Air,Supplier_B,Transport Breakdown
+O-1308,2023-04-26,2023-04-27,2023-05-02,2023-05-05,Hyderabad,Kolkata_WH,Sea,Supplier_D,Traffic
+O-1309,2023-12-20,2023-12-21,2023-12-24,2023-12-27,Bengaluru,Ahmedabad_WH,Sea,Supplier_C,Weather
+O-1310,2023-08-29,2023-08-31,2023-09-06,2023-09-08,Pune,Delhi_WH,Sea,Supplier_A,Weather
+O-1311,2023-12-03,2023-12-05,2023-12-11,2023-12-10,Chennai,Delhi_WH,Rail,Supplier_D,None
+O-1312,2023-07-09,2023-07-10,2023-07-14,2023-07-14,Chennai,Ahmedabad_WH,Sea,Supplier_B,None
+O-1313,2023-11-23,2023-11-24,2023-11-27,2023-11-30,Chennai,Ahmedabad_WH,Road,Supplier_D,Weather
+O-1314,2023-05-15,2023-05-16,2023-05-22,2023-05-24,Hyderabad,Ahmedabad_WH,Rail,Supplier_D,Traffic
+O-1315,2023-02-20,2023-02-22,2023-02-28,2023-03-02,Pune,Kolkata_WH,Air,Supplier_C,Transport Breakdown
+O-1316,2023-02-20,2023-02-23,2023-02-25,2023-02-27,Bengaluru,Ahmedabad_WH,Air,Supplier_A,Weather
+O-1317,2023-12-03,2023-12-06,2023-12-12,2023-12-12,Chennai,Ahmedabad_WH,Road,Supplier_A,None
+O-1318,2023-05-22,2023-05-23,2023-05-28,2023-05-30,Chennai,Delhi_WH,Road,Supplier_C,Weather
+O-1319,2023-04-22,2023-04-25,2023-04-27,2023-04-29,Chennai,Ahmedabad_WH,Road,Supplier_A,Weather
+O-1320,2023-10-22,2023-10-23,2023-10-29,2023-10-31,Pune,Ahmedabad_WH,Sea,Supplier_B,Transport Breakdown
+O-1321,2023-01-29,2023-02-01,2023-02-03,2023-02-04,Pune,Ahmedabad_WH,Road,Supplier_C,Weather
+O-1322,2023-09-07,2023-09-08,2023-09-13,2023-09-13,Bengaluru,Kolkata_WH,Air,Supplier_D,None
+O-1323,2023-01-29,2023-01-31,2023-02-02,2023-02-04,Bengaluru,Kolkata_WH,Air,Supplier_A,Traffic
+O-1324,2023-12-26,2023-12-29,2024-01-01,2023-12-31,Bengaluru,Mumbai_WH,Air,Supplier_D,None
+O-1325,2023-08-07,2023-08-09,2023-08-14,2023-08-15,Bengaluru,Mumbai_WH,Air,Supplier_B,Traffic
+O-1326,2023-08-13,2023-08-14,2023-08-20,2023-08-19,Pune,Mumbai_WH,Air,Supplier_B,None
+O-1327,2023-04-16,2023-04-17,2023-04-21,2023-04-24,Hyderabad,Mumbai_WH,Sea,Supplier_D,Transport Breakdown
+O-1328,2023-04-09,2023-04-10,2023-04-16,2023-04-15,Bengaluru,Mumbai_WH,Rail,Supplier_D,None
+O-1329,2023-03-23,2023-03-26,2023-03-28,2023-03-27,Hyderabad,Mumbai_WH,Rail,Supplier_D,None
+O-1330,2023-09-21,2023-09-22,2023-09-24,2023-09-24,Bengaluru,Ahmedabad_WH,Sea,Supplier_B,None
+O-1331,2023-08-30,2023-09-02,2023-09-07,2023-09-06,Chennai,Delhi_WH,Sea,Supplier_D,None
+O-1332,2023-01-17,2023-01-20,2023-01-26,2023-01-25,Pune,Mumbai_WH,Rail,Supplier_B,None
+O-1333,2023-09-25,2023-09-27,2023-09-30,2023-10-03,Bengaluru,Ahmedabad_WH,Sea,Supplier_B,Transport Breakdown
+O-1334,2023-01-21,2023-01-23,2023-01-29,2023-01-28,Hyderabad,Delhi_WH,Sea,Supplier_A,None
+O-1335,2023-05-03,2023-05-06,2023-05-08,2023-05-07,Pune,Kolkata_WH,Sea,Supplier_B,None
+O-1336,2023-12-27,2023-12-30,2024-01-01,2023-12-31,Pune,Ahmedabad_WH,Sea,Supplier_B,None
+O-1337,2023-02-26,2023-02-28,2023-03-04,2023-03-06,Pune,Delhi_WH,Rail,Supplier_A,Traffic
+O-1338,2023-06-30,2023-07-02,2023-07-08,2023-07-10,Chennai,Kolkata_WH,Road,Supplier_B,Weather
+O-1339,2023-02-11,2023-02-13,2023-02-16,2023-02-17,Hyderabad,Delhi_WH,Road,Supplier_B,Traffic
+O-1340,2023-08-16,2023-08-19,2023-08-21,2023-08-22,Pune,Ahmedabad_WH,Road,Supplier_D,Customs Delay
+O-1341,2023-10-18,2023-10-19,2023-10-23,2023-10-23,Hyderabad,Kolkata_WH,Rail,Supplier_D,None
+O-1342,2023-12-29,2024-01-01,2024-01-04,2024-01-04,Chennai,Mumbai_WH,Air,Supplier_C,None
+O-1343,2023-08-18,2023-08-21,2023-08-24,2023-08-27,Chennai,Kolkata_WH,Road,Supplier_C,Weather
+O-1344,2023-10-21,2023-10-24,2023-10-27,2023-10-30,Hyderabad,Kolkata_WH,Rail,Supplier_C,Transport Breakdown
+O-1345,2023-06-17,2023-06-18,2023-06-24,2023-06-24,Pune,Delhi_WH,Air,Supplier_D,None
+O-1346,2023-11-05,2023-11-08,2023-11-14,2023-11-13,Hyderabad,Kolkata_WH,Rail,Supplier_B,None
+O-1347,2023-08-01,2023-08-03,2023-08-07,2023-08-07,Chennai,Ahmedabad_WH,Sea,Supplier_A,None
+O-1348,2023-01-04,2023-01-06,2023-01-10,2023-01-12,Hyderabad,Delhi_WH,Sea,Supplier_A,Customs Delay
+O-1349,2023-01-14,2023-01-15,2023-01-18,2023-01-19,Hyderabad,Mumbai_WH,Sea,Supplier_D,Weather
+O-1350,2023-10-17,2023-10-19,2023-10-23,2023-10-25,Pune,Ahmedabad_WH,Rail,Supplier_A,Traffic
+O-1351,2023-07-04,2023-07-06,2023-07-10,2023-07-09,Bengaluru,Kolkata_WH,Rail,Supplier_B,None
+O-1352,2023-12-17,2023-12-20,2023-12-24,2023-12-23,Pune,Kolkata_WH,Rail,Supplier_C,None
+O-1353,2023-10-14,2023-10-17,2023-10-23,2023-10-26,Chennai,Mumbai_WH,Sea,Supplier_B,Traffic
+O-1354,2023-03-02,2023-03-03,2023-03-06,2023-03-06,Pune,Delhi_WH,Air,Supplier_B,None
+O-1355,2023-12-04,2023-12-07,2023-12-13,2023-12-12,Bengaluru,Delhi_WH,Sea,Supplier_B,None
+O-1356,2023-01-15,2023-01-16,2023-01-19,2023-01-20,Chennai,Kolkata_WH,Rail,Supplier_B,Weather
+O-1357,2023-04-20,2023-04-23,2023-04-28,2023-04-29,Bengaluru,Delhi_WH,Sea,Supplier_B,Customs Delay
+O-1358,2023-09-24,2023-09-25,2023-09-30,2023-10-01,Hyderabad,Delhi_WH,Road,Supplier_A,Weather
+O-1359,2023-04-07,2023-04-08,2023-04-13,2023-04-14,Pune,Ahmedabad_WH,Road,Supplier_D,Customs Delay
+O-1360,2023-04-12,2023-04-14,2023-04-17,2023-04-20,Bengaluru,Kolkata_WH,Road,Supplier_B,Transport Breakdown
+O-1361,2023-09-06,2023-09-09,2023-09-13,2023-09-13,Hyderabad,Ahmedabad_WH,Sea,Supplier_C,None
+O-1362,2023-11-06,2023-11-09,2023-11-13,2023-11-13,Chennai,Ahmedabad_WH,Rail,Supplier_A,None
+O-1363,2023-01-17,2023-01-19,2023-01-21,2023-01-23,Pune,Delhi_WH,Rail,Supplier_C,Transport Breakdown
+O-1364,2023-09-07,2023-09-08,2023-09-14,2023-09-16,Pune,Ahmedabad_WH,Sea,Supplier_B,Transport Breakdown
+O-1365,2023-10-30,2023-10-31,2023-11-03,2023-11-04,Bengaluru,Delhi_WH,Road,Supplier_C,Weather
+O-1366,2023-12-19,2023-12-20,2023-12-24,2023-12-23,Pune,Delhi_WH,Rail,Supplier_B,None
+O-1367,2023-06-15,2023-06-18,2023-06-20,2023-06-22,Hyderabad,Ahmedabad_WH,Air,Supplier_C,Traffic
+O-1368,2023-01-25,2023-01-27,2023-02-02,2023-02-04,Pune,Kolkata_WH,Road,Supplier_B,Customs Delay
+O-1369,2023-12-06,2023-12-09,2023-12-13,2023-12-13,Pune,Ahmedabad_WH,Sea,Supplier_C,None
+O-1370,2023-09-25,2023-09-26,2023-09-30,2023-10-02,Hyderabad,Delhi_WH,Air,Supplier_C,Customs Delay
+O-1371,2023-12-18,2023-12-21,2023-12-24,2023-12-26,Chennai,Kolkata_WH,Road,Supplier_C,Customs Delay
+O-1372,2023-05-13,2023-05-15,2023-05-21,2023-05-21,Chennai,Delhi_WH,Road,Supplier_C,None
+O-1373,2023-03-13,2023-03-14,2023-03-16,2023-03-19,Bengaluru,Ahmedabad_WH,Rail,Supplier_C,Traffic
+O-1374,2023-03-31,2023-04-01,2023-04-05,2023-04-07,Chennai,Delhi_WH,Rail,Supplier_B,Transport Breakdown
+O-1375,2023-07-08,2023-07-10,2023-07-12,2023-07-15,Pune,Ahmedabad_WH,Road,Supplier_B,Traffic
+O-1376,2023-07-21,2023-07-23,2023-07-27,2023-07-26,Hyderabad,Delhi_WH,Air,Supplier_D,None
+O-1377,2023-06-20,2023-06-23,2023-06-28,2023-06-27,Hyderabad,Ahmedabad_WH,Air,Supplier_D,None
+O-1378,2023-01-02,2023-01-04,2023-01-07,2023-01-08,Hyderabad,Mumbai_WH,Road,Supplier_B,Weather
+O-1379,2023-05-25,2023-05-26,2023-05-28,2023-05-30,Chennai,Kolkata_WH,Air,Supplier_C,Weather
+O-1380,2023-07-25,2023-07-28,2023-08-02,2023-08-05,Chennai,Delhi_WH,Air,Supplier_C,Weather
+O-1381,2023-05-28,2023-05-31,2023-06-05,2023-06-07,Chennai,Kolkata_WH,Sea,Supplier_B,Customs Delay
+O-1382,2023-10-26,2023-10-29,2023-11-03,2023-11-02,Chennai,Kolkata_WH,Road,Supplier_D,None
+O-1383,2023-05-01,2023-05-03,2023-05-07,2023-05-10,Bengaluru,Kolkata_WH,Road,Supplier_A,Traffic
+O-1384,2023-02-15,2023-02-17,2023-02-23,2023-02-25,Hyderabad,Mumbai_WH,Rail,Supplier_C,Customs Delay
+O-1385,2023-06-11,2023-06-14,2023-06-19,2023-06-19,Hyderabad,Mumbai_WH,Sea,Supplier_C,None
+O-1386,2023-12-30,2024-01-02,2024-01-07,2024-01-09,Hyderabad,Kolkata_WH,Road,Supplier_A,Transport Breakdown
+O-1387,2023-08-02,2023-08-03,2023-08-06,2023-08-08,Bengaluru,Mumbai_WH,Rail,Supplier_B,Traffic
+O-1388,2023-11-18,2023-11-20,2023-11-26,2023-11-25,Hyderabad,Ahmedabad_WH,Rail,Supplier_D,None
+O-1389,2023-10-08,2023-10-11,2023-10-16,2023-10-15,Bengaluru,Delhi_WH,Sea,Supplier_C,None
+O-1390,2023-08-10,2023-08-13,2023-08-17,2023-08-20,Pune,Ahmedabad_WH,Rail,Supplier_A,Customs Delay
+O-1391,2023-11-11,2023-11-12,2023-11-17,2023-11-19,Hyderabad,Kolkata_WH,Road,Supplier_A,Traffic
+O-1392,2023-02-10,2023-02-12,2023-02-16,2023-02-16,Hyderabad,Ahmedabad_WH,Air,Supplier_C,None
+O-1393,2023-08-26,2023-08-29,2023-09-04,2023-09-05,Hyderabad,Delhi_WH,Rail,Supplier_D,Weather
+O-1394,2023-06-10,2023-06-13,2023-06-18,2023-06-20,Hyderabad,Kolkata_WH,Rail,Supplier_A,Weather
+O-1395,2023-01-07,2023-01-08,2023-01-13,2023-01-15,Hyderabad,Delhi_WH,Sea,Supplier_A,Transport Breakdown
+O-1396,2023-09-04,2023-09-07,2023-09-10,2023-09-10,Bengaluru,Mumbai_WH,Sea,Supplier_B,None
+O-1397,2023-09-06,2023-09-08,2023-09-10,2023-09-12,Chennai,Ahmedabad_WH,Air,Supplier_B,Customs Delay
+O-1398,2023-09-06,2023-09-09,2023-09-15,2023-09-18,Hyderabad,Ahmedabad_WH,Air,Supplier_A,Transport Breakdown
+O-1399,2023-08-18,2023-08-21,2023-08-26,2023-08-25,Hyderabad,Kolkata_WH,Air,Supplier_A,None
+O-1400,2023-08-02,2023-08-05,2023-08-09,2023-08-11,Pune,Ahmedabad_WH,Air,Supplier_B,Customs Delay
+O-1401,2023-10-13,2023-10-14,2023-10-16,2023-10-17,Chennai,Mumbai_WH,Rail,Supplier_C,Weather
+O-1402,2023-07-01,2023-07-02,2023-07-08,2023-07-09,Pune,Kolkata_WH,Road,Supplier_D,Customs Delay
+O-1403,2023-07-05,2023-07-06,2023-07-10,2023-07-12,Bengaluru,Mumbai_WH,Road,Supplier_B,Transport Breakdown
+O-1404,2023-05-17,2023-05-19,2023-05-24,2023-05-25,Chennai,Delhi_WH,Air,Supplier_C,Customs Delay
+O-1405,2023-01-06,2023-01-09,2023-01-15,2023-01-14,Hyderabad,Mumbai_WH,Road,Supplier_A,None
+O-1406,2023-12-15,2023-12-18,2023-12-24,2023-12-25,Hyderabad,Ahmedabad_WH,Rail,Supplier_C,Weather
+O-1407,2023-06-04,2023-06-05,2023-06-07,2023-06-10,Hyderabad,Mumbai_WH,Sea,Supplier_C,Weather
+O-1408,2023-10-04,2023-10-07,2023-10-11,2023-10-11,Bengaluru,Delhi_WH,Rail,Supplier_B,None
+O-1409,2023-08-21,2023-08-23,2023-08-26,2023-08-29,Pune,Delhi_WH,Rail,Supplier_D,Customs Delay
+O-1410,2023-03-17,2023-03-20,2023-03-25,2023-03-27,Hyderabad,Delhi_WH,Road,Supplier_C,Traffic
+O-1411,2023-08-14,2023-08-17,2023-08-22,2023-08-24,Hyderabad,Ahmedabad_WH,Air,Supplier_C,Customs Delay
+O-1412,2023-11-05,2023-11-07,2023-11-09,2023-11-08,Pune,Delhi_WH,Rail,Supplier_B,None
+O-1413,2023-06-06,2023-06-08,2023-06-11,2023-06-11,Hyderabad,Delhi_WH,Sea,Supplier_B,None
+O-1414,2023-09-16,2023-09-19,2023-09-24,2023-09-26,Chennai,Mumbai_WH,Air,Supplier_D,Transport Breakdown
+O-1415,2023-10-20,2023-10-23,2023-10-27,2023-10-30,Chennai,Delhi_WH,Road,Supplier_A,Traffic
+O-1416,2023-05-06,2023-05-09,2023-05-15,2023-05-17,Pune,Mumbai_WH,Rail,Supplier_A,Traffic
+O-1417,2023-10-05,2023-10-06,2023-10-10,2023-10-10,Bengaluru,Delhi_WH,Air,Supplier_A,None
+O-1418,2023-03-14,2023-03-16,2023-03-20,2023-03-21,Bengaluru,Kolkata_WH,Road,Supplier_D,Transport Breakdown
+O-1419,2023-09-05,2023-09-06,2023-09-11,2023-09-11,Hyderabad,Delhi_WH,Road,Supplier_D,None
+O-1420,2023-10-04,2023-10-05,2023-10-08,2023-10-11,Chennai,Kolkata_WH,Sea,Supplier_B,Transport Breakdown
+O-1421,2023-01-24,2023-01-25,2023-01-31,2023-02-03,Chennai,Kolkata_WH,Rail,Supplier_C,Traffic
+O-1422,2023-12-06,2023-12-08,2023-12-12,2023-12-12,Pune,Mumbai_WH,Sea,Supplier_D,None
+O-1423,2023-11-29,2023-12-02,2023-12-04,2023-12-07,Hyderabad,Delhi_WH,Sea,Supplier_D,Traffic
+O-1424,2023-01-11,2023-01-13,2023-01-17,2023-01-17,Bengaluru,Mumbai_WH,Road,Supplier_D,None
+O-1425,2023-02-26,2023-02-28,2023-03-06,2023-03-09,Chennai,Ahmedabad_WH,Air,Supplier_A,Transport Breakdown
+O-1426,2023-12-21,2023-12-24,2023-12-30,2024-01-02,Chennai,Delhi_WH,Sea,Supplier_C,Weather
+O-1427,2023-05-23,2023-05-25,2023-05-31,2023-06-02,Chennai,Delhi_WH,Road,Supplier_A,Weather
+O-1428,2023-02-02,2023-02-05,2023-02-07,2023-02-06,Pune,Kolkata_WH,Sea,Supplier_B,None
+O-1429,2023-02-18,2023-02-21,2023-02-26,2023-03-01,Bengaluru,Ahmedabad_WH,Road,Supplier_B,Traffic
+O-1430,2023-02-22,2023-02-25,2023-02-27,2023-03-02,Hyderabad,Delhi_WH,Rail,Supplier_C,Traffic
+O-1431,2023-08-21,2023-08-24,2023-08-28,2023-08-31,Pune,Delhi_WH,Road,Supplier_A,Customs Delay
+O-1432,2023-01-23,2023-01-24,2023-01-27,2023-01-28,Chennai,Mumbai_WH,Rail,Supplier_B,Transport Breakdown
+O-1433,2023-08-05,2023-08-07,2023-08-10,2023-08-10,Chennai,Delhi_WH,Air,Supplier_A,None
+O-1434,2023-09-11,2023-09-12,2023-09-14,2023-09-14,Hyderabad,Delhi_WH,Air,Supplier_A,None
+O-1435,2023-01-16,2023-01-19,2023-01-21,2023-01-21,Bengaluru,Kolkata_WH,Rail,Supplier_A,None
+O-1436,2023-04-11,2023-04-12,2023-04-15,2023-04-16,Chennai,Mumbai_WH,Road,Supplier_C,Traffic
+O-1437,2023-03-15,2023-03-16,2023-03-19,2023-03-19,Bengaluru,Delhi_WH,Sea,Supplier_D,None
+O-1438,2023-11-19,2023-11-21,2023-11-24,2023-11-27,Chennai,Delhi_WH,Air,Supplier_C,Transport Breakdown
+O-1439,2023-08-31,2023-09-02,2023-09-08,2023-09-10,Hyderabad,Ahmedabad_WH,Air,Supplier_C,Traffic
+O-1440,2023-02-13,2023-02-15,2023-02-20,2023-02-23,Bengaluru,Mumbai_WH,Air,Supplier_C,Weather
+O-1441,2023-08-15,2023-08-16,2023-08-20,2023-08-19,Bengaluru,Mumbai_WH,Rail,Supplier_D,None
+O-1442,2023-06-20,2023-06-21,2023-06-25,2023-06-26,Bengaluru,Mumbai_WH,Rail,Supplier_C,Weather
+O-1443,2023-12-01,2023-12-04,2023-12-07,2023-12-09,Bengaluru,Ahmedabad_WH,Air,Supplier_D,Customs Delay
+O-1444,2023-12-24,2023-12-26,2023-12-29,2023-12-31,Chennai,Ahmedabad_WH,Road,Supplier_C,Transport Breakdown
+O-1445,2023-10-18,2023-10-19,2023-10-22,2023-10-22,Pune,Delhi_WH,Rail,Supplier_C,None
+O-1446,2023-11-24,2023-11-26,2023-11-28,2023-11-28,Pune,Ahmedabad_WH,Road,Supplier_A,None
+O-1447,2023-09-23,2023-09-24,2023-09-27,2023-09-28,Bengaluru,Kolkata_WH,Sea,Supplier_D,Transport Breakdown
+O-1448,2023-10-28,2023-10-29,2023-11-04,2023-11-06,Chennai,Kolkata_WH,Air,Supplier_D,Weather
+O-1449,2023-05-28,2023-05-31,2023-06-05,2023-06-06,Bengaluru,Delhi_WH,Sea,Supplier_D,Weather
+O-1450,2023-05-03,2023-05-04,2023-05-08,2023-05-11,Hyderabad,Delhi_WH,Road,Supplier_A,Weather
+O-1451,2023-05-10,2023-05-11,2023-05-17,2023-05-16,Hyderabad,Mumbai_WH,Sea,Supplier_D,None
+O-1452,2023-09-06,2023-09-08,2023-09-10,2023-09-09,Pune,Ahmedabad_WH,Air,Supplier_B,None
+O-1453,2023-12-10,2023-12-11,2023-12-15,2023-12-15,Chennai,Delhi_WH,Sea,Supplier_D,None
+O-1454,2023-01-27,2023-01-30,2023-02-01,2023-01-31,Pune,Ahmedabad_WH,Sea,Supplier_D,None
+O-1455,2023-12-07,2023-12-08,2023-12-11,2023-12-10,Chennai,Delhi_WH,Sea,Supplier_A,None
+O-1456,2023-02-24,2023-02-26,2023-03-02,2023-03-02,Chennai,Mumbai_WH,Road,Supplier_A,None
+O-1457,2023-11-03,2023-11-05,2023-11-07,2023-11-10,Hyderabad,Kolkata_WH,Rail,Supplier_B,Customs Delay
+O-1458,2023-07-15,2023-07-18,2023-07-21,2023-07-24,Bengaluru,Ahmedabad_WH,Air,Supplier_C,Traffic
+O-1459,2023-03-19,2023-03-21,2023-03-24,2023-03-23,Pune,Mumbai_WH,Air,Supplier_D,None
+O-1460,2023-06-25,2023-06-26,2023-06-29,2023-07-02,Chennai,Kolkata_WH,Air,Supplier_A,Traffic
+O-1461,2023-11-21,2023-11-22,2023-11-25,2023-11-25,Chennai,Delhi_WH,Road,Supplier_A,None
+O-1462,2023-06-05,2023-06-07,2023-06-13,2023-06-15,Chennai,Mumbai_WH,Rail,Supplier_D,Customs Delay
+O-1463,2023-07-15,2023-07-17,2023-07-19,2023-07-20,Hyderabad,Delhi_WH,Air,Supplier_B,Customs Delay
+O-1464,2023-01-03,2023-01-04,2023-01-10,2023-01-11,Chennai,Mumbai_WH,Sea,Supplier_B,Transport Breakdown
+O-1465,2023-08-12,2023-08-14,2023-08-18,2023-08-21,Chennai,Mumbai_WH,Rail,Supplier_D,Transport Breakdown
+O-1466,2023-05-11,2023-05-12,2023-05-18,2023-05-21,Hyderabad,Mumbai_WH,Road,Supplier_C,Customs Delay
+O-1467,2023-12-21,2023-12-23,2023-12-29,2024-01-01,Hyderabad,Kolkata_WH,Rail,Supplier_B,Transport Breakdown
+O-1468,2023-03-28,2023-03-30,2023-04-01,2023-03-31,Pune,Delhi_WH,Road,Supplier_D,None
+O-1469,2023-08-19,2023-08-22,2023-08-25,2023-08-25,Chennai,Delhi_WH,Air,Supplier_D,None
+O-1470,2023-05-22,2023-05-23,2023-05-27,2023-05-26,Hyderabad,Delhi_WH,Air,Supplier_A,None
+O-1471,2023-07-12,2023-07-15,2023-07-21,2023-07-22,Chennai,Delhi_WH,Sea,Supplier_A,Transport Breakdown
+O-1472,2023-02-21,2023-02-22,2023-02-27,2023-03-01,Pune,Kolkata_WH,Road,Supplier_A,Customs Delay
+O-1473,2023-01-24,2023-01-27,2023-01-31,2023-02-02,Bengaluru,Kolkata_WH,Sea,Supplier_C,Customs Delay
+O-1474,2023-09-12,2023-09-13,2023-09-17,2023-09-20,Bengaluru,Mumbai_WH,Air,Supplier_B,Transport Breakdown
+O-1475,2023-03-24,2023-03-26,2023-03-31,2023-04-01,Hyderabad,Delhi_WH,Rail,Supplier_A,Customs Delay
+O-1476,2023-07-15,2023-07-18,2023-07-24,2023-07-26,Pune,Ahmedabad_WH,Air,Supplier_A,Customs Delay
+O-1477,2023-10-23,2023-10-26,2023-10-28,2023-10-29,Pune,Ahmedabad_WH,Air,Supplier_B,Traffic
+O-1478,2023-04-23,2023-04-25,2023-04-30,2023-04-30,Chennai,Kolkata_WH,Rail,Supplier_C,None
+O-1479,2023-12-27,2023-12-29,2023-12-31,2024-01-01,Hyderabad,Kolkata_WH,Air,Supplier_B,Customs Delay
+O-1480,2023-08-05,2023-08-08,2023-08-13,2023-08-14,Hyderabad,Kolkata_WH,Sea,Supplier_A,Transport Breakdown
+O-1481,2023-10-23,2023-10-24,2023-10-29,2023-10-31,Hyderabad,Mumbai_WH,Air,Supplier_C,Weather
+O-1482,2023-01-29,2023-01-30,2023-02-03,2023-02-05,Hyderabad,Mumbai_WH,Road,Supplier_D,Customs Delay
+O-1483,2023-12-01,2023-12-04,2023-12-09,2023-12-08,Pune,Mumbai_WH,Sea,Supplier_D,None
+O-1484,2023-05-21,2023-05-24,2023-05-26,2023-05-29,Bengaluru,Ahmedabad_WH,Sea,Supplier_B,Customs Delay
+O-1485,2023-10-12,2023-10-15,2023-10-21,2023-10-23,Bengaluru,Ahmedabad_WH,Road,Supplier_D,Traffic
+O-1486,2023-10-15,2023-10-17,2023-10-19,2023-10-18,Chennai,Delhi_WH,Road,Supplier_B,None
+O-1487,2023-12-22,2023-12-24,2023-12-30,2023-12-31,Chennai,Ahmedabad_WH,Road,Supplier_D,Customs Delay
+O-1488,2023-11-15,2023-11-17,2023-11-19,2023-11-22,Pune,Mumbai_WH,Rail,Supplier_C,Weather
+O-1489,2024-01-01,2024-01-03,2024-01-09,2024-01-12,Pune,Mumbai_WH,Sea,Supplier_A,Customs Delay
+O-1490,2023-07-05,2023-07-07,2023-07-11,2023-07-11,Pune,Delhi_WH,Air,Supplier_A,None
+O-1491,2023-11-08,2023-11-09,2023-11-11,2023-11-11,Pune,Kolkata_WH,Rail,Supplier_C,None
+O-1492,2023-07-13,2023-07-16,2023-07-20,2023-07-19,Chennai,Mumbai_WH,Rail,Supplier_B,None
+O-1493,2023-06-06,2023-06-08,2023-06-12,2023-06-11,Pune,Delhi_WH,Road,Supplier_B,None
+O-1494,2023-09-12,2023-09-15,2023-09-21,2023-09-20,Chennai,Ahmedabad_WH,Sea,Supplier_D,None
+O-1495,2023-03-31,2023-04-01,2023-04-05,2023-04-05,Chennai,Mumbai_WH,Rail,Supplier_D,None
+O-1496,2023-05-31,2023-06-02,2023-06-05,2023-06-04,Pune,Ahmedabad_WH,Sea,Supplier_C,None
+O-1497,2023-02-24,2023-02-25,2023-03-01,2023-03-01,Pune,Kolkata_WH,Sea,Supplier_C,None
+O-1498,2023-08-29,2023-08-31,2023-09-04,2023-09-05,Pune,Mumbai_WH,Sea,Supplier_B,Weather
+O-1499,2023-02-26,2023-02-27,2023-03-03,2023-03-02,Pune,Mumbai_WH,Air,Supplier_A,None
+O-1500,2023-12-16,2023-12-19,2023-12-22,2023-12-23,Hyderabad,Ahmedabad_WH,Sea,Supplier_D,Transport Breakdown
+O-1501,2023-09-03,2023-09-05,2023-09-09,2023-09-11,Bengaluru,Ahmedabad_WH,Sea,Supplier_D,Traffic
+O-1502,2023-12-28,2023-12-29,2024-01-04,2024-01-07,Chennai,Ahmedabad_WH,Air,Supplier_D,Customs Delay
+O-1503,2023-02-16,2023-02-17,2023-02-22,2023-02-24,Bengaluru,Mumbai_WH,Air,Supplier_D,Weather
+O-1504,2023-01-25,2023-01-26,2023-01-28,2023-01-27,Chennai,Kolkata_WH,Road,Supplier_D,None
+O-1505,2023-02-19,2023-02-22,2023-02-24,2023-02-27,Pune,Delhi_WH,Rail,Supplier_C,Customs Delay
+O-1506,2023-10-28,2023-10-31,2023-11-03,2023-11-03,Bengaluru,Delhi_WH,Sea,Supplier_B,None
+O-1507,2023-08-03,2023-08-06,2023-08-10,2023-08-13,Chennai,Mumbai_WH,Rail,Supplier_A,Weather
+O-1508,2023-12-22,2023-12-23,2023-12-28,2023-12-30,Bengaluru,Delhi_WH,Air,Supplier_C,Traffic
+O-1509,2023-06-05,2023-06-06,2023-06-10,2023-06-11,Hyderabad,Kolkata_WH,Air,Supplier_A,Traffic
+O-1510,2023-01-01,2023-01-04,2023-01-08,2023-01-11,Chennai,Delhi_WH,Rail,Supplier_B,Weather
+O-1511,2023-04-01,2023-04-03,2023-04-05,2023-04-08,Chennai,Kolkata_WH,Sea,Supplier_C,Traffic
+O-1512,2023-08-11,2023-08-13,2023-08-16,2023-08-18,Hyderabad,Mumbai_WH,Sea,Supplier_B,Traffic
+O-1513,2023-02-05,2023-02-06,2023-02-08,2023-02-10,Hyderabad,Mumbai_WH,Sea,Supplier_B,Customs Delay
+O-1514,2023-02-12,2023-02-14,2023-02-17,2023-02-20,Chennai,Mumbai_WH,Road,Supplier_A,Traffic
+O-1515,2023-10-06,2023-10-09,2023-10-13,2023-10-16,Chennai,Delhi_WH,Road,Supplier_B,Traffic
+O-1516,2023-12-02,2023-12-04,2023-12-07,2023-12-09,Chennai,Kolkata_WH,Sea,Supplier_D,Traffic
+O-1517,2023-08-08,2023-08-11,2023-08-15,2023-08-18,Chennai,Mumbai_WH,Sea,Supplier_A,Customs Delay
+O-1518,2023-03-18,2023-03-21,2023-03-24,2023-03-25,Bengaluru,Delhi_WH,Sea,Supplier_C,Customs Delay
+O-1519,2023-06-13,2023-06-15,2023-06-20,2023-06-22,Hyderabad,Kolkata_WH,Rail,Supplier_B,Transport Breakdown
+O-1520,2023-12-26,2023-12-27,2023-12-30,2023-12-31,Hyderabad,Mumbai_WH,Air,Supplier_A,Traffic
+O-1521,2023-10-10,2023-10-12,2023-10-15,2023-10-15,Hyderabad,Mumbai_WH,Air,Supplier_C,None
+O-1522,2023-03-17,2023-03-19,2023-03-22,2023-03-21,Chennai,Delhi_WH,Air,Supplier_D,None
+O-1523,2023-08-16,2023-08-19,2023-08-21,2023-08-22,Hyderabad,Kolkata_WH,Air,Supplier_D,Traffic
+O-1524,2023-03-22,2023-03-24,2023-03-26,2023-03-29,Chennai,Ahmedabad_WH,Air,Supplier_C,Transport Breakdown
+O-1525,2023-01-28,2023-01-30,2023-02-04,2023-02-04,Hyderabad,Mumbai_WH,Rail,Supplier_D,None
+O-1526,2023-05-04,2023-05-06,2023-05-08,2023-05-11,Chennai,Delhi_WH,Sea,Supplier_B,Traffic
+O-1527,2023-07-28,2023-07-31,2023-08-06,2023-08-05,Bengaluru,Kolkata_WH,Air,Supplier_B,None
+O-1528,2023-03-24,2023-03-27,2023-04-02,2023-04-05,Chennai,Mumbai_WH,Sea,Supplier_B,Weather
+O-1529,2023-01-08,2023-01-09,2023-01-13,2023-01-16,Hyderabad,Delhi_WH,Sea,Supplier_B,Traffic
+O-1530,2023-08-15,2023-08-18,2023-08-21,2023-08-20,Hyderabad,Kolkata_WH,Sea,Supplier_C,None
+O-1531,2023-09-17,2023-09-19,2023-09-23,2023-09-22,Bengaluru,Ahmedabad_WH,Road,Supplier_C,None
+O-1532,2023-12-09,2023-12-10,2023-12-14,2023-12-16,Hyderabad,Ahmedabad_WH,Sea,Supplier_B,Transport Breakdown
+O-1533,2023-05-23,2023-05-25,2023-05-27,2023-05-30,Hyderabad,Delhi_WH,Sea,Supplier_B,Customs Delay
+O-1534,2023-12-17,2023-12-19,2023-12-23,2023-12-24,Chennai,Delhi_WH,Road,Supplier_A,Customs Delay
+O-1535,2023-08-08,2023-08-10,2023-08-14,2023-08-14,Bengaluru,Delhi_WH,Air,Supplier_B,None
+O-1536,2023-12-08,2023-12-11,2023-12-17,2023-12-17,Chennai,Delhi_WH,Rail,Supplier_A,None
+O-1537,2023-03-06,2023-03-09,2023-03-14,2023-03-17,Bengaluru,Ahmedabad_WH,Road,Supplier_C,Traffic
+O-1538,2023-01-09,2023-01-11,2023-01-15,2023-01-18,Pune,Kolkata_WH,Sea,Supplier_A,Traffic
+O-1539,2023-10-05,2023-10-07,2023-10-12,2023-10-13,Chennai,Mumbai_WH,Rail,Supplier_C,Transport Breakdown
+O-1540,2023-12-08,2023-12-10,2023-12-15,2023-12-15,Hyderabad,Delhi_WH,Air,Supplier_A,None
+O-1541,2023-09-17,2023-09-19,2023-09-23,2023-09-24,Pune,Mumbai_WH,Sea,Supplier_A,Weather
+O-1542,2023-05-04,2023-05-07,2023-05-12,2023-05-12,Chennai,Ahmedabad_WH,Sea,Supplier_C,None
+O-1543,2023-12-30,2023-12-31,2024-01-06,2024-01-05,Chennai,Delhi_WH,Sea,Supplier_D,None
+O-1544,2023-01-13,2023-01-16,2023-01-19,2023-01-21,Bengaluru,Ahmedabad_WH,Air,Supplier_A,Weather
+O-1545,2023-11-23,2023-11-26,2023-11-28,2023-11-27,Chennai,Delhi_WH,Sea,Supplier_A,None
+O-1546,2023-01-12,2023-01-14,2023-01-16,2023-01-18,Bengaluru,Ahmedabad_WH,Air,Supplier_D,Traffic
+O-1547,2023-09-05,2023-09-08,2023-09-14,2023-09-17,Pune,Kolkata_WH,Air,Supplier_A,Traffic
+O-1548,2023-01-16,2023-01-18,2023-01-21,2023-01-21,Bengaluru,Mumbai_WH,Road,Supplier_C,None
+O-1549,2023-04-09,2023-04-11,2023-04-14,2023-04-14,Hyderabad,Ahmedabad_WH,Rail,Supplier_D,None
+O-1550,2023-08-08,2023-08-09,2023-08-15,2023-08-16,Bengaluru,Ahmedabad_WH,Road,Supplier_C,Weather
+O-1551,2023-05-06,2023-05-07,2023-05-10,2023-05-11,Chennai,Kolkata_WH,Air,Supplier_D,Weather
+O-1552,2023-11-05,2023-11-06,2023-11-12,2023-11-12,Hyderabad,Kolkata_WH,Road,Supplier_A,None
+O-1553,2023-01-24,2023-01-26,2023-01-31,2023-01-30,Hyderabad,Ahmedabad_WH,Road,Supplier_A,None
+O-1554,2023-07-26,2023-07-27,2023-08-02,2023-08-05,Pune,Mumbai_WH,Rail,Supplier_D,Traffic
+O-1555,2023-06-02,2023-06-05,2023-06-10,2023-06-12,Bengaluru,Ahmedabad_WH,Rail,Supplier_D,Traffic
+O-1556,2023-07-08,2023-07-11,2023-07-13,2023-07-12,Bengaluru,Mumbai_WH,Rail,Supplier_B,None
+O-1557,2023-06-13,2023-06-14,2023-06-20,2023-06-22,Bengaluru,Mumbai_WH,Road,Supplier_D,Transport Breakdown
+O-1558,2023-12-04,2023-12-07,2023-12-10,2023-12-09,Pune,Mumbai_WH,Road,Supplier_A,None
+O-1559,2023-09-16,2023-09-17,2023-09-20,2023-09-20,Hyderabad,Mumbai_WH,Rail,Supplier_C,None
+O-1560,2023-02-24,2023-02-27,2023-03-01,2023-03-01,Chennai,Ahmedabad_WH,Road,Supplier_A,None
+O-1561,2023-03-19,2023-03-21,2023-03-27,2023-03-29,Hyderabad,Mumbai_WH,Road,Supplier_C,Weather
+O-1562,2023-12-15,2023-12-16,2023-12-19,2023-12-18,Hyderabad,Delhi_WH,Air,Supplier_D,None
+O-1563,2023-04-23,2023-04-26,2023-04-30,2023-05-02,Hyderabad,Delhi_WH,Air,Supplier_D,Customs Delay
+O-1564,2023-06-11,2023-06-14,2023-06-16,2023-06-16,Chennai,Mumbai_WH,Air,Supplier_C,None
+O-1565,2023-10-26,2023-10-27,2023-11-01,2023-11-01,Pune,Ahmedabad_WH,Sea,Supplier_A,None
+O-1566,2023-09-09,2023-09-12,2023-09-16,2023-09-19,Pune,Ahmedabad_WH,Sea,Supplier_C,Weather
+O-1567,2023-12-04,2023-12-05,2023-12-09,2023-12-11,Hyderabad,Mumbai_WH,Air,Supplier_B,Traffic
+O-1568,2023-06-19,2023-06-21,2023-06-27,2023-06-29,Pune,Kolkata_WH,Rail,Supplier_B,Weather
+O-1569,2023-09-13,2023-09-16,2023-09-19,2023-09-21,Bengaluru,Delhi_WH,Rail,Supplier_C,Customs Delay
+O-1570,2023-06-06,2023-06-07,2023-06-12,2023-06-13,Bengaluru,Ahmedabad_WH,Road,Supplier_A,Traffic
+O-1571,2023-04-23,2023-04-24,2023-04-29,2023-04-30,Bengaluru,Kolkata_WH,Sea,Supplier_D,Customs Delay
+O-1572,2023-03-11,2023-03-13,2023-03-19,2023-03-19,Chennai,Kolkata_WH,Rail,Supplier_B,None
+O-1573,2023-08-07,2023-08-09,2023-08-14,2023-08-16,Hyderabad,Kolkata_WH,Road,Supplier_C,Transport Breakdown
+O-1574,2023-07-21,2023-07-22,2023-07-27,2023-07-26,Pune,Delhi_WH,Sea,Supplier_B,None
+O-1575,2023-03-04,2023-03-07,2023-03-13,2023-03-16,Pune,Delhi_WH,Air,Supplier_D,Traffic
+O-1576,2023-02-04,2023-02-05,2023-02-08,2023-02-11,Chennai,Delhi_WH,Road,Supplier_D,Traffic
+O-1577,2023-12-03,2023-12-06,2023-12-08,2023-12-10,Pune,Ahmedabad_WH,Road,Supplier_B,Customs Delay
+O-1578,2023-07-20,2023-07-22,2023-07-24,2023-07-26,Pune,Kolkata_WH,Sea,Supplier_D,Transport Breakdown
+O-1579,2023-08-28,2023-08-31,2023-09-05,2023-09-06,Pune,Mumbai_WH,Air,Supplier_A,Traffic
+O-1580,2023-12-04,2023-12-06,2023-12-11,2023-12-10,Chennai,Kolkata_WH,Sea,Supplier_D,None
+O-1581,2023-01-16,2023-01-19,2023-01-22,2023-01-22,Bengaluru,Delhi_WH,Road,Supplier_D,None
+O-1582,2023-11-10,2023-11-12,2023-11-14,2023-11-13,Bengaluru,Delhi_WH,Road,Supplier_D,None
+O-1583,2023-08-13,2023-08-16,2023-08-20,2023-08-20,Pune,Ahmedabad_WH,Air,Supplier_B,None
+O-1584,2023-06-24,2023-06-25,2023-07-01,2023-07-03,Hyderabad,Delhi_WH,Air,Supplier_C,Customs Delay
+O-1585,2023-09-22,2023-09-24,2023-09-26,2023-09-25,Bengaluru,Mumbai_WH,Sea,Supplier_A,None
+O-1586,2023-09-23,2023-09-26,2023-10-02,2023-10-03,Bengaluru,Mumbai_WH,Road,Supplier_C,Transport Breakdown
+O-1587,2023-10-08,2023-10-11,2023-10-15,2023-10-14,Chennai,Mumbai_WH,Air,Supplier_A,None
+O-1588,2023-01-22,2023-01-23,2023-01-25,2023-01-27,Chennai,Kolkata_WH,Rail,Supplier_D,Customs Delay
+O-1589,2023-07-13,2023-07-16,2023-07-19,2023-07-21,Bengaluru,Ahmedabad_WH,Air,Supplier_D,Transport Breakdown
+O-1590,2023-01-08,2023-01-11,2023-01-14,2023-01-13,Hyderabad,Delhi_WH,Road,Supplier_B,None
+O-1591,2023-02-09,2023-02-11,2023-02-17,2023-02-17,Bengaluru,Delhi_WH,Sea,Supplier_D,None
+O-1592,2023-01-28,2023-01-30,2023-02-04,2023-02-07,Pune,Delhi_WH,Rail,Supplier_C,Transport Breakdown
+O-1593,2023-11-29,2023-12-01,2023-12-03,2023-12-02,Chennai,Ahmedabad_WH,Sea,Supplier_A,None
+O-1594,2023-01-23,2023-01-24,2023-01-27,2023-01-29,Hyderabad,Ahmedabad_WH,Sea,Supplier_D,Customs Delay
+O-1595,2023-06-24,2023-06-27,2023-07-03,2023-07-05,Chennai,Delhi_WH,Road,Supplier_C,Transport Breakdown
+O-1596,2023-12-16,2023-12-18,2023-12-20,2023-12-20,Bengaluru,Kolkata_WH,Rail,Supplier_B,None
+O-1597,2023-08-25,2023-08-26,2023-08-31,2023-08-30,Chennai,Ahmedabad_WH,Sea,Supplier_C,None
+O-1598,2023-05-13,2023-05-15,2023-05-19,2023-05-21,Hyderabad,Mumbai_WH,Air,Supplier_A,Customs Delay
+O-1599,2024-01-01,2024-01-03,2024-01-07,2024-01-06,Chennai,Delhi_WH,Rail,Supplier_A,None
+O-1600,2023-02-06,2023-02-09,2023-02-14,2023-02-15,Pune,Ahmedabad_WH,Road,Supplier_C,Customs Delay
+O-1601,2023-02-24,2023-02-27,2023-03-02,2023-03-03,Chennai,Delhi_WH,Air,Supplier_C,Weather
+O-1602,2023-12-04,2023-12-07,2023-12-13,2023-12-15,Bengaluru,Ahmedabad_WH,Rail,Supplier_A,Weather
+O-1603,2023-02-10,2023-02-12,2023-02-18,2023-02-21,Hyderabad,Kolkata_WH,Rail,Supplier_D,Traffic
+O-1604,2023-06-24,2023-06-26,2023-06-28,2023-06-27,Pune,Kolkata_WH,Sea,Supplier_B,None
+O-1605,2023-02-21,2023-02-22,2023-02-24,2023-02-26,Pune,Ahmedabad_WH,Air,Supplier_D,Traffic
+O-1606,2023-10-30,2023-11-02,2023-11-08,2023-11-07,Pune,Kolkata_WH,Road,Supplier_A,None
+O-1607,2023-01-04,2023-01-07,2023-01-13,2023-01-14,Bengaluru,Mumbai_WH,Sea,Supplier_B,Transport Breakdown
+O-1608,2023-06-13,2023-06-14,2023-06-17,2023-06-16,Pune,Ahmedabad_WH,Air,Supplier_C,None
+O-1609,2023-11-07,2023-11-08,2023-11-11,2023-11-12,Pune,Kolkata_WH,Road,Supplier_B,Customs Delay
+O-1610,2023-10-20,2023-10-22,2023-10-27,2023-10-30,Chennai,Kolkata_WH,Sea,Supplier_C,Customs Delay
+O-1611,2023-02-08,2023-02-10,2023-02-13,2023-02-16,Bengaluru,Mumbai_WH,Rail,Supplier_C,Weather
+O-1612,2023-10-28,2023-10-30,2023-11-02,2023-11-02,Chennai,Mumbai_WH,Rail,Supplier_A,None
+O-1613,2023-09-09,2023-09-12,2023-09-18,2023-09-18,Hyderabad,Delhi_WH,Air,Supplier_A,None
+O-1614,2023-12-09,2023-12-11,2023-12-16,2023-12-18,Chennai,Kolkata_WH,Sea,Supplier_C,Weather
+O-1615,2023-12-27,2023-12-28,2024-01-02,2024-01-04,Pune,Ahmedabad_WH,Air,Supplier_A,Transport Breakdown
+O-1616,2023-05-14,2023-05-15,2023-05-19,2023-05-21,Hyderabad,Ahmedabad_WH,Rail,Supplier_D,Customs Delay
+O-1617,2023-01-11,2023-01-13,2023-01-15,2023-01-16,Chennai,Delhi_WH,Road,Supplier_C,Weather
+O-1618,2023-04-21,2023-04-24,2023-04-27,2023-04-26,Pune,Ahmedabad_WH,Road,Supplier_C,None
+O-1619,2023-05-20,2023-05-23,2023-05-25,2023-05-27,Chennai,Delhi_WH,Air,Supplier_B,Transport Breakdown
+O-1620,2023-11-07,2023-11-09,2023-11-13,2023-11-15,Hyderabad,Mumbai_WH,Rail,Supplier_A,Traffic
+O-1621,2023-12-26,2023-12-29,2024-01-04,2024-01-04,Hyderabad,Kolkata_WH,Sea,Supplier_C,None
+O-1622,2023-07-09,2023-07-11,2023-07-17,2023-07-16,Chennai,Ahmedabad_WH,Rail,Supplier_D,None
+O-1623,2023-09-10,2023-09-12,2023-09-17,2023-09-18,Chennai,Delhi_WH,Air,Supplier_D,Weather
+O-1624,2023-09-21,2023-09-24,2023-09-26,2023-09-25,Hyderabad,Ahmedabad_WH,Sea,Supplier_C,None
+O-1625,2023-11-17,2023-11-20,2023-11-25,2023-11-25,Hyderabad,Mumbai_WH,Sea,Supplier_D,None
+O-1626,2023-11-11,2023-11-14,2023-11-18,2023-11-21,Pune,Mumbai_WH,Sea,Supplier_B,Weather
+O-1627,2023-04-13,2023-04-16,2023-04-18,2023-04-21,Pune,Mumbai_WH,Rail,Supplier_A,Transport Breakdown
+O-1628,2023-10-27,2023-10-30,2023-11-03,2023-11-04,Pune,Ahmedabad_WH,Rail,Supplier_C,Transport Breakdown
+O-1629,2023-10-22,2023-10-25,2023-10-31,2023-11-01,Hyderabad,Kolkata_WH,Air,Supplier_B,Transport Breakdown
+O-1630,2023-08-06,2023-08-09,2023-08-14,2023-08-15,Chennai,Ahmedabad_WH,Road,Supplier_A,Weather
+O-1631,2023-08-12,2023-08-15,2023-08-20,2023-08-22,Pune,Mumbai_WH,Road,Supplier_B,Weather
+O-1632,2023-07-11,2023-07-12,2023-07-14,2023-07-14,Chennai,Ahmedabad_WH,Sea,Supplier_B,None
+O-1633,2023-11-25,2023-11-27,2023-12-02,2023-12-01,Bengaluru,Kolkata_WH,Rail,Supplier_C,None
+O-1634,2023-11-10,2023-11-13,2023-11-16,2023-11-16,Pune,Delhi_WH,Air,Supplier_A,None
+O-1635,2023-12-11,2023-12-13,2023-12-16,2023-12-19,Bengaluru,Kolkata_WH,Road,Supplier_B,Weather
+O-1636,2023-11-22,2023-11-25,2023-11-27,2023-11-28,Hyderabad,Mumbai_WH,Rail,Supplier_B,Weather
+O-1637,2023-04-22,2023-04-25,2023-04-29,2023-05-01,Chennai,Delhi_WH,Air,Supplier_A,Traffic
+O-1638,2023-05-20,2023-05-21,2023-05-24,2023-05-25,Chennai,Mumbai_WH,Sea,Supplier_D,Weather
+O-1639,2023-10-03,2023-10-06,2023-10-09,2023-10-11,Hyderabad,Mumbai_WH,Rail,Supplier_A,Weather
+O-1640,2023-03-13,2023-03-15,2023-03-21,2023-03-22,Chennai,Ahmedabad_WH,Sea,Supplier_A,Weather
+O-1641,2023-06-06,2023-06-07,2023-06-12,2023-06-15,Chennai,Kolkata_WH,Road,Supplier_A,Customs Delay
+O-1642,2023-01-21,2023-01-22,2023-01-28,2023-01-27,Hyderabad,Kolkata_WH,Sea,Supplier_D,None
+O-1643,2023-01-28,2023-01-29,2023-02-02,2023-02-02,Chennai,Kolkata_WH,Rail,Supplier_B,None
+O-1644,2023-03-20,2023-03-23,2023-03-29,2023-03-30,Bengaluru,Mumbai_WH,Sea,Supplier_D,Traffic
+O-1645,2023-06-12,2023-06-13,2023-06-18,2023-06-19,Hyderabad,Mumbai_WH,Sea,Supplier_A,Weather
+O-1646,2023-09-14,2023-09-15,2023-09-21,2023-09-24,Pune,Kolkata_WH,Road,Supplier_C,Transport Breakdown
+O-1647,2023-07-18,2023-07-21,2023-07-26,2023-07-25,Pune,Kolkata_WH,Rail,Supplier_B,None
+O-1648,2023-06-13,2023-06-14,2023-06-20,2023-06-23,Bengaluru,Mumbai_WH,Sea,Supplier_D,Transport Breakdown
+O-1649,2023-10-01,2023-10-03,2023-10-05,2023-10-05,Hyderabad,Kolkata_WH,Sea,Supplier_C,None
+O-1650,2023-05-25,2023-05-26,2023-05-28,2023-05-30,Bengaluru,Ahmedabad_WH,Rail,Supplier_D,Transport Breakdown
+O-1651,2023-08-02,2023-08-03,2023-08-08,2023-08-09,Pune,Kolkata_WH,Road,Supplier_B,Weather
+O-1652,2023-06-26,2023-06-28,2023-07-04,2023-07-04,Hyderabad,Kolkata_WH,Sea,Supplier_D,None
+O-1653,2023-07-25,2023-07-26,2023-07-29,2023-07-30,Pune,Ahmedabad_WH,Sea,Supplier_C,Traffic
+O-1654,2023-12-19,2023-12-20,2023-12-24,2023-12-27,Hyderabad,Kolkata_WH,Sea,Supplier_B,Traffic
+O-1655,2023-04-26,2023-04-27,2023-05-01,2023-05-01,Bengaluru,Mumbai_WH,Road,Supplier_C,None
+O-1656,2023-06-27,2023-06-29,2023-07-02,2023-07-04,Pune,Kolkata_WH,Air,Supplier_C,Transport Breakdown
+O-1657,2023-06-05,2023-06-07,2023-06-11,2023-06-13,Chennai,Kolkata_WH,Road,Supplier_A,Transport Breakdown
+O-1658,2023-07-13,2023-07-16,2023-07-18,2023-07-17,Hyderabad,Mumbai_WH,Sea,Supplier_B,None
+O-1659,2023-07-05,2023-07-08,2023-07-10,2023-07-11,Pune,Kolkata_WH,Air,Supplier_D,Transport Breakdown
+O-1660,2023-07-16,2023-07-19,2023-07-24,2023-07-26,Chennai,Delhi_WH,Air,Supplier_D,Transport Breakdown
+O-1661,2023-07-09,2023-07-10,2023-07-16,2023-07-18,Hyderabad,Delhi_WH,Air,Supplier_B,Customs Delay
+O-1662,2023-12-17,2023-12-20,2023-12-25,2023-12-25,Hyderabad,Mumbai_WH,Air,Supplier_D,None
+O-1663,2023-02-06,2023-02-08,2023-02-12,2023-02-15,Hyderabad,Ahmedabad_WH,Road,Supplier_D,Traffic
+O-1664,2023-03-16,2023-03-18,2023-03-24,2023-03-23,Bengaluru,Delhi_WH,Air,Supplier_D,None
+O-1665,2023-06-25,2023-06-27,2023-07-02,2023-07-03,Chennai,Kolkata_WH,Rail,Supplier_D,Transport Breakdown
+O-1666,2023-09-01,2023-09-04,2023-09-09,2023-09-10,Chennai,Kolkata_WH,Air,Supplier_C,Customs Delay
+O-1667,2023-09-02,2023-09-05,2023-09-08,2023-09-09,Pune,Ahmedabad_WH,Rail,Supplier_C,Customs Delay
+O-1668,2023-04-16,2023-04-17,2023-04-20,2023-04-21,Chennai,Kolkata_WH,Air,Supplier_C,Traffic
+O-1669,2023-01-29,2023-01-31,2023-02-06,2023-02-09,Pune,Delhi_WH,Air,Supplier_A,Customs Delay
+O-1670,2023-03-09,2023-03-12,2023-03-16,2023-03-15,Chennai,Delhi_WH,Air,Supplier_A,None
+O-1671,2023-02-12,2023-02-14,2023-02-17,2023-02-16,Bengaluru,Ahmedabad_WH,Air,Supplier_D,None
+O-1672,2023-11-04,2023-11-06,2023-11-11,2023-11-11,Pune,Ahmedabad_WH,Rail,Supplier_A,None
+O-1673,2023-01-04,2023-01-06,2023-01-12,2023-01-14,Chennai,Ahmedabad_WH,Air,Supplier_A,Transport Breakdown
+O-1674,2023-06-13,2023-06-16,2023-06-21,2023-06-20,Pune,Kolkata_WH,Rail,Supplier_B,None
+O-1675,2023-05-18,2023-05-19,2023-05-23,2023-05-25,Hyderabad,Ahmedabad_WH,Rail,Supplier_C,Weather
+O-1676,2023-11-27,2023-11-28,2023-12-03,2023-12-04,Hyderabad,Kolkata_WH,Air,Supplier_A,Traffic
+O-1677,2023-02-24,2023-02-25,2023-02-28,2023-02-28,Hyderabad,Kolkata_WH,Rail,Supplier_B,None
+O-1678,2023-11-24,2023-11-26,2023-11-30,2023-12-03,Bengaluru,Delhi_WH,Sea,Supplier_A,Weather
+O-1679,2023-06-17,2023-06-20,2023-06-26,2023-06-27,Hyderabad,Mumbai_WH,Road,Supplier_A,Weather
+O-1680,2023-12-13,2023-12-16,2023-12-20,2023-12-21,Pune,Mumbai_WH,Air,Supplier_C,Traffic
+O-1681,2023-10-22,2023-10-24,2023-10-26,2023-10-25,Hyderabad,Kolkata_WH,Road,Supplier_C,None
+O-1682,2023-08-20,2023-08-23,2023-08-26,2023-08-27,Pune,Ahmedabad_WH,Air,Supplier_D,Traffic
+O-1683,2023-08-07,2023-08-08,2023-08-12,2023-08-12,Chennai,Kolkata_WH,Rail,Supplier_A,None
+O-1684,2023-03-07,2023-03-10,2023-03-14,2023-03-13,Bengaluru,Delhi_WH,Rail,Supplier_A,None
+O-1685,2023-03-05,2023-03-07,2023-03-09,2023-03-11,Chennai,Ahmedabad_WH,Sea,Supplier_A,Customs Delay
+O-1686,2023-09-08,2023-09-11,2023-09-17,2023-09-18,Chennai,Delhi_WH,Sea,Supplier_B,Weather
+O-1687,2023-07-01,2023-07-03,2023-07-07,2023-07-06,Hyderabad,Delhi_WH,Sea,Supplier_D,None
+O-1688,2023-05-08,2023-05-09,2023-05-15,2023-05-14,Bengaluru,Mumbai_WH,Air,Supplier_C,None
+O-1689,2023-03-30,2023-03-31,2023-04-06,2023-04-06,Chennai,Ahmedabad_WH,Air,Supplier_D,None
+O-1690,2023-06-19,2023-06-20,2023-06-25,2023-06-24,Bengaluru,Delhi_WH,Air,Supplier_C,None
+O-1691,2023-02-27,2023-03-01,2023-03-06,2023-03-08,Hyderabad,Delhi_WH,Air,Supplier_A,Transport Breakdown
+O-1692,2023-10-20,2023-10-21,2023-10-24,2023-10-24,Hyderabad,Ahmedabad_WH,Air,Supplier_A,None
+O-1693,2023-03-09,2023-03-11,2023-03-16,2023-03-17,Hyderabad,Kolkata_WH,Road,Supplier_C,Customs Delay
+O-1694,2023-09-05,2023-09-07,2023-09-10,2023-09-13,Bengaluru,Ahmedabad_WH,Sea,Supplier_C,Transport Breakdown
+O-1695,2023-06-24,2023-06-26,2023-07-02,2023-07-04,Chennai,Kolkata_WH,Rail,Supplier_C,Traffic
+O-1696,2023-06-27,2023-06-29,2023-07-04,2023-07-06,Pune,Mumbai_WH,Air,Supplier_A,Traffic
+O-1697,2023-12-22,2023-12-25,2023-12-28,2023-12-29,Pune,Mumbai_WH,Road,Supplier_A,Customs Delay
+O-1698,2023-09-01,2023-09-03,2023-09-07,2023-09-07,Hyderabad,Ahmedabad_WH,Rail,Supplier_C,None
+O-1699,2023-07-20,2023-07-21,2023-07-26,2023-07-28,Chennai,Mumbai_WH,Air,Supplier_D,Customs Delay
+O-1700,2023-09-24,2023-09-26,2023-10-02,2023-10-01,Bengaluru,Delhi_WH,Sea,Supplier_C,None
+O-1701,2023-05-11,2023-05-12,2023-05-17,2023-05-19,Bengaluru,Ahmedabad_WH,Sea,Supplier_C,Customs Delay
+O-1702,2023-11-23,2023-11-24,2023-11-28,2023-11-29,Hyderabad,Delhi_WH,Rail,Supplier_D,Weather
+O-1703,2023-10-15,2023-10-18,2023-10-24,2023-10-26,Bengaluru,Ahmedabad_WH,Road,Supplier_C,Transport Breakdown
+O-1704,2023-11-28,2023-11-30,2023-12-05,2023-12-08,Bengaluru,Kolkata_WH,Sea,Supplier_D,Traffic
+O-1705,2023-05-10,2023-05-12,2023-05-16,2023-05-17,Bengaluru,Ahmedabad_WH,Rail,Supplier_D,Customs Delay
+O-1706,2023-06-30,2023-07-03,2023-07-09,2023-07-09,Bengaluru,Kolkata_WH,Rail,Supplier_D,None
+O-1707,2023-06-22,2023-06-24,2023-06-28,2023-06-28,Hyderabad,Kolkata_WH,Air,Supplier_C,None
+O-1708,2023-02-16,2023-02-19,2023-02-25,2023-02-27,Chennai,Delhi_WH,Air,Supplier_A,Weather
+O-1709,2023-05-06,2023-05-09,2023-05-12,2023-05-13,Hyderabad,Delhi_WH,Sea,Supplier_B,Traffic
+O-1710,2023-10-12,2023-10-15,2023-10-21,2023-10-21,Hyderabad,Ahmedabad_WH,Sea,Supplier_D,None
+O-1711,2023-05-01,2023-05-03,2023-05-09,2023-05-10,Pune,Kolkata_WH,Air,Supplier_D,Traffic
+O-1712,2023-05-18,2023-05-21,2023-05-23,2023-05-25,Chennai,Ahmedabad_WH,Sea,Supplier_C,Transport Breakdown
+O-1713,2023-05-22,2023-05-25,2023-05-29,2023-05-28,Pune,Delhi_WH,Sea,Supplier_A,None
+O-1714,2023-10-04,2023-10-07,2023-10-13,2023-10-14,Hyderabad,Mumbai_WH,Road,Supplier_B,Traffic
+O-1715,2023-11-29,2023-12-01,2023-12-03,2023-12-04,Chennai,Delhi_WH,Road,Supplier_B,Traffic
+O-1716,2023-02-16,2023-02-17,2023-02-21,2023-02-23,Pune,Ahmedabad_WH,Air,Supplier_D,Customs Delay
+O-1717,2023-01-01,2023-01-04,2023-01-06,2023-01-05,Bengaluru,Mumbai_WH,Rail,Supplier_C,None
+O-1718,2023-11-04,2023-11-06,2023-11-12,2023-11-12,Bengaluru,Mumbai_WH,Sea,Supplier_C,None
+O-1719,2023-06-28,2023-07-01,2023-07-04,2023-07-07,Pune,Delhi_WH,Road,Supplier_C,Customs Delay
+O-1720,2023-03-14,2023-03-15,2023-03-20,2023-03-20,Chennai,Kolkata_WH,Sea,Supplier_C,None
+O-1721,2023-03-11,2023-03-13,2023-03-16,2023-03-17,Pune,Kolkata_WH,Sea,Supplier_B,Transport Breakdown
+O-1722,2023-02-15,2023-02-17,2023-02-23,2023-02-26,Bengaluru,Mumbai_WH,Rail,Supplier_A,Customs Delay
+O-1723,2023-04-20,2023-04-21,2023-04-26,2023-04-26,Pune,Delhi_WH,Air,Supplier_B,None
+O-1724,2023-12-04,2023-12-06,2023-12-09,2023-12-11,Bengaluru,Mumbai_WH,Rail,Supplier_C,Customs Delay
+O-1725,2023-12-20,2023-12-21,2023-12-26,2023-12-28,Pune,Ahmedabad_WH,Rail,Supplier_B,Transport Breakdown
+O-1726,2023-03-01,2023-03-02,2023-03-07,2023-03-06,Bengaluru,Delhi_WH,Air,Supplier_B,None
+O-1727,2023-10-12,2023-10-14,2023-10-17,2023-10-17,Chennai,Delhi_WH,Road,Supplier_D,None
+O-1728,2023-12-06,2023-12-09,2023-12-12,2023-12-12,Hyderabad,Delhi_WH,Rail,Supplier_B,None
+O-1729,2023-09-16,2023-09-17,2023-09-20,2023-09-20,Chennai,Kolkata_WH,Air,Supplier_D,None
+O-1730,2023-07-29,2023-08-01,2023-08-07,2023-08-06,Bengaluru,Delhi_WH,Air,Supplier_A,None
+O-1731,2023-10-16,2023-10-19,2023-10-21,2023-10-20,Chennai,Delhi_WH,Sea,Supplier_A,None
+O-1732,2023-08-21,2023-08-24,2023-08-28,2023-08-28,Hyderabad,Mumbai_WH,Air,Supplier_D,None
+O-1733,2023-07-25,2023-07-26,2023-07-30,2023-07-30,Hyderabad,Mumbai_WH,Sea,Supplier_D,None
+O-1734,2023-10-19,2023-10-20,2023-10-26,2023-10-27,Chennai,Mumbai_WH,Sea,Supplier_B,Transport Breakdown
+O-1735,2023-06-22,2023-06-25,2023-06-28,2023-06-30,Chennai,Mumbai_WH,Air,Supplier_A,Transport Breakdown
+O-1736,2023-07-30,2023-08-01,2023-08-06,2023-08-06,Chennai,Mumbai_WH,Air,Supplier_D,None
+O-1737,2023-07-02,2023-07-03,2023-07-06,2023-07-06,Bengaluru,Kolkata_WH,Rail,Supplier_C,None
+O-1738,2023-03-02,2023-03-05,2023-03-11,2023-03-13,Chennai,Ahmedabad_WH,Sea,Supplier_B,Customs Delay
+O-1739,2023-03-29,2023-03-30,2023-04-05,2023-04-06,Hyderabad,Ahmedabad_WH,Air,Supplier_D,Transport Breakdown
+O-1740,2023-12-09,2023-12-10,2023-12-14,2023-12-15,Chennai,Delhi_WH,Rail,Supplier_D,Traffic
+O-1741,2023-03-27,2023-03-28,2023-03-31,2023-04-01,Hyderabad,Kolkata_WH,Sea,Supplier_A,Weather
+O-1742,2023-04-13,2023-04-15,2023-04-20,2023-04-22,Pune,Ahmedabad_WH,Rail,Supplier_A,Traffic
+O-1743,2023-08-19,2023-08-22,2023-08-24,2023-08-25,Pune,Delhi_WH,Road,Supplier_C,Traffic
+O-1744,2023-06-24,2023-06-27,2023-06-29,2023-06-29,Bengaluru,Delhi_WH,Sea,Supplier_A,None
+O-1745,2023-01-02,2023-01-04,2023-01-07,2023-01-07,Bengaluru,Delhi_WH,Road,Supplier_B,None
+O-1746,2023-09-17,2023-09-18,2023-09-20,2023-09-20,Hyderabad,Mumbai_WH,Air,Supplier_A,None
+O-1747,2023-11-04,2023-11-06,2023-11-12,2023-11-13,Hyderabad,Kolkata_WH,Sea,Supplier_B,Customs Delay
+O-1748,2023-01-31,2023-02-03,2023-02-08,2023-02-07,Hyderabad,Kolkata_WH,Sea,Supplier_A,None
+O-1749,2023-07-09,2023-07-11,2023-07-15,2023-07-17,Pune,Ahmedabad_WH,Air,Supplier_D,Weather
+O-1750,2023-08-03,2023-08-04,2023-08-07,2023-08-08,Chennai,Ahmedabad_WH,Air,Supplier_B,Transport Breakdown
+O-1751,2023-09-12,2023-09-14,2023-09-17,2023-09-18,Chennai,Delhi_WH,Air,Supplier_C,Weather
+O-1752,2023-05-01,2023-05-04,2023-05-09,2023-05-09,Pune,Mumbai_WH,Sea,Supplier_D,None
+O-1753,2023-07-09,2023-07-12,2023-07-17,2023-07-16,Pune,Mumbai_WH,Road,Supplier_C,None
+O-1754,2023-12-24,2023-12-25,2023-12-28,2023-12-29,Pune,Kolkata_WH,Air,Supplier_C,Customs Delay
+O-1755,2023-11-05,2023-11-08,2023-11-12,2023-11-11,Hyderabad,Ahmedabad_WH,Sea,Supplier_A,None
+O-1756,2023-06-13,2023-06-15,2023-06-19,2023-06-22,Chennai,Kolkata_WH,Air,Supplier_D,Customs Delay
+O-1757,2023-06-02,2023-06-04,2023-06-07,2023-06-07,Hyderabad,Delhi_WH,Rail,Supplier_D,None
+O-1758,2023-05-21,2023-05-23,2023-05-27,2023-05-27,Pune,Delhi_WH,Sea,Supplier_D,None
+O-1759,2023-11-27,2023-11-29,2023-12-04,2023-12-04,Bengaluru,Ahmedabad_WH,Rail,Supplier_D,None
+O-1760,2023-03-19,2023-03-20,2023-03-26,2023-03-26,Bengaluru,Mumbai_WH,Air,Supplier_A,None
+O-1761,2023-04-17,2023-04-19,2023-04-22,2023-04-21,Chennai,Delhi_WH,Rail,Supplier_D,None
+O-1762,2023-06-15,2023-06-17,2023-06-22,2023-06-21,Chennai,Kolkata_WH,Rail,Supplier_B,None
+O-1763,2023-09-18,2023-09-19,2023-09-24,2023-09-24,Bengaluru,Kolkata_WH,Air,Supplier_C,None
+O-1764,2023-05-14,2023-05-16,2023-05-18,2023-05-19,Chennai,Kolkata_WH,Road,Supplier_C,Transport Breakdown
+O-1765,2023-10-31,2023-11-02,2023-11-06,2023-11-08,Pune,Mumbai_WH,Air,Supplier_B,Traffic
+O-1766,2023-06-17,2023-06-19,2023-06-24,2023-06-27,Hyderabad,Ahmedabad_WH,Sea,Supplier_B,Customs Delay
+O-1767,2023-08-16,2023-08-18,2023-08-24,2023-08-24,Bengaluru,Kolkata_WH,Road,Supplier_C,None
+O-1768,2023-05-15,2023-05-17,2023-05-20,2023-05-19,Pune,Mumbai_WH,Road,Supplier_A,None
+O-1769,2023-02-02,2023-02-05,2023-02-08,2023-02-08,Bengaluru,Ahmedabad_WH,Road,Supplier_C,None
+O-1770,2023-09-03,2023-09-04,2023-09-08,2023-09-07,Pune,Kolkata_WH,Rail,Supplier_A,None
+O-1771,2023-02-15,2023-02-18,2023-02-22,2023-02-24,Pune,Kolkata_WH,Air,Supplier_A,Transport Breakdown
+O-1772,2023-03-17,2023-03-20,2023-03-25,2023-03-28,Pune,Kolkata_WH,Rail,Supplier_D,Transport Breakdown
+O-1773,2023-11-03,2023-11-05,2023-11-11,2023-11-11,Pune,Mumbai_WH,Air,Supplier_A,None
+O-1774,2023-09-08,2023-09-09,2023-09-13,2023-09-14,Chennai,Kolkata_WH,Sea,Supplier_B,Transport Breakdown
+O-1775,2023-03-15,2023-03-16,2023-03-20,2023-03-20,Bengaluru,Ahmedabad_WH,Sea,Supplier_A,None
+O-1776,2023-03-02,2023-03-04,2023-03-08,2023-03-10,Pune,Ahmedabad_WH,Rail,Supplier_A,Traffic
+O-1777,2023-06-29,2023-06-30,2023-07-04,2023-07-06,Hyderabad,Kolkata_WH,Road,Supplier_A,Transport Breakdown
+O-1778,2023-11-20,2023-11-21,2023-11-26,2023-11-28,Bengaluru,Mumbai_WH,Air,Supplier_A,Weather
+O-1779,2023-08-26,2023-08-28,2023-09-03,2023-09-05,Bengaluru,Mumbai_WH,Rail,Supplier_D,Traffic
+O-1780,2023-04-12,2023-04-14,2023-04-19,2023-04-19,Chennai,Delhi_WH,Road,Supplier_A,None
+O-1781,2023-02-21,2023-02-22,2023-02-25,2023-02-25,Hyderabad,Delhi_WH,Road,Supplier_B,None
+O-1782,2023-10-13,2023-10-16,2023-10-21,2023-10-20,Pune,Ahmedabad_WH,Road,Supplier_A,None
+O-1783,2023-10-20,2023-10-21,2023-10-24,2023-10-26,Chennai,Delhi_WH,Rail,Supplier_A,Weather
+O-1784,2023-01-31,2023-02-03,2023-02-05,2023-02-04,Bengaluru,Kolkata_WH,Rail,Supplier_D,None
+O-1785,2023-07-18,2023-07-21,2023-07-27,2023-07-26,Bengaluru,Mumbai_WH,Air,Supplier_B,None
+O-1786,2023-01-31,2023-02-02,2023-02-04,2023-02-05,Pune,Ahmedabad_WH,Road,Supplier_B,Transport Breakdown
+O-1787,2023-09-12,2023-09-13,2023-09-18,2023-09-21,Chennai,Kolkata_WH,Sea,Supplier_B,Traffic
+O-1788,2023-08-29,2023-09-01,2023-09-06,2023-09-08,Pune,Kolkata_WH,Sea,Supplier_C,Customs Delay
+O-1789,2023-06-15,2023-06-16,2023-06-22,2023-06-22,Chennai,Kolkata_WH,Rail,Supplier_C,None
+O-1790,2023-12-18,2023-12-21,2023-12-25,2023-12-28,Pune,Mumbai_WH,Air,Supplier_B,Weather
+O-1791,2023-05-06,2023-05-08,2023-05-13,2023-05-14,Hyderabad,Kolkata_WH,Rail,Supplier_B,Transport Breakdown
+O-1792,2023-09-19,2023-09-22,2023-09-27,2023-09-27,Hyderabad,Kolkata_WH,Rail,Supplier_D,None
+O-1793,2023-02-05,2023-02-07,2023-02-09,2023-02-12,Bengaluru,Delhi_WH,Air,Supplier_C,Weather
+O-1794,2023-04-29,2023-04-30,2023-05-06,2023-05-09,Hyderabad,Mumbai_WH,Rail,Supplier_C,Weather
+O-1795,2023-03-05,2023-03-06,2023-03-09,2023-03-11,Pune,Ahmedabad_WH,Air,Supplier_A,Customs Delay
+O-1796,2023-02-21,2023-02-22,2023-02-27,2023-03-01,Chennai,Mumbai_WH,Air,Supplier_D,Transport Breakdown
+O-1797,2023-09-17,2023-09-20,2023-09-25,2023-09-27,Bengaluru,Ahmedabad_WH,Rail,Supplier_C,Customs Delay
+O-1798,2023-01-13,2023-01-16,2023-01-22,2023-01-22,Hyderabad,Ahmedabad_WH,Road,Supplier_B,None
+O-1799,2023-06-28,2023-06-29,2023-07-03,2023-07-04,Hyderabad,Kolkata_WH,Sea,Supplier_A,Weather
+O-1800,2023-12-29,2023-12-30,2024-01-01,2024-01-04,Chennai,Delhi_WH,Rail,Supplier_A,Traffic
+O-1801,2023-09-24,2023-09-25,2023-09-28,2023-09-27,Pune,Mumbai_WH,Road,Supplier_D,None
+O-1802,2023-05-18,2023-05-19,2023-05-25,2023-05-24,Bengaluru,Delhi_WH,Sea,Supplier_A,None
+O-1803,2023-03-11,2023-03-12,2023-03-14,2023-03-16,Bengaluru,Ahmedabad_WH,Air,Supplier_A,Customs Delay
+O-1804,2023-07-13,2023-07-14,2023-07-16,2023-07-17,Bengaluru,Delhi_WH,Sea,Supplier_B,Transport Breakdown
+O-1805,2023-09-15,2023-09-17,2023-09-20,2023-09-19,Hyderabad,Mumbai_WH,Air,Supplier_C,None
+O-1806,2023-08-11,2023-08-14,2023-08-17,2023-08-19,Bengaluru,Mumbai_WH,Rail,Supplier_B,Customs Delay
+O-1807,2023-01-27,2023-01-28,2023-01-31,2023-01-30,Chennai,Ahmedabad_WH,Rail,Supplier_D,None
+O-1808,2023-06-30,2023-07-02,2023-07-05,2023-07-06,Hyderabad,Delhi_WH,Road,Supplier_A,Customs Delay
+O-1809,2023-06-27,2023-06-30,2023-07-04,2023-07-05,Pune,Ahmedabad_WH,Road,Supplier_D,Weather
+O-1810,2023-03-15,2023-03-16,2023-03-19,2023-03-18,Hyderabad,Kolkata_WH,Sea,Supplier_C,None
+O-1811,2023-01-01,2023-01-02,2023-01-05,2023-01-04,Pune,Mumbai_WH,Rail,Supplier_D,None
+O-1812,2023-10-23,2023-10-26,2023-11-01,2023-11-02,Hyderabad,Kolkata_WH,Air,Supplier_C,Weather
+O-1813,2023-09-13,2023-09-16,2023-09-21,2023-09-20,Pune,Kolkata_WH,Rail,Supplier_C,None
+O-1814,2023-08-03,2023-08-06,2023-08-10,2023-08-11,Hyderabad,Ahmedabad_WH,Air,Supplier_C,Traffic
+O-1815,2023-06-07,2023-06-08,2023-06-13,2023-06-15,Pune,Delhi_WH,Air,Supplier_C,Transport Breakdown
+O-1816,2023-01-05,2023-01-06,2023-01-12,2023-01-14,Bengaluru,Delhi_WH,Road,Supplier_A,Transport Breakdown
+O-1817,2023-03-26,2023-03-28,2023-04-01,2023-03-31,Bengaluru,Delhi_WH,Road,Supplier_C,None
+O-1818,2023-11-12,2023-11-15,2023-11-17,2023-11-20,Pune,Kolkata_WH,Air,Supplier_A,Weather
+O-1819,2023-12-22,2023-12-24,2023-12-29,2023-12-30,Pune,Mumbai_WH,Rail,Supplier_D,Weather
+O-1820,2023-10-28,2023-10-29,2023-11-01,2023-10-31,Bengaluru,Delhi_WH,Sea,Supplier_A,None
+O-1821,2023-12-02,2023-12-03,2023-12-07,2023-12-07,Chennai,Ahmedabad_WH,Sea,Supplier_C,None
+O-1822,2023-12-29,2023-12-31,2024-01-04,2024-01-07,Chennai,Kolkata_WH,Road,Supplier_D,Customs Delay
+O-1823,2023-04-03,2023-04-05,2023-04-07,2023-04-06,Pune,Mumbai_WH,Rail,Supplier_D,None
+O-1824,2023-01-21,2023-01-23,2023-01-29,2023-02-01,Chennai,Ahmedabad_WH,Sea,Supplier_D,Weather
+O-1825,2023-05-16,2023-05-18,2023-05-20,2023-05-20,Chennai,Ahmedabad_WH,Rail,Supplier_C,None
+O-1826,2023-09-14,2023-09-17,2023-09-21,2023-09-24,Hyderabad,Delhi_WH,Sea,Supplier_C,Traffic
+O-1827,2023-12-17,2023-12-19,2023-12-21,2023-12-22,Chennai,Delhi_WH,Sea,Supplier_B,Customs Delay
+O-1828,2023-05-28,2023-05-30,2023-06-05,2023-06-08,Pune,Delhi_WH,Road,Supplier_B,Traffic
+O-1829,2023-02-12,2023-02-14,2023-02-16,2023-02-17,Hyderabad,Kolkata_WH,Sea,Supplier_A,Customs Delay
+O-1830,2023-06-24,2023-06-26,2023-07-01,2023-06-30,Pune,Delhi_WH,Sea,Supplier_D,None
+O-1831,2023-11-25,2023-11-27,2023-11-30,2023-11-29,Hyderabad,Kolkata_WH,Road,Supplier_D,None
+O-1832,2023-02-19,2023-02-22,2023-02-28,2023-03-03,Bengaluru,Mumbai_WH,Air,Supplier_D,Traffic
+O-1833,2023-01-20,2023-01-21,2023-01-23,2023-01-24,Hyderabad,Kolkata_WH,Rail,Supplier_C,Customs Delay
+O-1834,2023-05-26,2023-05-28,2023-05-31,2023-05-30,Bengaluru,Delhi_WH,Air,Supplier_D,None
+O-1835,2023-05-22,2023-05-24,2023-05-30,2023-06-02,Chennai,Delhi_WH,Rail,Supplier_A,Traffic
+O-1836,2023-10-29,2023-10-30,2023-11-01,2023-11-03,Bengaluru,Delhi_WH,Sea,Supplier_B,Traffic
+O-1837,2023-12-29,2023-12-30,2024-01-02,2024-01-05,Hyderabad,Mumbai_WH,Sea,Supplier_A,Customs Delay
+O-1838,2023-03-11,2023-03-13,2023-03-19,2023-03-21,Pune,Kolkata_WH,Rail,Supplier_B,Weather
+O-1839,2023-11-25,2023-11-28,2023-11-30,2023-11-30,Chennai,Mumbai_WH,Air,Supplier_C,None
+O-1840,2023-12-23,2023-12-24,2023-12-29,2023-12-28,Chennai,Delhi_WH,Rail,Supplier_A,None
+O-1841,2023-04-07,2023-04-10,2023-04-13,2023-04-15,Hyderabad,Kolkata_WH,Rail,Supplier_B,Transport Breakdown
+O-1842,2023-03-14,2023-03-16,2023-03-20,2023-03-20,Bengaluru,Kolkata_WH,Sea,Supplier_D,None
+O-1843,2023-03-24,2023-03-26,2023-03-29,2023-03-31,Hyderabad,Kolkata_WH,Road,Supplier_D,Customs Delay
+O-1844,2023-07-26,2023-07-27,2023-07-29,2023-08-01,Pune,Kolkata_WH,Air,Supplier_A,Traffic
+O-1845,2023-12-20,2023-12-23,2023-12-28,2023-12-31,Bengaluru,Kolkata_WH,Road,Supplier_B,Weather
+O-1846,2023-11-16,2023-11-17,2023-11-20,2023-11-21,Hyderabad,Ahmedabad_WH,Rail,Supplier_A,Traffic
+O-1847,2023-04-15,2023-04-17,2023-04-22,2023-04-25,Hyderabad,Delhi_WH,Road,Supplier_B,Traffic
+O-1848,2023-04-18,2023-04-19,2023-04-23,2023-04-23,Pune,Ahmedabad_WH,Road,Supplier_A,None
+O-1849,2023-06-19,2023-06-20,2023-06-22,2023-06-25,Chennai,Ahmedabad_WH,Rail,Supplier_D,Customs Delay
+O-1850,2023-04-30,2023-05-03,2023-05-05,2023-05-05,Chennai,Mumbai_WH,Air,Supplier_B,None
+O-1851,2023-03-20,2023-03-23,2023-03-25,2023-03-25,Pune,Ahmedabad_WH,Sea,Supplier_C,None
+O-1852,2023-02-25,2023-02-27,2023-03-02,2023-03-02,Chennai,Ahmedabad_WH,Rail,Supplier_A,None
+O-1853,2023-11-09,2023-11-11,2023-11-15,2023-11-16,Hyderabad,Mumbai_WH,Air,Supplier_D,Weather
+O-1854,2023-12-25,2023-12-28,2023-12-30,2024-01-02,Bengaluru,Mumbai_WH,Sea,Supplier_B,Transport Breakdown
+O-1855,2023-06-23,2023-06-26,2023-07-02,2023-07-01,Chennai,Delhi_WH,Rail,Supplier_A,None
+O-1856,2023-08-05,2023-08-08,2023-08-14,2023-08-13,Hyderabad,Delhi_WH,Rail,Supplier_B,None
+O-1857,2023-11-23,2023-11-26,2023-11-28,2023-11-27,Pune,Mumbai_WH,Air,Supplier_A,None
+O-1858,2023-05-30,2023-06-01,2023-06-04,2023-06-03,Bengaluru,Kolkata_WH,Air,Supplier_D,None
+O-1859,2023-08-29,2023-08-30,2023-09-05,2023-09-07,Pune,Ahmedabad_WH,Road,Supplier_A,Transport Breakdown
+O-1860,2023-10-16,2023-10-17,2023-10-20,2023-10-22,Hyderabad,Ahmedabad_WH,Rail,Supplier_B,Customs Delay
+O-1861,2023-07-28,2023-07-29,2023-08-01,2023-08-03,Hyderabad,Delhi_WH,Rail,Supplier_A,Transport Breakdown
+O-1862,2023-05-14,2023-05-17,2023-05-21,2023-05-21,Bengaluru,Delhi_WH,Sea,Supplier_C,None
+O-1863,2023-03-29,2023-04-01,2023-04-07,2023-04-08,Hyderabad,Kolkata_WH,Rail,Supplier_B,Transport Breakdown
+O-1864,2023-07-19,2023-07-21,2023-07-26,2023-07-26,Hyderabad,Delhi_WH,Rail,Supplier_A,None
+O-1865,2023-12-09,2023-12-10,2023-12-15,2023-12-17,Chennai,Delhi_WH,Sea,Supplier_C,Weather
+O-1866,2023-06-19,2023-06-22,2023-06-25,2023-06-27,Chennai,Kolkata_WH,Rail,Supplier_B,Traffic
+O-1867,2023-12-29,2023-12-30,2024-01-04,2024-01-04,Pune,Kolkata_WH,Air,Supplier_B,None
+O-1868,2023-03-10,2023-03-12,2023-03-16,2023-03-16,Hyderabad,Mumbai_WH,Road,Supplier_B,None
+O-1869,2023-10-10,2023-10-13,2023-10-19,2023-10-18,Hyderabad,Ahmedabad_WH,Road,Supplier_A,None
+O-1870,2023-08-30,2023-09-02,2023-09-07,2023-09-08,Hyderabad,Kolkata_WH,Road,Supplier_B,Weather
+O-1871,2023-03-05,2023-03-08,2023-03-14,2023-03-15,Pune,Delhi_WH,Rail,Supplier_A,Traffic
+O-1872,2023-05-03,2023-05-05,2023-05-09,2023-05-10,Chennai,Delhi_WH,Sea,Supplier_B,Weather
+O-1873,2023-09-10,2023-09-12,2023-09-17,2023-09-19,Pune,Mumbai_WH,Road,Supplier_A,Traffic
+O-1874,2023-12-17,2023-12-19,2023-12-21,2023-12-22,Hyderabad,Mumbai_WH,Road,Supplier_A,Customs Delay
+O-1875,2023-10-15,2023-10-18,2023-10-21,2023-10-24,Hyderabad,Ahmedabad_WH,Rail,Supplier_D,Customs Delay
+O-1876,2023-01-24,2023-01-25,2023-01-28,2023-01-29,Chennai,Ahmedabad_WH,Road,Supplier_D,Traffic
+O-1877,2023-10-26,2023-10-27,2023-11-01,2023-11-04,Hyderabad,Kolkata_WH,Sea,Supplier_A,Transport Breakdown
+O-1878,2023-03-17,2023-03-19,2023-03-25,2023-03-24,Hyderabad,Mumbai_WH,Rail,Supplier_C,None
+O-1879,2023-07-26,2023-07-29,2023-08-04,2023-08-03,Chennai,Ahmedabad_WH,Sea,Supplier_C,None
+O-1880,2023-06-08,2023-06-11,2023-06-14,2023-06-17,Chennai,Mumbai_WH,Rail,Supplier_D,Customs Delay
+O-1881,2023-03-14,2023-03-17,2023-03-23,2023-03-26,Hyderabad,Delhi_WH,Rail,Supplier_C,Transport Breakdown
+O-1882,2023-11-19,2023-11-20,2023-11-23,2023-11-22,Pune,Ahmedabad_WH,Sea,Supplier_D,None
+O-1883,2023-10-05,2023-10-06,2023-10-09,2023-10-12,Pune,Ahmedabad_WH,Rail,Supplier_B,Weather
+O-1884,2023-03-01,2023-03-03,2023-03-09,2023-03-09,Bengaluru,Delhi_WH,Road,Supplier_D,None
+O-1885,2023-08-21,2023-08-23,2023-08-26,2023-08-29,Pune,Delhi_WH,Sea,Supplier_A,Customs Delay
+O-1886,2023-01-30,2023-02-02,2023-02-07,2023-02-07,Hyderabad,Mumbai_WH,Sea,Supplier_C,None
+O-1887,2023-10-17,2023-10-20,2023-10-26,2023-10-25,Bengaluru,Mumbai_WH,Rail,Supplier_D,None
+O-1888,2023-04-14,2023-04-16,2023-04-21,2023-04-20,Pune,Mumbai_WH,Sea,Supplier_C,None
+O-1889,2023-09-20,2023-09-23,2023-09-27,2023-09-27,Hyderabad,Mumbai_WH,Sea,Supplier_B,None
+O-1890,2023-03-28,2023-03-31,2023-04-04,2023-04-03,Pune,Delhi_WH,Air,Supplier_C,None
+O-1891,2023-10-01,2023-10-02,2023-10-05,2023-10-07,Hyderabad,Ahmedabad_WH,Air,Supplier_A,Transport Breakdown
+O-1892,2023-12-18,2023-12-21,2023-12-26,2023-12-26,Pune,Ahmedabad_WH,Sea,Supplier_B,None
+O-1893,2023-07-26,2023-07-29,2023-07-31,2023-08-02,Hyderabad,Ahmedabad_WH,Road,Supplier_A,Transport Breakdown
+O-1894,2023-04-25,2023-04-28,2023-05-02,2023-05-03,Chennai,Mumbai_WH,Road,Supplier_A,Customs Delay
+O-1895,2023-02-07,2023-02-10,2023-02-13,2023-02-14,Bengaluru,Mumbai_WH,Sea,Supplier_B,Transport Breakdown
+O-1896,2023-01-20,2023-01-22,2023-01-24,2023-01-27,Chennai,Mumbai_WH,Sea,Supplier_A,Customs Delay
+O-1897,2023-08-20,2023-08-23,2023-08-29,2023-09-01,Pune,Kolkata_WH,Road,Supplier_A,Transport Breakdown
+O-1898,2023-07-14,2023-07-15,2023-07-21,2023-07-20,Hyderabad,Kolkata_WH,Sea,Supplier_A,None
+O-1899,2023-09-10,2023-09-13,2023-09-15,2023-09-18,Pune,Mumbai_WH,Road,Supplier_B,Weather
+O-1900,2023-10-19,2023-10-20,2023-10-22,2023-10-21,Pune,Ahmedabad_WH,Air,Supplier_D,None
+O-1901,2023-11-23,2023-11-24,2023-11-27,2023-11-30,Pune,Mumbai_WH,Sea,Supplier_C,Weather
+O-1902,2023-04-02,2023-04-04,2023-04-09,2023-04-09,Pune,Ahmedabad_WH,Air,Supplier_B,None
+O-1903,2023-01-14,2023-01-17,2023-01-22,2023-01-25,Pune,Kolkata_WH,Sea,Supplier_D,Weather
+O-1904,2023-02-27,2023-03-01,2023-03-07,2023-03-09,Bengaluru,Delhi_WH,Road,Supplier_C,Customs Delay
+O-1905,2023-05-31,2023-06-02,2023-06-04,2023-06-05,Bengaluru,Kolkata_WH,Air,Supplier_C,Weather
+O-1906,2023-03-18,2023-03-21,2023-03-23,2023-03-24,Bengaluru,Kolkata_WH,Road,Supplier_A,Traffic
+O-1907,2023-07-04,2023-07-05,2023-07-08,2023-07-11,Bengaluru,Kolkata_WH,Sea,Supplier_D,Weather
+O-1908,2023-06-02,2023-06-03,2023-06-06,2023-06-08,Hyderabad,Kolkata_WH,Rail,Supplier_D,Weather
+O-1909,2023-06-05,2023-06-08,2023-06-10,2023-06-09,Chennai,Mumbai_WH,Sea,Supplier_C,None
+O-1910,2023-11-26,2023-11-27,2023-12-01,2023-12-02,Chennai,Mumbai_WH,Air,Supplier_A,Traffic
+O-1911,2023-09-24,2023-09-27,2023-10-03,2023-10-05,Pune,Kolkata_WH,Sea,Supplier_C,Transport Breakdown
+O-1912,2023-07-07,2023-07-10,2023-07-13,2023-07-14,Bengaluru,Mumbai_WH,Air,Supplier_B,Weather
+O-1913,2023-11-27,2023-11-28,2023-12-02,2023-12-05,Chennai,Mumbai_WH,Road,Supplier_B,Traffic
+O-1914,2023-08-30,2023-09-01,2023-09-07,2023-09-06,Bengaluru,Mumbai_WH,Sea,Supplier_C,None
+O-1915,2023-06-16,2023-06-17,2023-06-23,2023-06-22,Chennai,Delhi_WH,Sea,Supplier_D,None
+O-1916,2023-12-18,2023-12-19,2023-12-22,2023-12-24,Bengaluru,Ahmedabad_WH,Air,Supplier_B,Customs Delay
+O-1917,2023-11-24,2023-11-26,2023-11-29,2023-12-02,Pune,Delhi_WH,Air,Supplier_D,Customs Delay
+O-1918,2023-09-10,2023-09-11,2023-09-14,2023-09-16,Hyderabad,Ahmedabad_WH,Air,Supplier_A,Weather
+O-1919,2023-08-14,2023-08-15,2023-08-18,2023-08-17,Chennai,Mumbai_WH,Rail,Supplier_A,None
+O-1920,2023-01-15,2023-01-18,2023-01-20,2023-01-20,Chennai,Mumbai_WH,Rail,Supplier_B,None
+O-1921,2023-12-21,2023-12-24,2023-12-28,2023-12-31,Pune,Mumbai_WH,Air,Supplier_D,Weather
+O-1922,2023-02-04,2023-02-06,2023-02-09,2023-02-09,Bengaluru,Ahmedabad_WH,Road,Supplier_C,None
+O-1923,2023-01-30,2023-02-02,2023-02-05,2023-02-04,Pune,Mumbai_WH,Sea,Supplier_D,None
+O-1924,2023-03-02,2023-03-05,2023-03-10,2023-03-12,Chennai,Mumbai_WH,Air,Supplier_A,Transport Breakdown
+O-1925,2023-06-25,2023-06-28,2023-07-04,2023-07-06,Hyderabad,Mumbai_WH,Air,Supplier_A,Customs Delay
+O-1926,2023-09-24,2023-09-25,2023-09-28,2023-09-29,Hyderabad,Kolkata_WH,Road,Supplier_B,Customs Delay
+O-1927,2023-07-12,2023-07-13,2023-07-15,2023-07-18,Chennai,Kolkata_WH,Rail,Supplier_B,Customs Delay
+O-1928,2023-02-19,2023-02-20,2023-02-25,2023-02-24,Hyderabad,Delhi_WH,Air,Supplier_B,None
+O-1929,2023-03-21,2023-03-22,2023-03-25,2023-03-27,Pune,Delhi_WH,Sea,Supplier_A,Traffic
+O-1930,2023-10-30,2023-10-31,2023-11-05,2023-11-05,Hyderabad,Ahmedabad_WH,Air,Supplier_A,None
+O-1931,2023-05-08,2023-05-09,2023-05-11,2023-05-10,Pune,Delhi_WH,Rail,Supplier_B,None
+O-1932,2023-07-10,2023-07-12,2023-07-17,2023-07-17,Hyderabad,Kolkata_WH,Air,Supplier_C,None
+O-1933,2023-01-14,2023-01-17,2023-01-22,2023-01-25,Bengaluru,Mumbai_WH,Road,Supplier_A,Customs Delay
+O-1934,2023-10-31,2023-11-01,2023-11-03,2023-11-04,Bengaluru,Mumbai_WH,Sea,Supplier_D,Traffic
+O-1935,2023-09-09,2023-09-11,2023-09-14,2023-09-16,Pune,Kolkata_WH,Road,Supplier_C,Customs Delay
+O-1936,2023-03-03,2023-03-06,2023-03-08,2023-03-09,Bengaluru,Mumbai_WH,Air,Supplier_D,Customs Delay
+O-1937,2023-01-17,2023-01-18,2023-01-22,2023-01-24,Hyderabad,Delhi_WH,Sea,Supplier_B,Transport Breakdown
+O-1938,2023-01-11,2023-01-14,2023-01-18,2023-01-21,Pune,Delhi_WH,Road,Supplier_A,Customs Delay
+O-1939,2023-07-22,2023-07-25,2023-07-31,2023-08-02,Pune,Ahmedabad_WH,Road,Supplier_A,Customs Delay
+O-1940,2023-05-27,2023-05-28,2023-06-02,2023-06-04,Chennai,Ahmedabad_WH,Air,Supplier_B,Weather
+O-1941,2023-03-26,2023-03-28,2023-03-31,2023-03-30,Bengaluru,Kolkata_WH,Air,Supplier_A,None
+O-1942,2023-05-01,2023-05-03,2023-05-09,2023-05-12,Bengaluru,Delhi_WH,Air,Supplier_C,Transport Breakdown
+O-1943,2023-10-01,2023-10-02,2023-10-05,2023-10-04,Pune,Kolkata_WH,Sea,Supplier_D,None
+O-1944,2023-05-13,2023-05-16,2023-05-18,2023-05-20,Bengaluru,Delhi_WH,Rail,Supplier_B,Transport Breakdown
+O-1945,2023-03-26,2023-03-29,2023-04-03,2023-04-06,Hyderabad,Kolkata_WH,Sea,Supplier_B,Customs Delay
+O-1946,2023-08-07,2023-08-08,2023-08-13,2023-08-16,Bengaluru,Kolkata_WH,Air,Supplier_D,Customs Delay
+O-1947,2023-11-24,2023-11-25,2023-12-01,2023-12-03,Chennai,Kolkata_WH,Sea,Supplier_D,Weather
+O-1948,2023-02-22,2023-02-24,2023-02-27,2023-02-27,Chennai,Kolkata_WH,Rail,Supplier_A,None
+O-1949,2023-11-11,2023-11-12,2023-11-17,2023-11-17,Hyderabad,Mumbai_WH,Rail,Supplier_C,None
+O-1950,2023-02-27,2023-03-02,2023-03-05,2023-03-06,Bengaluru,Mumbai_WH,Air,Supplier_C,Customs Delay
+O-1951,2023-07-25,2023-07-27,2023-07-29,2023-07-29,Pune,Delhi_WH,Rail,Supplier_C,None
+O-1952,2023-10-18,2023-10-20,2023-10-25,2023-10-24,Pune,Delhi_WH,Sea,Supplier_C,None
+O-1953,2023-02-19,2023-02-21,2023-02-23,2023-02-25,Hyderabad,Mumbai_WH,Sea,Supplier_D,Weather
+O-1954,2023-06-09,2023-06-12,2023-06-17,2023-06-20,Hyderabad,Ahmedabad_WH,Road,Supplier_B,Weather
+O-1955,2023-12-23,2023-12-25,2023-12-27,2023-12-28,Pune,Mumbai_WH,Road,Supplier_D,Traffic
+O-1956,2023-06-17,2023-06-19,2023-06-25,2023-06-24,Bengaluru,Kolkata_WH,Sea,Supplier_B,None
+O-1957,2023-08-09,2023-08-11,2023-08-16,2023-08-15,Pune,Ahmedabad_WH,Rail,Supplier_D,None
+O-1958,2023-04-24,2023-04-25,2023-05-01,2023-05-04,Pune,Kolkata_WH,Sea,Supplier_D,Traffic
+O-1959,2023-02-25,2023-02-27,2023-03-03,2023-03-06,Pune,Delhi_WH,Air,Supplier_C,Weather
+O-1960,2023-06-09,2023-06-11,2023-06-14,2023-06-15,Hyderabad,Ahmedabad_WH,Sea,Supplier_D,Traffic
+O-1961,2023-02-25,2023-02-27,2023-03-05,2023-03-08,Bengaluru,Delhi_WH,Sea,Supplier_A,Transport Breakdown
+O-1962,2023-07-29,2023-07-31,2023-08-03,2023-08-05,Hyderabad,Mumbai_WH,Air,Supplier_C,Traffic
+O-1963,2023-11-22,2023-11-23,2023-11-27,2023-11-28,Hyderabad,Kolkata_WH,Rail,Supplier_A,Customs Delay
+O-1964,2023-05-27,2023-05-30,2023-06-04,2023-06-05,Pune,Kolkata_WH,Air,Supplier_C,Customs Delay
+O-1965,2023-04-16,2023-04-17,2023-04-21,2023-04-21,Hyderabad,Ahmedabad_WH,Sea,Supplier_D,None
+O-1966,2023-05-07,2023-05-08,2023-05-12,2023-05-13,Bengaluru,Ahmedabad_WH,Road,Supplier_A,Customs Delay
+O-1967,2023-01-19,2023-01-22,2023-01-24,2023-01-27,Pune,Delhi_WH,Sea,Supplier_B,Traffic
+O-1968,2023-01-28,2023-01-31,2023-02-03,2023-02-06,Pune,Ahmedabad_WH,Road,Supplier_C,Weather
+O-1969,2023-11-15,2023-11-18,2023-11-24,2023-11-26,Pune,Ahmedabad_WH,Road,Supplier_D,Customs Delay
+O-1970,2023-01-19,2023-01-20,2023-01-26,2023-01-29,Hyderabad,Mumbai_WH,Rail,Supplier_C,Transport Breakdown
+O-1971,2023-01-16,2023-01-18,2023-01-21,2023-01-24,Bengaluru,Ahmedabad_WH,Air,Supplier_B,Customs Delay
+O-1972,2023-01-02,2023-01-03,2023-01-05,2023-01-08,Chennai,Mumbai_WH,Sea,Supplier_B,Transport Breakdown
+O-1973,2023-07-16,2023-07-17,2023-07-21,2023-07-20,Chennai,Kolkata_WH,Air,Supplier_C,None
+O-1974,2023-04-10,2023-04-12,2023-04-16,2023-04-18,Hyderabad,Mumbai_WH,Road,Supplier_C,Weather
+O-1975,2023-02-08,2023-02-10,2023-02-12,2023-02-11,Hyderabad,Ahmedabad_WH,Sea,Supplier_C,None
+O-1976,2023-12-27,2023-12-28,2024-01-01,2023-12-31,Bengaluru,Delhi_WH,Sea,Supplier_C,None
+O-1977,2023-05-31,2023-06-03,2023-06-06,2023-06-08,Hyderabad,Mumbai_WH,Air,Supplier_D,Transport Breakdown
+O-1978,2023-07-09,2023-07-12,2023-07-17,2023-07-17,Pune,Delhi_WH,Rail,Supplier_A,None
+O-1979,2023-07-14,2023-07-15,2023-07-19,2023-07-18,Hyderabad,Mumbai_WH,Road,Supplier_C,None
+O-1980,2023-05-29,2023-06-01,2023-06-03,2023-06-03,Hyderabad,Ahmedabad_WH,Sea,Supplier_D,None
+O-1981,2023-04-01,2023-04-02,2023-04-05,2023-04-08,Hyderabad,Kolkata_WH,Rail,Supplier_B,Transport Breakdown
+O-1982,2023-06-13,2023-06-15,2023-06-21,2023-06-21,Hyderabad,Delhi_WH,Road,Supplier_C,None
+O-1983,2023-08-24,2023-08-25,2023-08-28,2023-08-28,Pune,Delhi_WH,Rail,Supplier_D,None
+O-1984,2023-09-06,2023-09-09,2023-09-15,2023-09-15,Bengaluru,Delhi_WH,Air,Supplier_A,None
+O-1985,2023-01-31,2023-02-02,2023-02-08,2023-02-07,Hyderabad,Delhi_WH,Road,Supplier_A,None
+O-1986,2023-01-23,2023-01-26,2023-01-30,2023-01-30,Hyderabad,Delhi_WH,Sea,Supplier_B,None
+O-1987,2023-09-16,2023-09-19,2023-09-23,2023-09-26,Pune,Delhi_WH,Rail,Supplier_D,Weather
+O-1988,2023-03-01,2023-03-03,2023-03-05,2023-03-08,Pune,Ahmedabad_WH,Sea,Supplier_C,Customs Delay
+O-1989,2023-08-28,2023-08-30,2023-09-02,2023-09-03,Chennai,Delhi_WH,Rail,Supplier_B,Transport Breakdown
+O-1990,2023-04-10,2023-04-13,2023-04-19,2023-04-19,Hyderabad,Ahmedabad_WH,Rail,Supplier_A,None
+O-1991,2023-06-19,2023-06-21,2023-06-23,2023-06-25,Chennai,Delhi_WH,Rail,Supplier_D,Transport Breakdown
+O-1992,2023-06-16,2023-06-17,2023-06-19,2023-06-21,Bengaluru,Kolkata_WH,Road,Supplier_A,Weather
+O-1993,2023-12-27,2023-12-29,2024-01-03,2024-01-02,Pune,Kolkata_WH,Air,Supplier_B,None
+O-1994,2023-06-10,2023-06-13,2023-06-17,2023-06-16,Chennai,Ahmedabad_WH,Road,Supplier_B,None
+O-1995,2023-01-17,2023-01-19,2023-01-23,2023-01-22,Hyderabad,Kolkata_WH,Sea,Supplier_C,None
+O-1996,2023-01-25,2023-01-26,2023-01-31,2023-02-01,Chennai,Delhi_WH,Rail,Supplier_A,Customs Delay
+O-1997,2023-02-06,2023-02-09,2023-02-13,2023-02-16,Pune,Delhi_WH,Air,Supplier_A,Traffic
+O-1998,2023-07-18,2023-07-19,2023-07-21,2023-07-20,Bengaluru,Kolkata_WH,Sea,Supplier_B,None
+O-1999,2023-09-02,2023-09-04,2023-09-06,2023-09-06,Hyderabad,Ahmedabad_WH,Sea,Supplier_A,None
+O-2000,2023-07-21,2023-07-23,2023-07-28,2023-07-30,Bengaluru,Delhi_WH,Rail,Supplier_B,Customs Delay
+O-2001,2023-08-24,2023-08-27,2023-08-31,2023-08-31,Pune,Delhi_WH,Road,Supplier_B,None
+O-2002,2023-07-02,2023-07-03,2023-07-05,2023-07-08,Hyderabad,Delhi_WH,Rail,Supplier_A,Transport Breakdown
+O-2003,2023-06-21,2023-06-24,2023-06-30,2023-07-03,Pune,Ahmedabad_WH,Rail,Supplier_C,Transport Breakdown
+O-2004,2023-01-05,2023-01-08,2023-01-11,2023-01-13,Hyderabad,Mumbai_WH,Rail,Supplier_B,Weather
+O-2005,2023-04-03,2023-04-04,2023-04-09,2023-04-09,Chennai,Delhi_WH,Road,Supplier_B,None
+O-2006,2023-02-24,2023-02-25,2023-03-03,2023-03-05,Bengaluru,Ahmedabad_WH,Rail,Supplier_C,Customs Delay
+O-2007,2023-05-02,2023-05-04,2023-05-10,2023-05-13,Bengaluru,Kolkata_WH,Road,Supplier_A,Customs Delay
+O-2008,2023-03-28,2023-03-31,2023-04-05,2023-04-05,Bengaluru,Mumbai_WH,Road,Supplier_A,None
+O-2009,2023-05-23,2023-05-25,2023-05-29,2023-05-29,Bengaluru,Kolkata_WH,Air,Supplier_C,None
+O-2010,2023-01-26,2023-01-28,2023-01-31,2023-01-31,Bengaluru,Mumbai_WH,Air,Supplier_B,None
+O-2011,2023-01-25,2023-01-27,2023-01-31,2023-02-02,Hyderabad,Kolkata_WH,Road,Supplier_A,Customs Delay
+O-2012,2023-12-17,2023-12-18,2023-12-21,2023-12-24,Chennai,Delhi_WH,Sea,Supplier_B,Traffic
+O-2013,2023-05-07,2023-05-10,2023-05-16,2023-05-17,Bengaluru,Kolkata_WH,Sea,Supplier_A,Traffic
+O-2014,2023-01-21,2023-01-23,2023-01-26,2023-01-28,Hyderabad,Ahmedabad_WH,Road,Supplier_D,Customs Delay
+O-2015,2023-07-20,2023-07-21,2023-07-25,2023-07-28,Hyderabad,Ahmedabad_WH,Air,Supplier_A,Customs Delay
+O-2016,2023-02-15,2023-02-17,2023-02-20,2023-02-21,Hyderabad,Delhi_WH,Sea,Supplier_B,Customs Delay
+O-2017,2023-03-17,2023-03-20,2023-03-23,2023-03-24,Bengaluru,Ahmedabad_WH,Sea,Supplier_D,Traffic
+O-2018,2023-04-26,2023-04-27,2023-05-01,2023-05-01,Pune,Mumbai_WH,Road,Supplier_A,None
+O-2019,2023-12-20,2023-12-23,2023-12-27,2023-12-29,Hyderabad,Ahmedabad_WH,Sea,Supplier_C,Weather
+O-2020,2023-02-02,2023-02-04,2023-02-07,2023-02-08,Hyderabad,Ahmedabad_WH,Road,Supplier_D,Customs Delay
+O-2021,2023-07-24,2023-07-27,2023-07-30,2023-07-31,Pune,Mumbai_WH,Sea,Supplier_A,Weather
+O-2022,2023-03-04,2023-03-06,2023-03-08,2023-03-09,Chennai,Ahmedabad_WH,Air,Supplier_C,Customs Delay
+O-2023,2023-04-26,2023-04-27,2023-04-29,2023-04-28,Chennai,Ahmedabad_WH,Road,Supplier_D,None
+O-2024,2023-07-05,2023-07-08,2023-07-12,2023-07-12,Chennai,Mumbai_WH,Sea,Supplier_C,None
+O-2025,2023-03-17,2023-03-18,2023-03-23,2023-03-25,Hyderabad,Kolkata_WH,Air,Supplier_A,Transport Breakdown
+O-2026,2023-10-02,2023-10-03,2023-10-05,2023-10-06,Chennai,Ahmedabad_WH,Road,Supplier_C,Weather
+O-2027,2023-11-06,2023-11-08,2023-11-11,2023-11-14,Hyderabad,Delhi_WH,Air,Supplier_A,Traffic
+O-2028,2023-01-14,2023-01-17,2023-01-20,2023-01-23,Hyderabad,Mumbai_WH,Air,Supplier_B,Transport Breakdown
+O-2029,2023-01-01,2023-01-03,2023-01-07,2023-01-09,Chennai,Mumbai_WH,Rail,Supplier_B,Customs Delay
+O-2030,2023-11-07,2023-11-09,2023-11-11,2023-11-14,Chennai,Ahmedabad_WH,Air,Supplier_A,Customs Delay
+O-2031,2023-12-08,2023-12-11,2023-12-16,2023-12-17,Bengaluru,Ahmedabad_WH,Sea,Supplier_B,Weather
+O-2032,2023-03-20,2023-03-22,2023-03-28,2023-03-31,Pune,Kolkata_WH,Air,Supplier_A,Customs Delay
+O-2033,2023-02-04,2023-02-07,2023-02-09,2023-02-12,Hyderabad,Mumbai_WH,Rail,Supplier_B,Traffic
+O-2034,2023-01-07,2023-01-10,2023-01-12,2023-01-12,Pune,Mumbai_WH,Sea,Supplier_A,None
+O-2035,2023-07-05,2023-07-07,2023-07-11,2023-07-14,Hyderabad,Delhi_WH,Air,Supplier_C,Traffic
+O-2036,2023-01-09,2023-01-12,2023-01-14,2023-01-17,Hyderabad,Kolkata_WH,Air,Supplier_C,Transport Breakdown
+O-2037,2023-02-06,2023-02-09,2023-02-14,2023-02-13,Chennai,Delhi_WH,Air,Supplier_D,None
+O-2038,2023-10-17,2023-10-20,2023-10-25,2023-10-25,Hyderabad,Delhi_WH,Road,Supplier_D,None
+O-2039,2023-11-29,2023-12-02,2023-12-07,2023-12-08,Pune,Ahmedabad_WH,Air,Supplier_D,Customs Delay
+O-2040,2023-03-16,2023-03-17,2023-03-20,2023-03-19,Chennai,Delhi_WH,Road,Supplier_B,None
+O-2041,2023-08-04,2023-08-07,2023-08-12,2023-08-14,Bengaluru,Mumbai_WH,Rail,Supplier_A,Weather
+O-2042,2023-06-27,2023-06-29,2023-07-01,2023-07-02,Chennai,Ahmedabad_WH,Road,Supplier_D,Weather
+O-2043,2023-02-26,2023-03-01,2023-03-07,2023-03-08,Hyderabad,Delhi_WH,Sea,Supplier_D,Customs Delay
+O-2044,2023-08-07,2023-08-09,2023-08-12,2023-08-11,Hyderabad,Mumbai_WH,Rail,Supplier_D,None
+O-2045,2023-05-15,2023-05-17,2023-05-20,2023-05-21,Pune,Kolkata_WH,Road,Supplier_B,Weather
+O-2046,2023-04-26,2023-04-29,2023-05-03,2023-05-05,Hyderabad,Kolkata_WH,Road,Supplier_C,Weather
+O-2047,2023-05-08,2023-05-09,2023-05-11,2023-05-10,Pune,Delhi_WH,Sea,Supplier_B,None
+O-2048,2023-07-09,2023-07-11,2023-07-16,2023-07-19,Pune,Ahmedabad_WH,Air,Supplier_B,Customs Delay
+O-2049,2023-07-02,2023-07-03,2023-07-06,2023-07-05,Bengaluru,Mumbai_WH,Air,Supplier_A,None
+O-2050,2023-10-21,2023-10-24,2023-10-27,2023-10-26,Hyderabad,Delhi_WH,Rail,Supplier_A,None
+O-2051,2023-04-04,2023-04-05,2023-04-10,2023-04-10,Chennai,Kolkata_WH,Air,Supplier_A,None
+O-2052,2023-09-16,2023-09-19,2023-09-24,2023-09-27,Hyderabad,Ahmedabad_WH,Road,Supplier_B,Traffic
+O-2053,2023-02-02,2023-02-04,2023-02-08,2023-02-08,Hyderabad,Kolkata_WH,Road,Supplier_D,None
+O-2054,2023-04-03,2023-04-05,2023-04-09,2023-04-09,Hyderabad,Kolkata_WH,Air,Supplier_D,None
+O-2055,2023-04-28,2023-04-29,2023-05-02,2023-05-02,Chennai,Delhi_WH,Rail,Supplier_B,None
+O-2056,2023-01-30,2023-01-31,2023-02-04,2023-02-05,Pune,Mumbai_WH,Road,Supplier_C,Customs Delay
+O-2057,2023-10-04,2023-10-06,2023-10-11,2023-10-10,Bengaluru,Mumbai_WH,Road,Supplier_B,None
+O-2058,2023-09-01,2023-09-04,2023-09-09,2023-09-10,Hyderabad,Delhi_WH,Sea,Supplier_C,Weather
+O-2059,2023-09-16,2023-09-17,2023-09-20,2023-09-20,Chennai,Kolkata_WH,Rail,Supplier_D,None
+O-2060,2023-11-18,2023-11-19,2023-11-24,2023-11-27,Hyderabad,Mumbai_WH,Air,Supplier_B,Traffic
+O-2061,2023-01-26,2023-01-28,2023-02-01,2023-01-31,Bengaluru,Ahmedabad_WH,Air,Supplier_A,None
+O-2062,2023-03-31,2023-04-01,2023-04-06,2023-04-08,Bengaluru,Mumbai_WH,Air,Supplier_D,Weather
+O-2063,2023-04-10,2023-04-13,2023-04-15,2023-04-18,Hyderabad,Mumbai_WH,Air,Supplier_C,Customs Delay
+O-2064,2023-01-11,2023-01-12,2023-01-14,2023-01-15,Pune,Ahmedabad_WH,Rail,Supplier_A,Transport Breakdown
+O-2065,2023-11-03,2023-11-06,2023-11-10,2023-11-12,Chennai,Mumbai_WH,Rail,Supplier_D,Customs Delay
+O-2066,2023-03-14,2023-03-17,2023-03-20,2023-03-19,Pune,Delhi_WH,Rail,Supplier_D,None
+O-2067,2023-10-30,2023-11-01,2023-11-05,2023-11-08,Bengaluru,Mumbai_WH,Air,Supplier_B,Transport Breakdown
+O-2068,2023-06-21,2023-06-24,2023-06-28,2023-07-01,Hyderabad,Delhi_WH,Rail,Supplier_D,Traffic
+O-2069,2023-04-01,2023-04-02,2023-04-04,2023-04-04,Bengaluru,Delhi_WH,Road,Supplier_B,None
+O-2070,2023-10-26,2023-10-27,2023-11-02,2023-11-03,Bengaluru,Delhi_WH,Road,Supplier_C,Weather
+O-2071,2023-11-23,2023-11-25,2023-11-29,2023-12-01,Pune,Ahmedabad_WH,Road,Supplier_C,Weather
+O-2072,2023-04-04,2023-04-05,2023-04-09,2023-04-08,Bengaluru,Mumbai_WH,Road,Supplier_B,None
+O-2073,2023-03-20,2023-03-22,2023-03-28,2023-03-31,Hyderabad,Ahmedabad_WH,Road,Supplier_A,Weather
+O-2074,2023-02-01,2023-02-02,2023-02-06,2023-02-06,Chennai,Delhi_WH,Air,Supplier_A,None
+O-2075,2023-10-11,2023-10-14,2023-10-17,2023-10-19,Bengaluru,Kolkata_WH,Road,Supplier_B,Customs Delay
+O-2076,2023-09-05,2023-09-07,2023-09-09,2023-09-12,Chennai,Mumbai_WH,Road,Supplier_D,Weather
+O-2077,2023-03-21,2023-03-24,2023-03-30,2023-03-30,Bengaluru,Mumbai_WH,Air,Supplier_A,None
+O-2078,2023-07-27,2023-07-29,2023-08-03,2023-08-05,Pune,Delhi_WH,Road,Supplier_D,Traffic
+O-2079,2023-11-07,2023-11-09,2023-11-14,2023-11-13,Chennai,Ahmedabad_WH,Sea,Supplier_A,None
+O-2080,2023-12-26,2023-12-28,2024-01-02,2024-01-03,Bengaluru,Mumbai_WH,Sea,Supplier_B,Transport Breakdown
+O-2081,2023-11-05,2023-11-07,2023-11-12,2023-11-11,Pune,Mumbai_WH,Sea,Supplier_C,None
+O-2082,2023-10-21,2023-10-24,2023-10-29,2023-10-31,Bengaluru,Ahmedabad_WH,Road,Supplier_C,Traffic
+O-2083,2023-08-25,2023-08-26,2023-08-30,2023-09-01,Bengaluru,Ahmedabad_WH,Air,Supplier_C,Weather
+O-2084,2023-03-29,2023-03-30,2023-04-01,2023-04-01,Bengaluru,Kolkata_WH,Sea,Supplier_D,None
+O-2085,2023-04-24,2023-04-25,2023-05-01,2023-05-04,Pune,Delhi_WH,Road,Supplier_C,Customs Delay
+O-2086,2023-01-08,2023-01-09,2023-01-14,2023-01-15,Hyderabad,Mumbai_WH,Road,Supplier_C,Traffic
+O-2087,2023-07-18,2023-07-20,2023-07-22,2023-07-25,Bengaluru,Kolkata_WH,Air,Supplier_B,Weather
+O-2088,2023-11-26,2023-11-27,2023-11-29,2023-11-28,Chennai,Ahmedabad_WH,Air,Supplier_D,None
+O-2089,2023-05-21,2023-05-24,2023-05-28,2023-05-30,Hyderabad,Ahmedabad_WH,Rail,Supplier_A,Transport Breakdown
+O-2090,2023-08-06,2023-08-07,2023-08-10,2023-08-10,Chennai,Kolkata_WH,Road,Supplier_D,None
+O-2091,2023-10-05,2023-10-07,2023-10-11,2023-10-12,Hyderabad,Kolkata_WH,Sea,Supplier_D,Customs Delay
+O-2092,2023-02-22,2023-02-23,2023-03-01,2023-02-28,Pune,Mumbai_WH,Road,Supplier_C,None
+O-2093,2023-11-13,2023-11-15,2023-11-21,2023-11-22,Pune,Mumbai_WH,Rail,Supplier_D,Weather
+O-2094,2023-08-18,2023-08-19,2023-08-21,2023-08-22,Pune,Delhi_WH,Road,Supplier_D,Traffic
+O-2095,2023-08-13,2023-08-16,2023-08-20,2023-08-19,Chennai,Kolkata_WH,Sea,Supplier_C,None
+O-2096,2023-09-29,2023-09-30,2023-10-05,2023-10-04,Chennai,Delhi_WH,Road,Supplier_B,None
+O-2097,2023-09-03,2023-09-06,2023-09-11,2023-09-11,Pune,Mumbai_WH,Road,Supplier_A,None
+O-2098,2023-04-26,2023-04-28,2023-05-04,2023-05-03,Chennai,Kolkata_WH,Road,Supplier_C,None
+O-2099,2023-03-25,2023-03-28,2023-04-02,2023-04-05,Hyderabad,Ahmedabad_WH,Rail,Supplier_D,Traffic
+O-2100,2023-02-27,2023-02-28,2023-03-06,2023-03-09,Bengaluru,Delhi_WH,Sea,Supplier_A,Weather
+O-2101,2023-07-19,2023-07-21,2023-07-27,2023-07-30,Chennai,Kolkata_WH,Sea,Supplier_C,Weather
+O-2102,2023-02-06,2023-02-08,2023-02-14,2023-02-16,Chennai,Mumbai_WH,Air,Supplier_A,Traffic
+O-2103,2023-04-16,2023-04-18,2023-04-23,2023-04-23,Bengaluru,Kolkata_WH,Sea,Supplier_C,None
+O-2104,2023-10-03,2023-10-04,2023-10-08,2023-10-09,Chennai,Ahmedabad_WH,Road,Supplier_A,Traffic
+O-2105,2023-04-24,2023-04-26,2023-04-28,2023-04-29,Hyderabad,Mumbai_WH,Sea,Supplier_D,Traffic
+O-2106,2023-09-30,2023-10-01,2023-10-07,2023-10-09,Bengaluru,Mumbai_WH,Air,Supplier_A,Weather
+O-2107,2023-06-17,2023-06-18,2023-06-21,2023-06-22,Bengaluru,Kolkata_WH,Sea,Supplier_A,Customs Delay
+O-2108,2023-04-18,2023-04-20,2023-04-23,2023-04-26,Hyderabad,Mumbai_WH,Road,Supplier_C,Traffic
+O-2109,2023-10-27,2023-10-29,2023-11-04,2023-11-04,Hyderabad,Mumbai_WH,Rail,Supplier_D,None
+O-2110,2023-08-22,2023-08-23,2023-08-26,2023-08-29,Hyderabad,Mumbai_WH,Sea,Supplier_D,Transport Breakdown
+O-2111,2023-11-16,2023-11-19,2023-11-24,2023-11-25,Bengaluru,Delhi_WH,Rail,Supplier_A,Customs Delay
+O-2112,2023-01-05,2023-01-07,2023-01-10,2023-01-12,Hyderabad,Mumbai_WH,Air,Supplier_B,Transport Breakdown
+O-2113,2023-10-22,2023-10-24,2023-10-30,2023-10-29,Chennai,Delhi_WH,Sea,Supplier_C,None
+O-2114,2023-12-28,2023-12-29,2024-01-02,2024-01-05,Pune,Delhi_WH,Air,Supplier_C,Transport Breakdown
+O-2115,2023-04-17,2023-04-20,2023-04-26,2023-04-29,Chennai,Kolkata_WH,Sea,Supplier_A,Traffic
+O-2116,2023-01-05,2023-01-08,2023-01-10,2023-01-13,Bengaluru,Mumbai_WH,Rail,Supplier_C,Traffic
+O-2117,2023-12-02,2023-12-03,2023-12-06,2023-12-05,Pune,Delhi_WH,Road,Supplier_A,None
+O-2118,2023-03-23,2023-03-25,2023-03-29,2023-03-29,Bengaluru,Mumbai_WH,Road,Supplier_C,None
+O-2119,2023-10-22,2023-10-24,2023-10-27,2023-10-27,Hyderabad,Kolkata_WH,Air,Supplier_B,None
+O-2120,2023-02-25,2023-02-28,2023-03-06,2023-03-05,Hyderabad,Delhi_WH,Road,Supplier_B,None
+O-2121,2023-03-19,2023-03-20,2023-03-22,2023-03-25,Chennai,Delhi_WH,Air,Supplier_D,Weather
+O-2122,2023-11-06,2023-11-08,2023-11-10,2023-11-09,Hyderabad,Ahmedabad_WH,Road,Supplier_C,None
+O-2123,2023-02-17,2023-02-18,2023-02-21,2023-02-24,Chennai,Mumbai_WH,Road,Supplier_D,Transport Breakdown
+O-2124,2023-02-27,2023-03-01,2023-03-03,2023-03-06,Pune,Ahmedabad_WH,Road,Supplier_C,Customs Delay
+O-2125,2023-03-15,2023-03-16,2023-03-21,2023-03-20,Chennai,Kolkata_WH,Air,Supplier_B,None
+O-2126,2023-11-12,2023-11-13,2023-11-16,2023-11-16,Chennai,Ahmedabad_WH,Sea,Supplier_D,None
+O-2127,2023-06-26,2023-06-29,2023-07-03,2023-07-06,Chennai,Kolkata_WH,Road,Supplier_A,Weather
+O-2128,2023-09-03,2023-09-06,2023-09-11,2023-09-14,Hyderabad,Kolkata_WH,Air,Supplier_C,Transport Breakdown
+O-2129,2023-10-20,2023-10-21,2023-10-26,2023-10-27,Bengaluru,Delhi_WH,Road,Supplier_D,Customs Delay
+O-2130,2023-05-23,2023-05-26,2023-05-30,2023-06-02,Pune,Mumbai_WH,Rail,Supplier_B,Transport Breakdown
+O-2131,2023-03-27,2023-03-28,2023-04-02,2023-04-02,Chennai,Delhi_WH,Road,Supplier_A,None
+O-2132,2023-10-31,2023-11-01,2023-11-07,2023-11-06,Hyderabad,Mumbai_WH,Road,Supplier_D,None
+O-2133,2023-03-13,2023-03-16,2023-03-21,2023-03-21,Chennai,Mumbai_WH,Sea,Supplier_D,None
+O-2134,2023-09-03,2023-09-05,2023-09-10,2023-09-10,Bengaluru,Ahmedabad_WH,Road,Supplier_C,None
+O-2135,2023-09-25,2023-09-26,2023-09-30,2023-09-29,Bengaluru,Delhi_WH,Rail,Supplier_D,None
+O-2136,2023-06-15,2023-06-16,2023-06-20,2023-06-22,Pune,Mumbai_WH,Road,Supplier_A,Transport Breakdown
+O-2137,2023-10-09,2023-10-10,2023-10-14,2023-10-13,Bengaluru,Delhi_WH,Air,Supplier_A,None
+O-2138,2023-03-14,2023-03-15,2023-03-21,2023-03-22,Chennai,Ahmedabad_WH,Sea,Supplier_A,Traffic
+O-2139,2023-01-05,2023-01-07,2023-01-09,2023-01-09,Hyderabad,Delhi_WH,Road,Supplier_C,None
+O-2140,2023-05-27,2023-05-30,2023-06-04,2023-06-03,Pune,Delhi_WH,Road,Supplier_C,None
+O-2141,2023-01-16,2023-01-17,2023-01-20,2023-01-20,Hyderabad,Delhi_WH,Air,Supplier_B,None
+O-2142,2023-08-11,2023-08-13,2023-08-16,2023-08-17,Hyderabad,Ahmedabad_WH,Sea,Supplier_A,Weather
+O-2143,2023-11-15,2023-11-16,2023-11-20,2023-11-20,Bengaluru,Delhi_WH,Road,Supplier_D,None
+O-2144,2023-03-25,2023-03-27,2023-03-29,2023-03-29,Hyderabad,Mumbai_WH,Sea,Supplier_D,None
+O-2145,2023-05-22,2023-05-23,2023-05-29,2023-05-31,Chennai,Mumbai_WH,Sea,Supplier_D,Transport Breakdown
+O-2146,2023-02-25,2023-02-28,2023-03-04,2023-03-07,Bengaluru,Ahmedabad_WH,Rail,Supplier_A,Transport Breakdown
+O-2147,2023-02-14,2023-02-16,2023-02-21,2023-02-22,Bengaluru,Mumbai_WH,Air,Supplier_B,Weather
+O-2148,2023-04-11,2023-04-14,2023-04-20,2023-04-19,Bengaluru,Ahmedabad_WH,Air,Supplier_A,None
+O-2149,2023-10-02,2023-10-03,2023-10-08,2023-10-10,Pune,Ahmedabad_WH,Road,Supplier_A,Weather
+O-2150,2023-01-16,2023-01-17,2023-01-22,2023-01-21,Chennai,Mumbai_WH,Rail,Supplier_A,None
+O-2151,2023-03-25,2023-03-26,2023-03-29,2023-03-28,Bengaluru,Mumbai_WH,Sea,Supplier_A,None
+O-2152,2023-12-20,2023-12-22,2023-12-24,2023-12-27,Chennai,Delhi_WH,Sea,Supplier_A,Transport Breakdown
+O-2153,2023-01-05,2023-01-08,2023-01-10,2023-01-09,Pune,Kolkata_WH,Air,Supplier_D,None
+O-2154,2023-08-28,2023-08-31,2023-09-02,2023-09-02,Hyderabad,Mumbai_WH,Sea,Supplier_A,None
+O-2155,2023-09-09,2023-09-10,2023-09-16,2023-09-16,Pune,Ahmedabad_WH,Sea,Supplier_D,None
+O-2156,2023-09-14,2023-09-15,2023-09-17,2023-09-17,Pune,Ahmedabad_WH,Rail,Supplier_C,None
+O-2157,2023-05-13,2023-05-15,2023-05-20,2023-05-19,Pune,Ahmedabad_WH,Sea,Supplier_D,None
+O-2158,2023-01-29,2023-02-01,2023-02-03,2023-02-05,Bengaluru,Kolkata_WH,Air,Supplier_B,Weather
+O-2159,2023-05-28,2023-05-31,2023-06-04,2023-06-07,Chennai,Mumbai_WH,Air,Supplier_A,Traffic
+O-2160,2023-07-13,2023-07-15,2023-07-19,2023-07-22,Pune,Delhi_WH,Rail,Supplier_A,Transport Breakdown
+O-2161,2023-05-13,2023-05-14,2023-05-19,2023-05-22,Hyderabad,Ahmedabad_WH,Road,Supplier_C,Transport Breakdown
+O-2162,2023-10-31,2023-11-02,2023-11-08,2023-11-10,Chennai,Mumbai_WH,Rail,Supplier_A,Traffic
+O-2163,2023-08-05,2023-08-07,2023-08-12,2023-08-12,Pune,Kolkata_WH,Road,Supplier_D,None
+O-2164,2023-12-07,2023-12-10,2023-12-12,2023-12-12,Chennai,Ahmedabad_WH,Road,Supplier_D,None
+O-2165,2023-07-16,2023-07-17,2023-07-20,2023-07-23,Hyderabad,Mumbai_WH,Rail,Supplier_C,Customs Delay
+O-2166,2023-08-17,2023-08-20,2023-08-25,2023-08-25,Chennai,Delhi_WH,Air,Supplier_C,None
+O-2167,2023-09-16,2023-09-18,2023-09-24,2023-09-23,Chennai,Ahmedabad_WH,Sea,Supplier_B,None
+O-2168,2023-06-27,2023-06-28,2023-07-04,2023-07-07,Pune,Delhi_WH,Sea,Supplier_B,Customs Delay
+O-2169,2023-08-31,2023-09-03,2023-09-09,2023-09-11,Hyderabad,Delhi_WH,Rail,Supplier_D,Transport Breakdown
+O-2170,2023-04-16,2023-04-17,2023-04-19,2023-04-19,Chennai,Ahmedabad_WH,Air,Supplier_D,None
+O-2171,2023-02-24,2023-02-26,2023-03-01,2023-02-28,Bengaluru,Ahmedabad_WH,Rail,Supplier_D,None
+O-2172,2023-10-24,2023-10-25,2023-10-28,2023-10-31,Bengaluru,Ahmedabad_WH,Air,Supplier_B,Customs Delay
+O-2173,2023-10-07,2023-10-08,2023-10-10,2023-10-12,Bengaluru,Ahmedabad_WH,Road,Supplier_A,Transport Breakdown
+O-2174,2023-04-05,2023-04-07,2023-04-12,2023-04-12,Chennai,Mumbai_WH,Rail,Supplier_C,None
+O-2175,2023-07-23,2023-07-25,2023-07-29,2023-07-28,Chennai,Delhi_WH,Air,Supplier_A,None
+O-2176,2023-10-21,2023-10-22,2023-10-27,2023-10-27,Bengaluru,Mumbai_WH,Rail,Supplier_B,None
+O-2177,2023-10-11,2023-10-14,2023-10-18,2023-10-19,Hyderabad,Mumbai_WH,Sea,Supplier_B,Customs Delay
+O-2178,2023-07-06,2023-07-08,2023-07-10,2023-07-10,Hyderabad,Ahmedabad_WH,Road,Supplier_A,None
+O-2179,2023-05-24,2023-05-26,2023-06-01,2023-06-04,Chennai,Delhi_WH,Air,Supplier_C,Traffic
+O-2180,2023-01-31,2023-02-01,2023-02-07,2023-02-07,Pune,Kolkata_WH,Rail,Supplier_C,None
+O-2181,2023-05-31,2023-06-01,2023-06-06,2023-06-06,Chennai,Mumbai_WH,Sea,Supplier_B,None
+O-2182,2023-10-24,2023-10-25,2023-10-30,2023-10-31,Bengaluru,Mumbai_WH,Rail,Supplier_C,Transport Breakdown
+O-2183,2023-03-23,2023-03-24,2023-03-26,2023-03-28,Pune,Kolkata_WH,Rail,Supplier_C,Customs Delay
+O-2184,2023-04-29,2023-05-02,2023-05-07,2023-05-07,Hyderabad,Kolkata_WH,Sea,Supplier_A,None
+O-2185,2023-08-18,2023-08-19,2023-08-21,2023-08-20,Hyderabad,Delhi_WH,Air,Supplier_A,None
+O-2186,2023-01-06,2023-01-08,2023-01-10,2023-01-11,Pune,Kolkata_WH,Air,Supplier_B,Customs Delay
+O-2187,2023-07-11,2023-07-14,2023-07-18,2023-07-18,Hyderabad,Mumbai_WH,Air,Supplier_C,None
+O-2188,2023-01-22,2023-01-24,2023-01-29,2023-01-31,Hyderabad,Ahmedabad_WH,Air,Supplier_C,Customs Delay
+O-2189,2023-10-05,2023-10-08,2023-10-12,2023-10-14,Pune,Ahmedabad_WH,Road,Supplier_B,Weather
+O-2190,2023-07-27,2023-07-28,2023-07-30,2023-08-02,Hyderabad,Mumbai_WH,Sea,Supplier_D,Weather
+O-2191,2023-04-04,2023-04-06,2023-04-08,2023-04-07,Chennai,Mumbai_WH,Air,Supplier_B,None
+O-2192,2023-03-28,2023-03-29,2023-04-01,2023-04-02,Bengaluru,Delhi_WH,Rail,Supplier_B,Traffic
+O-2193,2023-01-01,2023-01-03,2023-01-07,2023-01-06,Hyderabad,Ahmedabad_WH,Rail,Supplier_B,None
+O-2194,2023-04-13,2023-04-16,2023-04-22,2023-04-22,Chennai,Kolkata_WH,Air,Supplier_B,None
+O-2195,2023-12-04,2023-12-05,2023-12-09,2023-12-11,Hyderabad,Ahmedabad_WH,Sea,Supplier_B,Weather
+O-2196,2023-04-27,2023-04-29,2023-05-02,2023-05-02,Bengaluru,Kolkata_WH,Rail,Supplier_A,None
+O-2197,2023-05-25,2023-05-28,2023-05-30,2023-06-01,Bengaluru,Kolkata_WH,Air,Supplier_A,Weather
+O-2198,2023-01-17,2023-01-19,2023-01-22,2023-01-23,Hyderabad,Ahmedabad_WH,Air,Supplier_C,Weather
+O-2199,2023-03-30,2023-04-01,2023-04-04,2023-04-03,Hyderabad,Mumbai_WH,Air,Supplier_A,None
+O-2200,2023-10-21,2023-10-23,2023-10-28,2023-10-31,Chennai,Ahmedabad_WH,Air,Supplier_C,Traffic
+O-2201,2023-09-22,2023-09-24,2023-09-28,2023-09-27,Chennai,Mumbai_WH,Road,Supplier_D,None
+O-2202,2023-05-01,2023-05-03,2023-05-09,2023-05-12,Hyderabad,Kolkata_WH,Road,Supplier_A,Traffic
+O-2203,2023-08-22,2023-08-25,2023-08-31,2023-09-01,Pune,Mumbai_WH,Air,Supplier_A,Weather
+O-2204,2023-04-30,2023-05-02,2023-05-08,2023-05-07,Chennai,Ahmedabad_WH,Rail,Supplier_D,None
+O-2205,2023-09-22,2023-09-24,2023-09-28,2023-09-27,Bengaluru,Delhi_WH,Sea,Supplier_B,None
+O-2206,2023-08-16,2023-08-18,2023-08-23,2023-08-26,Chennai,Mumbai_WH,Air,Supplier_A,Customs Delay
+O-2207,2023-10-22,2023-10-25,2023-10-29,2023-10-28,Hyderabad,Ahmedabad_WH,Road,Supplier_D,None
+O-2208,2023-10-21,2023-10-23,2023-10-26,2023-10-27,Hyderabad,Mumbai_WH,Sea,Supplier_D,Customs Delay
+O-2209,2023-11-28,2023-12-01,2023-12-06,2023-12-05,Bengaluru,Kolkata_WH,Sea,Supplier_D,None
+O-2210,2023-10-25,2023-10-28,2023-10-31,2023-11-03,Hyderabad,Mumbai_WH,Air,Supplier_A,Traffic
+O-2211,2023-03-29,2023-03-31,2023-04-06,2023-04-07,Pune,Kolkata_WH,Road,Supplier_D,Customs Delay
+O-2212,2023-10-17,2023-10-20,2023-10-25,2023-10-27,Pune,Kolkata_WH,Sea,Supplier_A,Traffic
+O-2213,2023-12-04,2023-12-05,2023-12-07,2023-12-07,Chennai,Kolkata_WH,Road,Supplier_C,None
+O-2214,2023-02-22,2023-02-24,2023-02-28,2023-03-03,Pune,Delhi_WH,Road,Supplier_A,Customs Delay
+O-2215,2023-09-20,2023-09-23,2023-09-29,2023-09-28,Chennai,Delhi_WH,Road,Supplier_A,None
+O-2216,2023-08-23,2023-08-24,2023-08-30,2023-09-02,Bengaluru,Delhi_WH,Air,Supplier_C,Weather
+O-2217,2023-08-30,2023-09-01,2023-09-06,2023-09-06,Bengaluru,Mumbai_WH,Road,Supplier_D,None
+O-2218,2023-05-18,2023-05-19,2023-05-23,2023-05-26,Pune,Kolkata_WH,Air,Supplier_B,Transport Breakdown
+O-2219,2023-04-21,2023-04-23,2023-04-29,2023-04-28,Chennai,Kolkata_WH,Road,Supplier_C,None
+O-2220,2023-11-09,2023-11-11,2023-11-16,2023-11-15,Bengaluru,Mumbai_WH,Air,Supplier_D,None
+O-2221,2023-07-08,2023-07-10,2023-07-12,2023-07-12,Bengaluru,Ahmedabad_WH,Sea,Supplier_C,None
+O-2222,2023-03-19,2023-03-20,2023-03-23,2023-03-23,Hyderabad,Ahmedabad_WH,Sea,Supplier_C,None
+O-2223,2023-03-11,2023-03-14,2023-03-16,2023-03-17,Hyderabad,Mumbai_WH,Sea,Supplier_C,Customs Delay
+O-2224,2023-07-13,2023-07-16,2023-07-22,2023-07-25,Chennai,Kolkata_WH,Air,Supplier_B,Customs Delay
+O-2225,2023-05-07,2023-05-09,2023-05-15,2023-05-15,Pune,Delhi_WH,Road,Supplier_A,None
+O-2226,2023-01-06,2023-01-07,2023-01-09,2023-01-08,Chennai,Ahmedabad_WH,Rail,Supplier_B,None
+O-2227,2023-04-22,2023-04-24,2023-04-26,2023-04-25,Pune,Delhi_WH,Air,Supplier_A,None
+O-2228,2023-03-23,2023-03-26,2023-03-29,2023-03-30,Hyderabad,Kolkata_WH,Rail,Supplier_C,Traffic
+O-2229,2023-11-15,2023-11-17,2023-11-23,2023-11-26,Hyderabad,Delhi_WH,Air,Supplier_D,Transport Breakdown
+O-2230,2023-11-12,2023-11-14,2023-11-19,2023-11-18,Bengaluru,Ahmedabad_WH,Sea,Supplier_B,None
+O-2231,2023-03-03,2023-03-06,2023-03-09,2023-03-10,Hyderabad,Kolkata_WH,Road,Supplier_C,Customs Delay
+O-2232,2023-02-01,2023-02-02,2023-02-07,2023-02-06,Hyderabad,Kolkata_WH,Air,Supplier_A,None
+O-2233,2023-04-08,2023-04-10,2023-04-13,2023-04-14,Hyderabad,Delhi_WH,Rail,Supplier_B,Weather
+O-2234,2023-01-03,2023-01-06,2023-01-11,2023-01-13,Pune,Delhi_WH,Road,Supplier_B,Weather
+O-2235,2023-06-30,2023-07-02,2023-07-05,2023-07-06,Bengaluru,Kolkata_WH,Road,Supplier_C,Traffic
+O-2236,2023-11-14,2023-11-16,2023-11-20,2023-11-20,Pune,Kolkata_WH,Road,Supplier_D,None
+O-2237,2023-03-02,2023-03-05,2023-03-09,2023-03-08,Pune,Kolkata_WH,Air,Supplier_C,None
+O-2238,2023-09-21,2023-09-23,2023-09-29,2023-10-02,Bengaluru,Mumbai_WH,Rail,Supplier_B,Transport Breakdown
+O-2239,2023-12-21,2023-12-23,2023-12-29,2023-12-29,Hyderabad,Kolkata_WH,Air,Supplier_A,None
+O-2240,2023-09-07,2023-09-08,2023-09-14,2023-09-17,Bengaluru,Ahmedabad_WH,Road,Supplier_A,Transport Breakdown
+O-2241,2023-02-21,2023-02-22,2023-02-26,2023-03-01,Hyderabad,Ahmedabad_WH,Rail,Supplier_B,Weather
+O-2242,2023-01-10,2023-01-12,2023-01-15,2023-01-18,Chennai,Mumbai_WH,Road,Supplier_D,Transport Breakdown
+O-2243,2023-02-02,2023-02-04,2023-02-09,2023-02-08,Bengaluru,Ahmedabad_WH,Rail,Supplier_B,None
+O-2244,2023-01-07,2023-01-08,2023-01-13,2023-01-12,Pune,Mumbai_WH,Rail,Supplier_A,None
+O-2245,2023-07-22,2023-07-24,2023-07-27,2023-07-29,Chennai,Delhi_WH,Rail,Supplier_D,Traffic
+O-2246,2023-03-26,2023-03-27,2023-03-30,2023-03-29,Bengaluru,Delhi_WH,Air,Supplier_B,None
+O-2247,2023-07-20,2023-07-21,2023-07-23,2023-07-26,Bengaluru,Mumbai_WH,Road,Supplier_B,Transport Breakdown
+O-2248,2023-10-13,2023-10-16,2023-10-20,2023-10-21,Pune,Kolkata_WH,Air,Supplier_A,Weather
+O-2249,2023-07-23,2023-07-25,2023-07-28,2023-07-28,Pune,Kolkata_WH,Rail,Supplier_C,None
+O-2250,2023-10-05,2023-10-07,2023-10-09,2023-10-11,Chennai,Kolkata_WH,Rail,Supplier_D,Traffic
+O-2251,2023-04-12,2023-04-15,2023-04-17,2023-04-16,Bengaluru,Kolkata_WH,Sea,Supplier_A,None
+O-2252,2023-05-11,2023-05-13,2023-05-15,2023-05-15,Chennai,Mumbai_WH,Air,Supplier_C,None
+O-2253,2023-08-24,2023-08-25,2023-08-31,2023-08-30,Bengaluru,Kolkata_WH,Sea,Supplier_D,None
+O-2254,2023-05-16,2023-05-19,2023-05-25,2023-05-27,Pune,Ahmedabad_WH,Road,Supplier_B,Transport Breakdown
+O-2255,2023-10-16,2023-10-17,2023-10-20,2023-10-19,Bengaluru,Delhi_WH,Rail,Supplier_B,None
+O-2256,2023-01-21,2023-01-22,2023-01-28,2023-01-28,Pune,Kolkata_WH,Rail,Supplier_D,None
+O-2257,2023-11-30,2023-12-01,2023-12-03,2023-12-03,Chennai,Kolkata_WH,Air,Supplier_B,None
+O-2258,2023-04-19,2023-04-21,2023-04-26,2023-04-25,Pune,Mumbai_WH,Air,Supplier_C,None
+O-2259,2023-08-12,2023-08-15,2023-08-21,2023-08-24,Hyderabad,Kolkata_WH,Air,Supplier_A,Traffic
+O-2260,2023-03-07,2023-03-09,2023-03-14,2023-03-16,Hyderabad,Mumbai_WH,Air,Supplier_B,Transport Breakdown
+O-2261,2023-01-27,2023-01-28,2023-02-02,2023-02-01,Chennai,Kolkata_WH,Rail,Supplier_A,None
+O-2262,2023-09-11,2023-09-13,2023-09-15,2023-09-17,Bengaluru,Mumbai_WH,Rail,Supplier_C,Transport Breakdown
+O-2263,2023-12-28,2023-12-30,2024-01-02,2024-01-05,Bengaluru,Mumbai_WH,Sea,Supplier_A,Weather
+O-2264,2023-10-22,2023-10-25,2023-10-29,2023-11-01,Chennai,Ahmedabad_WH,Rail,Supplier_A,Traffic
+O-2265,2023-08-12,2023-08-14,2023-08-17,2023-08-17,Chennai,Ahmedabad_WH,Air,Supplier_B,None
+O-2266,2023-10-15,2023-10-17,2023-10-20,2023-10-21,Pune,Kolkata_WH,Road,Supplier_A,Traffic
+O-2267,2023-11-23,2023-11-24,2023-11-28,2023-11-30,Pune,Mumbai_WH,Sea,Supplier_D,Transport Breakdown
+O-2268,2023-02-04,2023-02-06,2023-02-12,2023-02-11,Pune,Kolkata_WH,Sea,Supplier_A,None
+O-2269,2023-09-21,2023-09-23,2023-09-28,2023-10-01,Bengaluru,Kolkata_WH,Sea,Supplier_D,Weather
+O-2270,2023-07-16,2023-07-18,2023-07-21,2023-07-20,Hyderabad,Delhi_WH,Road,Supplier_B,None
+O-2271,2023-09-10,2023-09-12,2023-09-14,2023-09-14,Pune,Kolkata_WH,Rail,Supplier_C,None
+O-2272,2023-02-06,2023-02-08,2023-02-13,2023-02-14,Bengaluru,Kolkata_WH,Rail,Supplier_C,Weather
+O-2273,2023-01-09,2023-01-12,2023-01-15,2023-01-16,Hyderabad,Ahmedabad_WH,Road,Supplier_B,Transport Breakdown
+O-2274,2023-01-24,2023-01-27,2023-01-31,2023-01-30,Bengaluru,Mumbai_WH,Air,Supplier_D,None
+O-2275,2023-03-11,2023-03-13,2023-03-17,2023-03-17,Hyderabad,Ahmedabad_WH,Rail,Supplier_D,None
+O-2276,2023-10-21,2023-10-23,2023-10-28,2023-10-28,Pune,Delhi_WH,Rail,Supplier_D,None
+O-2277,2023-11-30,2023-12-01,2023-12-04,2023-12-03,Pune,Mumbai_WH,Rail,Supplier_C,None
+O-2278,2023-10-16,2023-10-19,2023-10-24,2023-10-26,Chennai,Delhi_WH,Rail,Supplier_A,Transport Breakdown
+O-2279,2023-11-07,2023-11-09,2023-11-15,2023-11-17,Bengaluru,Mumbai_WH,Road,Supplier_B,Weather
+O-2280,2023-09-04,2023-09-06,2023-09-12,2023-09-12,Hyderabad,Ahmedabad_WH,Road,Supplier_B,None
+O-2281,2023-08-28,2023-08-31,2023-09-06,2023-09-06,Bengaluru,Delhi_WH,Rail,Supplier_C,None
+O-2282,2023-04-23,2023-04-26,2023-05-01,2023-04-30,Hyderabad,Mumbai_WH,Sea,Supplier_B,None
+O-2283,2023-01-29,2023-02-01,2023-02-07,2023-02-08,Pune,Ahmedabad_WH,Sea,Supplier_C,Transport Breakdown
+O-2284,2023-08-25,2023-08-28,2023-08-30,2023-08-31,Hyderabad,Mumbai_WH,Rail,Supplier_A,Traffic
+O-2285,2023-04-16,2023-04-19,2023-04-21,2023-04-21,Hyderabad,Ahmedabad_WH,Road,Supplier_C,None
+O-2286,2023-03-21,2023-03-24,2023-03-30,2023-04-02,Bengaluru,Delhi_WH,Road,Supplier_C,Transport Breakdown
+O-2287,2023-10-28,2023-10-29,2023-11-01,2023-11-03,Bengaluru,Ahmedabad_WH,Air,Supplier_A,Customs Delay
+O-2288,2023-01-23,2023-01-25,2023-01-30,2023-01-31,Chennai,Kolkata_WH,Sea,Supplier_A,Transport Breakdown
+O-2289,2023-02-21,2023-02-23,2023-02-27,2023-02-28,Chennai,Mumbai_WH,Rail,Supplier_A,Traffic
+O-2290,2023-01-23,2023-01-25,2023-01-29,2023-02-01,Pune,Kolkata_WH,Road,Supplier_C,Customs Delay
+O-2291,2023-10-02,2023-10-04,2023-10-06,2023-10-07,Chennai,Ahmedabad_WH,Road,Supplier_A,Transport Breakdown
+O-2292,2023-09-20,2023-09-22,2023-09-26,2023-09-28,Pune,Ahmedabad_WH,Rail,Supplier_C,Transport Breakdown
+O-2293,2023-09-13,2023-09-16,2023-09-19,2023-09-18,Hyderabad,Mumbai_WH,Rail,Supplier_C,None
+O-2294,2023-06-19,2023-06-22,2023-06-26,2023-06-27,Chennai,Delhi_WH,Air,Supplier_A,Customs Delay
+O-2295,2023-06-03,2023-06-05,2023-06-10,2023-06-12,Hyderabad,Mumbai_WH,Sea,Supplier_A,Weather
+O-2296,2023-01-02,2023-01-04,2023-01-06,2023-01-06,Bengaluru,Ahmedabad_WH,Air,Supplier_D,None
+O-2297,2023-12-24,2023-12-25,2023-12-31,2024-01-01,Hyderabad,Ahmedabad_WH,Sea,Supplier_C,Customs Delay
+O-2298,2023-08-06,2023-08-09,2023-08-13,2023-08-12,Bengaluru,Mumbai_WH,Sea,Supplier_B,None
+O-2299,2023-01-01,2023-01-02,2023-01-06,2023-01-08,Hyderabad,Delhi_WH,Rail,Supplier_D,Customs Delay
+O-2300,2023-08-05,2023-08-08,2023-08-11,2023-08-13,Chennai,Ahmedabad_WH,Rail,Supplier_A,Transport Breakdown
+O-2301,2023-01-14,2023-01-17,2023-01-20,2023-01-20,Pune,Kolkata_WH,Air,Supplier_A,None
+O-2302,2023-09-08,2023-09-09,2023-09-14,2023-09-14,Hyderabad,Mumbai_WH,Road,Supplier_A,None
+O-2303,2023-05-15,2023-05-16,2023-05-20,2023-05-23,Hyderabad,Ahmedabad_WH,Road,Supplier_D,Traffic
+O-2304,2023-10-09,2023-10-11,2023-10-16,2023-10-16,Pune,Kolkata_WH,Air,Supplier_C,None
+O-2305,2023-07-11,2023-07-14,2023-07-19,2023-07-20,Hyderabad,Delhi_WH,Air,Supplier_C,Customs Delay
+O-2306,2023-05-27,2023-05-28,2023-06-02,2023-06-04,Bengaluru,Kolkata_WH,Sea,Supplier_C,Transport Breakdown
+O-2307,2023-10-26,2023-10-27,2023-10-31,2023-10-30,Pune,Mumbai_WH,Road,Supplier_A,None
+O-2308,2023-11-20,2023-11-23,2023-11-27,2023-11-29,Bengaluru,Ahmedabad_WH,Air,Supplier_A,Weather
+O-2309,2023-05-15,2023-05-16,2023-05-19,2023-05-18,Bengaluru,Kolkata_WH,Sea,Supplier_B,None
+O-2310,2023-03-28,2023-03-30,2023-04-01,2023-03-31,Pune,Mumbai_WH,Rail,Supplier_A,None
+O-2311,2023-08-06,2023-08-07,2023-08-10,2023-08-13,Bengaluru,Ahmedabad_WH,Air,Supplier_A,Customs Delay
+O-2312,2023-02-18,2023-02-21,2023-02-27,2023-02-26,Chennai,Delhi_WH,Road,Supplier_D,None
+O-2313,2023-04-20,2023-04-21,2023-04-24,2023-04-27,Hyderabad,Delhi_WH,Rail,Supplier_B,Weather
+O-2314,2023-03-30,2023-04-01,2023-04-07,2023-04-10,Hyderabad,Delhi_WH,Sea,Supplier_D,Transport Breakdown
+O-2315,2023-11-15,2023-11-17,2023-11-20,2023-11-21,Pune,Mumbai_WH,Road,Supplier_C,Transport Breakdown
+O-2316,2023-11-24,2023-11-27,2023-11-29,2023-12-02,Pune,Mumbai_WH,Sea,Supplier_B,Transport Breakdown
+O-2317,2023-12-08,2023-12-09,2023-12-13,2023-12-13,Hyderabad,Kolkata_WH,Sea,Supplier_D,None
+O-2318,2023-02-22,2023-02-24,2023-03-01,2023-02-28,Chennai,Kolkata_WH,Air,Supplier_D,None
+O-2319,2023-05-07,2023-05-10,2023-05-16,2023-05-15,Pune,Ahmedabad_WH,Sea,Supplier_D,None
+O-2320,2023-04-25,2023-04-28,2023-05-04,2023-05-03,Bengaluru,Kolkata_WH,Road,Supplier_D,None
+O-2321,2023-12-20,2023-12-21,2023-12-23,2023-12-22,Bengaluru,Ahmedabad_WH,Rail,Supplier_D,None
+O-2322,2023-05-27,2023-05-29,2023-06-01,2023-06-04,Chennai,Delhi_WH,Sea,Supplier_A,Weather
+O-2323,2023-11-03,2023-11-04,2023-11-09,2023-11-09,Chennai,Mumbai_WH,Rail,Supplier_D,None
+O-2324,2023-11-14,2023-11-16,2023-11-21,2023-11-20,Hyderabad,Delhi_WH,Sea,Supplier_C,None
+O-2325,2023-07-25,2023-07-28,2023-07-31,2023-08-03,Bengaluru,Delhi_WH,Road,Supplier_C,Weather
+O-2326,2023-05-25,2023-05-26,2023-06-01,2023-06-04,Pune,Delhi_WH,Road,Supplier_B,Weather
+O-2327,2023-05-25,2023-05-28,2023-06-03,2023-06-02,Hyderabad,Delhi_WH,Road,Supplier_A,None
+O-2328,2023-05-07,2023-05-09,2023-05-12,2023-05-11,Bengaluru,Delhi_WH,Air,Supplier_A,None
+O-2329,2023-12-23,2023-12-25,2023-12-31,2023-12-30,Hyderabad,Delhi_WH,Sea,Supplier_A,None
+O-2330,2023-03-11,2023-03-14,2023-03-16,2023-03-19,Bengaluru,Mumbai_WH,Road,Supplier_D,Weather
+O-2331,2023-09-06,2023-09-09,2023-09-11,2023-09-14,Pune,Mumbai_WH,Sea,Supplier_C,Customs Delay
+O-2332,2023-11-11,2023-11-12,2023-11-17,2023-11-16,Hyderabad,Kolkata_WH,Rail,Supplier_A,None
+O-2333,2023-12-05,2023-12-06,2023-12-11,2023-12-10,Hyderabad,Ahmedabad_WH,Sea,Supplier_A,None
+O-2334,2023-09-07,2023-09-10,2023-09-12,2023-09-14,Pune,Kolkata_WH,Rail,Supplier_B,Weather
+O-2335,2023-12-06,2023-12-08,2023-12-11,2023-12-12,Hyderabad,Kolkata_WH,Rail,Supplier_D,Weather
+O-2336,2023-05-13,2023-05-15,2023-05-17,2023-05-19,Pune,Delhi_WH,Road,Supplier_D,Traffic
+O-2337,2023-12-25,2023-12-28,2024-01-02,2024-01-01,Pune,Delhi_WH,Road,Supplier_B,None
+O-2338,2023-01-04,2023-01-06,2023-01-11,2023-01-11,Chennai,Mumbai_WH,Air,Supplier_D,None
+O-2339,2023-06-17,2023-06-18,2023-06-24,2023-06-24,Pune,Ahmedabad_WH,Rail,Supplier_A,None
+O-2340,2023-02-22,2023-02-25,2023-02-27,2023-02-27,Chennai,Kolkata_WH,Rail,Supplier_A,None
+O-2341,2023-03-02,2023-03-05,2023-03-09,2023-03-11,Hyderabad,Kolkata_WH,Sea,Supplier_A,Traffic
+O-2342,2023-11-10,2023-11-12,2023-11-15,2023-11-18,Pune,Delhi_WH,Rail,Supplier_B,Traffic
+O-2343,2023-06-26,2023-06-28,2023-07-04,2023-07-03,Hyderabad,Mumbai_WH,Air,Supplier_A,None
+O-2344,2023-06-19,2023-06-22,2023-06-26,2023-06-27,Bengaluru,Kolkata_WH,Rail,Supplier_D,Transport Breakdown
+O-2345,2023-03-20,2023-03-23,2023-03-29,2023-04-01,Pune,Kolkata_WH,Road,Supplier_A,Transport Breakdown
+O-2346,2023-06-12,2023-06-13,2023-06-18,2023-06-20,Bengaluru,Ahmedabad_WH,Air,Supplier_A,Traffic
+O-2347,2023-11-12,2023-11-15,2023-11-18,2023-11-21,Hyderabad,Ahmedabad_WH,Rail,Supplier_B,Transport Breakdown
+O-2348,2023-06-04,2023-06-07,2023-06-09,2023-06-08,Chennai,Mumbai_WH,Rail,Supplier_C,None
+O-2349,2023-08-23,2023-08-25,2023-08-31,2023-08-30,Pune,Kolkata_WH,Sea,Supplier_C,None
+O-2350,2023-12-12,2023-12-15,2023-12-19,2023-12-20,Chennai,Kolkata_WH,Air,Supplier_B,Customs Delay
+O-2351,2023-12-20,2023-12-23,2023-12-29,2023-12-28,Hyderabad,Mumbai_WH,Sea,Supplier_D,None
+O-2352,2023-10-30,2023-10-31,2023-11-05,2023-11-07,Pune,Mumbai_WH,Sea,Supplier_A,Customs Delay
+O-2353,2023-09-30,2023-10-02,2023-10-04,2023-10-04,Bengaluru,Kolkata_WH,Air,Supplier_B,None
+O-2354,2023-01-02,2023-01-03,2023-01-05,2023-01-05,Bengaluru,Delhi_WH,Rail,Supplier_D,None
+O-2355,2023-10-24,2023-10-27,2023-10-30,2023-10-30,Bengaluru,Ahmedabad_WH,Road,Supplier_C,None
+O-2356,2023-05-29,2023-05-31,2023-06-04,2023-06-04,Pune,Ahmedabad_WH,Sea,Supplier_C,None
+O-2357,2023-06-24,2023-06-25,2023-06-29,2023-06-29,Hyderabad,Ahmedabad_WH,Sea,Supplier_D,None
+O-2358,2023-11-16,2023-11-17,2023-11-20,2023-11-20,Hyderabad,Delhi_WH,Air,Supplier_A,None
+O-2359,2023-05-06,2023-05-07,2023-05-10,2023-05-10,Chennai,Kolkata_WH,Sea,Supplier_D,None
+O-2360,2023-05-27,2023-05-28,2023-06-03,2023-06-04,Bengaluru,Delhi_WH,Road,Supplier_D,Customs Delay
+O-2361,2023-08-12,2023-08-14,2023-08-20,2023-08-23,Chennai,Kolkata_WH,Sea,Supplier_B,Transport Breakdown
+O-2362,2023-06-24,2023-06-25,2023-07-01,2023-07-01,Pune,Delhi_WH,Road,Supplier_D,None
+O-2363,2023-03-15,2023-03-17,2023-03-20,2023-03-21,Pune,Delhi_WH,Rail,Supplier_B,Weather
+O-2364,2023-09-19,2023-09-21,2023-09-27,2023-09-29,Pune,Ahmedabad_WH,Air,Supplier_D,Customs Delay
+O-2365,2023-07-16,2023-07-19,2023-07-23,2023-07-22,Hyderabad,Kolkata_WH,Air,Supplier_B,None
+O-2366,2023-10-27,2023-10-28,2023-11-01,2023-11-02,Bengaluru,Ahmedabad_WH,Road,Supplier_C,Customs Delay
+O-2367,2023-10-18,2023-10-20,2023-10-23,2023-10-24,Pune,Ahmedabad_WH,Rail,Supplier_C,Traffic
+O-2368,2023-11-27,2023-11-30,2023-12-03,2023-12-02,Chennai,Ahmedabad_WH,Rail,Supplier_B,None
+O-2369,2023-02-27,2023-02-28,2023-03-03,2023-03-03,Chennai,Delhi_WH,Road,Supplier_D,None
+O-2370,2023-08-20,2023-08-23,2023-08-29,2023-08-31,Chennai,Ahmedabad_WH,Air,Supplier_B,Traffic
+O-2371,2023-01-13,2023-01-16,2023-01-20,2023-01-22,Hyderabad,Mumbai_WH,Road,Supplier_C,Weather
+O-2372,2023-05-30,2023-06-01,2023-06-03,2023-06-05,Bengaluru,Kolkata_WH,Road,Supplier_A,Weather
+O-2373,2023-05-04,2023-05-05,2023-05-09,2023-05-11,Bengaluru,Kolkata_WH,Rail,Supplier_C,Transport Breakdown
+O-2374,2023-06-30,2023-07-03,2023-07-05,2023-07-05,Hyderabad,Kolkata_WH,Road,Supplier_C,None
+O-2375,2023-11-08,2023-11-09,2023-11-12,2023-11-14,Bengaluru,Delhi_WH,Sea,Supplier_C,Traffic
+O-2376,2023-02-13,2023-02-16,2023-02-22,2023-02-24,Hyderabad,Delhi_WH,Sea,Supplier_D,Transport Breakdown
+O-2377,2023-07-11,2023-07-12,2023-07-16,2023-07-17,Pune,Mumbai_WH,Rail,Supplier_A,Traffic
+O-2378,2023-07-24,2023-07-27,2023-07-30,2023-07-29,Chennai,Ahmedabad_WH,Sea,Supplier_C,None
+O-2379,2023-01-03,2023-01-04,2023-01-06,2023-01-06,Hyderabad,Mumbai_WH,Rail,Supplier_D,None
+O-2380,2023-03-06,2023-03-09,2023-03-13,2023-03-14,Chennai,Kolkata_WH,Road,Supplier_A,Transport Breakdown
+O-2381,2023-09-05,2023-09-07,2023-09-12,2023-09-14,Chennai,Mumbai_WH,Road,Supplier_D,Traffic
+O-2382,2023-03-16,2023-03-17,2023-03-19,2023-03-19,Hyderabad,Delhi_WH,Rail,Supplier_A,None
+O-2383,2023-03-03,2023-03-06,2023-03-12,2023-03-15,Bengaluru,Ahmedabad_WH,Road,Supplier_D,Transport Breakdown
+O-2384,2023-05-17,2023-05-18,2023-05-20,2023-05-23,Chennai,Kolkata_WH,Air,Supplier_B,Weather
+O-2385,2023-10-24,2023-10-25,2023-10-29,2023-10-29,Chennai,Delhi_WH,Road,Supplier_B,None
+O-2386,2023-12-26,2023-12-27,2023-12-29,2023-12-28,Pune,Delhi_WH,Sea,Supplier_A,None
+O-2387,2023-11-03,2023-11-05,2023-11-11,2023-11-11,Hyderabad,Kolkata_WH,Air,Supplier_C,None
+O-2388,2023-05-05,2023-05-08,2023-05-14,2023-05-16,Pune,Ahmedabad_WH,Rail,Supplier_A,Transport Breakdown
+O-2389,2023-09-23,2023-09-24,2023-09-28,2023-09-30,Pune,Mumbai_WH,Rail,Supplier_D,Weather
+O-2390,2023-02-14,2023-02-16,2023-02-21,2023-02-20,Hyderabad,Delhi_WH,Rail,Supplier_A,None
+O-2391,2023-08-04,2023-08-07,2023-08-10,2023-08-12,Chennai,Kolkata_WH,Road,Supplier_B,Customs Delay
+O-2392,2023-03-30,2023-04-02,2023-04-05,2023-04-06,Pune,Delhi_WH,Road,Supplier_A,Weather
+O-2393,2023-02-15,2023-02-16,2023-02-21,2023-02-23,Hyderabad,Ahmedabad_WH,Road,Supplier_D,Customs Delay
+O-2394,2023-01-02,2023-01-04,2023-01-07,2023-01-06,Pune,Ahmedabad_WH,Road,Supplier_D,None
+O-2395,2023-10-13,2023-10-16,2023-10-18,2023-10-19,Chennai,Delhi_WH,Sea,Supplier_C,Customs Delay
+O-2396,2023-07-23,2023-07-24,2023-07-30,2023-08-02,Hyderabad,Ahmedabad_WH,Sea,Supplier_A,Customs Delay
+O-2397,2023-10-31,2023-11-01,2023-11-04,2023-11-06,Hyderabad,Mumbai_WH,Sea,Supplier_D,Transport Breakdown
+O-2398,2023-08-26,2023-08-28,2023-09-03,2023-09-06,Chennai,Delhi_WH,Rail,Supplier_B,Customs Delay
+O-2399,2023-10-09,2023-10-10,2023-10-16,2023-10-17,Pune,Delhi_WH,Rail,Supplier_D,Traffic
+O-2400,2023-07-22,2023-07-24,2023-07-26,2023-07-29,Chennai,Kolkata_WH,Road,Supplier_A,Transport Breakdown
+O-2401,2023-09-25,2023-09-27,2023-10-03,2023-10-05,Pune,Mumbai_WH,Sea,Supplier_C,Weather
+O-2402,2023-11-17,2023-11-18,2023-11-23,2023-11-24,Bengaluru,Ahmedabad_WH,Road,Supplier_A,Customs Delay
+O-2403,2023-01-22,2023-01-23,2023-01-28,2023-01-28,Hyderabad,Mumbai_WH,Road,Supplier_A,None
+O-2404,2023-01-13,2023-01-16,2023-01-20,2023-01-22,Hyderabad,Kolkata_WH,Rail,Supplier_B,Traffic
+O-2405,2023-05-10,2023-05-12,2023-05-15,2023-05-16,Pune,Kolkata_WH,Road,Supplier_B,Weather
+O-2406,2023-12-02,2023-12-05,2023-12-10,2023-12-10,Chennai,Kolkata_WH,Sea,Supplier_C,None
+O-2407,2023-01-03,2023-01-06,2023-01-12,2023-01-13,Pune,Ahmedabad_WH,Air,Supplier_D,Customs Delay
+O-2408,2023-01-13,2023-01-16,2023-01-20,2023-01-21,Bengaluru,Kolkata_WH,Rail,Supplier_C,Traffic
+O-2409,2023-11-05,2023-11-06,2023-11-12,2023-11-11,Pune,Mumbai_WH,Sea,Supplier_B,None
+O-2410,2023-08-04,2023-08-05,2023-08-09,2023-08-12,Bengaluru,Delhi_WH,Road,Supplier_B,Weather
+O-2411,2023-03-13,2023-03-15,2023-03-21,2023-03-22,Chennai,Delhi_WH,Air,Supplier_C,Customs Delay
+O-2412,2023-07-03,2023-07-04,2023-07-09,2023-07-10,Chennai,Ahmedabad_WH,Sea,Supplier_C,Customs Delay
+O-2413,2023-02-11,2023-02-13,2023-02-18,2023-02-17,Pune,Kolkata_WH,Road,Supplier_C,None
+O-2414,2023-08-31,2023-09-01,2023-09-07,2023-09-06,Hyderabad,Mumbai_WH,Sea,Supplier_A,None
+O-2415,2023-05-12,2023-05-13,2023-05-16,2023-05-18,Chennai,Ahmedabad_WH,Rail,Supplier_D,Traffic
+O-2416,2023-11-13,2023-11-16,2023-11-20,2023-11-19,Bengaluru,Mumbai_WH,Sea,Supplier_B,None
+O-2417,2023-03-30,2023-03-31,2023-04-04,2023-04-04,Chennai,Delhi_WH,Road,Supplier_D,None
+O-2418,2023-12-14,2023-12-15,2023-12-21,2023-12-21,Pune,Delhi_WH,Air,Supplier_C,None
+O-2419,2023-10-30,2023-10-31,2023-11-04,2023-11-05,Pune,Kolkata_WH,Road,Supplier_A,Customs Delay
+O-2420,2023-03-02,2023-03-05,2023-03-07,2023-03-08,Hyderabad,Ahmedabad_WH,Sea,Supplier_B,Traffic
+O-2421,2023-03-14,2023-03-17,2023-03-23,2023-03-22,Bengaluru,Ahmedabad_WH,Road,Supplier_B,None
+O-2422,2023-08-11,2023-08-13,2023-08-15,2023-08-14,Chennai,Ahmedabad_WH,Rail,Supplier_D,None
+O-2423,2023-05-11,2023-05-13,2023-05-17,2023-05-16,Chennai,Delhi_WH,Road,Supplier_C,None
+O-2424,2023-03-29,2023-04-01,2023-04-05,2023-04-08,Pune,Delhi_WH,Sea,Supplier_C,Transport Breakdown
+O-2425,2023-10-02,2023-10-05,2023-10-08,2023-10-08,Pune,Delhi_WH,Sea,Supplier_C,None
+O-2426,2023-05-24,2023-05-26,2023-05-28,2023-05-27,Chennai,Mumbai_WH,Rail,Supplier_A,None
+O-2427,2023-11-23,2023-11-25,2023-11-28,2023-11-30,Hyderabad,Delhi_WH,Air,Supplier_A,Traffic
+O-2428,2023-04-05,2023-04-06,2023-04-08,2023-04-07,Hyderabad,Ahmedabad_WH,Rail,Supplier_D,None
+O-2429,2023-04-03,2023-04-04,2023-04-09,2023-04-08,Pune,Delhi_WH,Rail,Supplier_A,None
+O-2430,2023-06-26,2023-06-28,2023-07-03,2023-07-02,Chennai,Ahmedabad_WH,Air,Supplier_D,None
+O-2431,2023-10-27,2023-10-29,2023-11-03,2023-11-02,Hyderabad,Mumbai_WH,Air,Supplier_B,None
+O-2432,2023-05-27,2023-05-28,2023-05-31,2023-05-31,Chennai,Ahmedabad_WH,Air,Supplier_A,None
+O-2433,2023-06-01,2023-06-04,2023-06-06,2023-06-05,Chennai,Delhi_WH,Sea,Supplier_B,None
+O-2434,2023-08-01,2023-08-03,2023-08-08,2023-08-07,Hyderabad,Mumbai_WH,Rail,Supplier_D,None
+O-2435,2023-10-05,2023-10-06,2023-10-11,2023-10-14,Bengaluru,Kolkata_WH,Sea,Supplier_A,Customs Delay
+O-2436,2023-07-16,2023-07-18,2023-07-24,2023-07-24,Hyderabad,Delhi_WH,Rail,Supplier_B,None
+O-2437,2023-03-05,2023-03-08,2023-03-11,2023-03-10,Pune,Ahmedabad_WH,Road,Supplier_B,None
+O-2438,2023-11-16,2023-11-19,2023-11-21,2023-11-22,Pune,Ahmedabad_WH,Air,Supplier_D,Customs Delay
+O-2439,2023-09-10,2023-09-11,2023-09-15,2023-09-17,Hyderabad,Delhi_WH,Road,Supplier_A,Customs Delay
+O-2440,2023-11-08,2023-11-10,2023-11-13,2023-11-15,Hyderabad,Kolkata_WH,Road,Supplier_A,Traffic
+O-2441,2023-11-26,2023-11-27,2023-12-02,2023-12-01,Bengaluru,Mumbai_WH,Sea,Supplier_A,None
+O-2442,2023-05-18,2023-05-21,2023-05-23,2023-05-22,Hyderabad,Kolkata_WH,Rail,Supplier_A,None
+O-2443,2023-05-01,2023-05-04,2023-05-10,2023-05-13,Pune,Ahmedabad_WH,Air,Supplier_B,Traffic
+O-2444,2023-11-04,2023-11-07,2023-11-10,2023-11-11,Pune,Delhi_WH,Rail,Supplier_D,Traffic
+O-2445,2023-05-13,2023-05-14,2023-05-17,2023-05-20,Pune,Kolkata_WH,Rail,Supplier_B,Weather
+O-2446,2023-07-05,2023-07-08,2023-07-14,2023-07-16,Hyderabad,Kolkata_WH,Rail,Supplier_A,Customs Delay
+O-2447,2023-02-04,2023-02-05,2023-02-08,2023-02-11,Hyderabad,Delhi_WH,Air,Supplier_D,Transport Breakdown
+O-2448,2023-11-27,2023-11-28,2023-12-02,2023-12-01,Chennai,Mumbai_WH,Air,Supplier_C,None
+O-2449,2023-03-28,2023-03-30,2023-04-05,2023-04-06,Pune,Kolkata_WH,Road,Supplier_C,Customs Delay
+O-2450,2023-06-22,2023-06-24,2023-06-28,2023-06-27,Hyderabad,Delhi_WH,Rail,Supplier_A,None
+O-2451,2023-06-16,2023-06-17,2023-06-23,2023-06-22,Chennai,Kolkata_WH,Air,Supplier_C,None
+O-2452,2023-09-03,2023-09-05,2023-09-10,2023-09-12,Chennai,Mumbai_WH,Air,Supplier_A,Transport Breakdown
+O-2453,2023-03-06,2023-03-08,2023-03-11,2023-03-12,Chennai,Kolkata_WH,Sea,Supplier_A,Traffic
+O-2454,2023-08-30,2023-09-01,2023-09-03,2023-09-06,Pune,Mumbai_WH,Sea,Supplier_B,Transport Breakdown
+O-2455,2023-06-25,2023-06-26,2023-07-01,2023-07-02,Chennai,Kolkata_WH,Rail,Supplier_D,Customs Delay
+O-2456,2023-11-06,2023-11-08,2023-11-12,2023-11-13,Chennai,Ahmedabad_WH,Rail,Supplier_A,Customs Delay
+O-2457,2023-05-21,2023-05-22,2023-05-28,2023-05-31,Bengaluru,Kolkata_WH,Air,Supplier_A,Transport Breakdown
+O-2458,2023-12-25,2023-12-26,2023-12-31,2023-12-30,Bengaluru,Ahmedabad_WH,Sea,Supplier_D,None
+O-2459,2023-07-20,2023-07-22,2023-07-26,2023-07-28,Bengaluru,Kolkata_WH,Rail,Supplier_D,Transport Breakdown
+O-2460,2023-12-22,2023-12-23,2023-12-27,2023-12-30,Chennai,Kolkata_WH,Rail,Supplier_B,Transport Breakdown
+O-2461,2023-01-24,2023-01-25,2023-01-29,2023-01-29,Pune,Kolkata_WH,Sea,Supplier_D,None
+O-2462,2023-10-03,2023-10-05,2023-10-10,2023-10-12,Bengaluru,Mumbai_WH,Sea,Supplier_C,Customs Delay
+O-2463,2023-06-15,2023-06-18,2023-06-22,2023-06-22,Hyderabad,Mumbai_WH,Road,Supplier_A,None
+O-2464,2023-03-17,2023-03-20,2023-03-25,2023-03-27,Pune,Kolkata_WH,Sea,Supplier_A,Weather
+O-2465,2023-04-19,2023-04-22,2023-04-28,2023-04-29,Pune,Kolkata_WH,Sea,Supplier_C,Transport Breakdown
+O-2466,2023-08-18,2023-08-19,2023-08-21,2023-08-23,Hyderabad,Delhi_WH,Rail,Supplier_A,Weather
+O-2467,2023-09-11,2023-09-13,2023-09-18,2023-09-19,Bengaluru,Ahmedabad_WH,Rail,Supplier_C,Weather
+O-2468,2023-07-19,2023-07-21,2023-07-26,2023-07-29,Chennai,Ahmedabad_WH,Rail,Supplier_A,Transport Breakdown
+O-2469,2023-06-12,2023-06-14,2023-06-17,2023-06-17,Bengaluru,Delhi_WH,Road,Supplier_C,None
+O-2470,2023-05-04,2023-05-07,2023-05-11,2023-05-12,Pune,Mumbai_WH,Air,Supplier_D,Weather
+O-2471,2023-01-17,2023-01-20,2023-01-22,2023-01-21,Hyderabad,Ahmedabad_WH,Rail,Supplier_B,None
+O-2472,2023-11-04,2023-11-07,2023-11-13,2023-11-16,Bengaluru,Delhi_WH,Rail,Supplier_D,Transport Breakdown
+O-2473,2023-08-29,2023-08-31,2023-09-05,2023-09-04,Pune,Kolkata_WH,Sea,Supplier_A,None
+O-2474,2023-12-31,2024-01-01,2024-01-05,2024-01-07,Bengaluru,Kolkata_WH,Rail,Supplier_B,Weather
+O-2475,2023-05-27,2023-05-28,2023-06-01,2023-06-02,Hyderabad,Ahmedabad_WH,Air,Supplier_B,Transport Breakdown
+O-2476,2023-09-06,2023-09-08,2023-09-13,2023-09-13,Bengaluru,Kolkata_WH,Air,Supplier_D,None
+O-2477,2023-06-17,2023-06-20,2023-06-24,2023-06-25,Bengaluru,Mumbai_WH,Road,Supplier_B,Traffic
+O-2478,2023-09-03,2023-09-05,2023-09-07,2023-09-07,Pune,Ahmedabad_WH,Road,Supplier_D,None
+O-2479,2023-06-28,2023-06-29,2023-07-05,2023-07-08,Pune,Delhi_WH,Air,Supplier_D,Weather
+O-2480,2023-07-04,2023-07-07,2023-07-09,2023-07-11,Hyderabad,Kolkata_WH,Rail,Supplier_B,Transport Breakdown
+O-2481,2023-09-30,2023-10-01,2023-10-05,2023-10-07,Bengaluru,Mumbai_WH,Rail,Supplier_A,Customs Delay
+O-2482,2023-02-02,2023-02-05,2023-02-09,2023-02-09,Bengaluru,Mumbai_WH,Sea,Supplier_A,None
+O-2483,2023-02-02,2023-02-04,2023-02-07,2023-02-06,Chennai,Delhi_WH,Air,Supplier_C,None
+O-2484,2023-06-13,2023-06-15,2023-06-20,2023-06-22,Pune,Kolkata_WH,Rail,Supplier_C,Customs Delay
+O-2485,2023-08-02,2023-08-04,2023-08-06,2023-08-09,Chennai,Delhi_WH,Road,Supplier_C,Traffic
+O-2486,2023-03-05,2023-03-07,2023-03-13,2023-03-13,Pune,Mumbai_WH,Sea,Supplier_B,None
+O-2487,2023-11-20,2023-11-22,2023-11-27,2023-11-30,Bengaluru,Mumbai_WH,Road,Supplier_B,Traffic
+O-2488,2023-03-16,2023-03-17,2023-03-19,2023-03-21,Chennai,Mumbai_WH,Rail,Supplier_A,Weather
+O-2489,2023-06-19,2023-06-22,2023-06-28,2023-06-27,Chennai,Delhi_WH,Air,Supplier_C,None
+O-2490,2023-07-03,2023-07-05,2023-07-10,2023-07-11,Bengaluru,Ahmedabad_WH,Sea,Supplier_C,Transport Breakdown
+O-2491,2023-04-15,2023-04-16,2023-04-18,2023-04-20,Hyderabad,Kolkata_WH,Rail,Supplier_D,Weather
+O-2492,2023-07-19,2023-07-22,2023-07-24,2023-07-26,Bengaluru,Mumbai_WH,Air,Supplier_B,Customs Delay
+O-2493,2023-04-20,2023-04-23,2023-04-25,2023-04-25,Bengaluru,Delhi_WH,Rail,Supplier_D,None
+O-2494,2023-05-13,2023-05-15,2023-05-21,2023-05-20,Bengaluru,Delhi_WH,Rail,Supplier_C,None
+O-2495,2023-03-06,2023-03-09,2023-03-14,2023-03-16,Pune,Mumbai_WH,Rail,Supplier_A,Traffic
+O-2496,2023-09-27,2023-09-28,2023-10-04,2023-10-03,Chennai,Mumbai_WH,Road,Supplier_C,None
+O-2497,2023-09-15,2023-09-16,2023-09-22,2023-09-24,Hyderabad,Ahmedabad_WH,Rail,Supplier_D,Weather
+O-2498,2023-06-15,2023-06-17,2023-06-21,2023-06-24,Bengaluru,Ahmedabad_WH,Sea,Supplier_B,Customs Delay
+O-2499,2023-03-03,2023-03-06,2023-03-08,2023-03-11,Hyderabad,Kolkata_WH,Sea,Supplier_D,Transport Breakdown
+O-2500,2023-05-02,2023-05-05,2023-05-07,2023-05-06,Hyderabad,Ahmedabad_WH,Air,Supplier_D,None
+O-2501,2023-05-24,2023-05-25,2023-05-28,2023-05-31,Chennai,Mumbai_WH,Air,Supplier_D,Weather
+O-2502,2023-11-21,2023-11-24,2023-11-26,2023-11-27,Bengaluru,Delhi_WH,Air,Supplier_D,Traffic
+O-2503,2023-06-27,2023-06-29,2023-07-03,2023-07-04,Hyderabad,Delhi_WH,Road,Supplier_D,Transport Breakdown
+O-2504,2023-01-25,2023-01-28,2023-02-01,2023-02-01,Hyderabad,Mumbai_WH,Sea,Supplier_B,None
+O-2505,2023-09-14,2023-09-16,2023-09-18,2023-09-18,Hyderabad,Mumbai_WH,Road,Supplier_D,None
+O-2506,2023-02-15,2023-02-16,2023-02-21,2023-02-21,Pune,Mumbai_WH,Sea,Supplier_C,None
+O-2507,2023-02-12,2023-02-15,2023-02-21,2023-02-24,Hyderabad,Kolkata_WH,Road,Supplier_A,Traffic
+O-2508,2023-08-08,2023-08-10,2023-08-16,2023-08-19,Chennai,Delhi_WH,Air,Supplier_C,Customs Delay
+O-2509,2023-06-16,2023-06-18,2023-06-24,2023-06-25,Bengaluru,Kolkata_WH,Rail,Supplier_D,Customs Delay
+O-2510,2023-11-10,2023-11-11,2023-11-16,2023-11-18,Bengaluru,Kolkata_WH,Rail,Supplier_B,Customs Delay
+O-2511,2023-04-28,2023-04-30,2023-05-06,2023-05-07,Hyderabad,Ahmedabad_WH,Road,Supplier_C,Customs Delay
+O-2512,2023-06-25,2023-06-27,2023-07-02,2023-07-03,Bengaluru,Mumbai_WH,Sea,Supplier_C,Traffic
+O-2513,2023-12-12,2023-12-15,2023-12-21,2023-12-22,Pune,Delhi_WH,Rail,Supplier_C,Transport Breakdown
+O-2514,2023-03-27,2023-03-28,2023-03-31,2023-04-01,Chennai,Ahmedabad_WH,Road,Supplier_A,Transport Breakdown
+O-2515,2023-10-12,2023-10-14,2023-10-18,2023-10-21,Pune,Delhi_WH,Road,Supplier_B,Weather
+O-2516,2023-08-24,2023-08-26,2023-09-01,2023-08-31,Bengaluru,Delhi_WH,Road,Supplier_A,None
+O-2517,2023-12-15,2023-12-16,2023-12-21,2023-12-21,Pune,Kolkata_WH,Road,Supplier_B,None
+O-2518,2023-07-08,2023-07-11,2023-07-15,2023-07-18,Hyderabad,Mumbai_WH,Road,Supplier_D,Transport Breakdown
+O-2519,2023-02-08,2023-02-10,2023-02-13,2023-02-12,Chennai,Delhi_WH,Sea,Supplier_A,None
+O-2520,2023-08-15,2023-08-16,2023-08-20,2023-08-23,Hyderabad,Ahmedabad_WH,Air,Supplier_C,Traffic
+O-2521,2023-01-13,2023-01-16,2023-01-19,2023-01-20,Chennai,Ahmedabad_WH,Sea,Supplier_C,Customs Delay
+O-2522,2023-03-27,2023-03-28,2023-04-01,2023-04-01,Chennai,Mumbai_WH,Rail,Supplier_B,None
+O-2523,2023-05-16,2023-05-19,2023-05-23,2023-05-25,Pune,Ahmedabad_WH,Air,Supplier_D,Weather
+O-2524,2023-08-19,2023-08-20,2023-08-26,2023-08-25,Chennai,Ahmedabad_WH,Rail,Supplier_A,None
+O-2525,2023-02-11,2023-02-13,2023-02-18,2023-02-18,Pune,Ahmedabad_WH,Air,Supplier_A,None
+O-2526,2023-10-05,2023-10-06,2023-10-11,2023-10-10,Hyderabad,Mumbai_WH,Air,Supplier_B,None
+O-2527,2023-08-27,2023-08-29,2023-09-01,2023-09-04,Bengaluru,Mumbai_WH,Road,Supplier_D,Weather
+O-2528,2023-09-14,2023-09-16,2023-09-22,2023-09-22,Pune,Delhi_WH,Road,Supplier_A,None
+O-2529,2023-01-19,2023-01-21,2023-01-24,2023-01-27,Bengaluru,Ahmedabad_WH,Sea,Supplier_A,Traffic
+O-2530,2023-10-10,2023-10-11,2023-10-15,2023-10-18,Bengaluru,Delhi_WH,Air,Supplier_D,Traffic
+O-2531,2023-03-12,2023-03-14,2023-03-17,2023-03-19,Chennai,Ahmedabad_WH,Air,Supplier_A,Traffic
+O-2532,2023-10-07,2023-10-08,2023-10-14,2023-10-15,Chennai,Kolkata_WH,Road,Supplier_B,Customs Delay
+O-2533,2023-03-25,2023-03-28,2023-03-30,2023-03-31,Bengaluru,Delhi_WH,Road,Supplier_C,Traffic
+O-2534,2023-09-10,2023-09-12,2023-09-14,2023-09-16,Hyderabad,Delhi_WH,Air,Supplier_C,Traffic
+O-2535,2023-07-20,2023-07-22,2023-07-28,2023-07-28,Pune,Delhi_WH,Rail,Supplier_A,None
+O-2536,2023-05-24,2023-05-25,2023-05-29,2023-05-30,Bengaluru,Ahmedabad_WH,Air,Supplier_A,Transport Breakdown
+O-2537,2023-06-24,2023-06-25,2023-06-27,2023-06-28,Hyderabad,Kolkata_WH,Road,Supplier_C,Weather
+O-2538,2023-08-21,2023-08-24,2023-08-30,2023-08-31,Hyderabad,Delhi_WH,Sea,Supplier_B,Weather
+O-2539,2023-08-25,2023-08-26,2023-09-01,2023-09-04,Hyderabad,Kolkata_WH,Air,Supplier_C,Transport Breakdown
+O-2540,2023-01-06,2023-01-08,2023-01-13,2023-01-16,Pune,Ahmedabad_WH,Sea,Supplier_D,Customs Delay
+O-2541,2023-12-01,2023-12-02,2023-12-08,2023-12-11,Hyderabad,Delhi_WH,Air,Supplier_C,Transport Breakdown
+O-2542,2023-10-11,2023-10-14,2023-10-19,2023-10-19,Bengaluru,Mumbai_WH,Air,Supplier_C,None
+O-2543,2023-11-12,2023-11-15,2023-11-18,2023-11-19,Chennai,Mumbai_WH,Sea,Supplier_A,Weather
+O-2544,2023-08-13,2023-08-16,2023-08-21,2023-08-22,Chennai,Kolkata_WH,Rail,Supplier_B,Customs Delay
+O-2545,2023-05-06,2023-05-07,2023-05-09,2023-05-12,Hyderabad,Kolkata_WH,Rail,Supplier_C,Traffic
+O-2546,2023-01-16,2023-01-18,2023-01-24,2023-01-26,Pune,Kolkata_WH,Sea,Supplier_B,Transport Breakdown
+O-2547,2023-08-01,2023-08-02,2023-08-08,2023-08-11,Pune,Ahmedabad_WH,Sea,Supplier_A,Customs Delay
+O-2548,2023-10-23,2023-10-24,2023-10-29,2023-11-01,Hyderabad,Mumbai_WH,Rail,Supplier_C,Transport Breakdown
+O-2549,2023-06-09,2023-06-11,2023-06-13,2023-06-13,Chennai,Ahmedabad_WH,Road,Supplier_A,None
+O-2550,2023-12-04,2023-12-07,2023-12-09,2023-12-08,Hyderabad,Mumbai_WH,Rail,Supplier_C,None
+O-2551,2023-01-27,2023-01-28,2023-02-02,2023-02-01,Pune,Mumbai_WH,Sea,Supplier_C,None
+O-2552,2023-08-07,2023-08-08,2023-08-10,2023-08-11,Hyderabad,Delhi_WH,Sea,Supplier_B,Weather
+O-2553,2023-01-23,2023-01-26,2023-01-28,2023-01-31,Bengaluru,Kolkata_WH,Sea,Supplier_A,Transport Breakdown
+O-2554,2023-05-02,2023-05-03,2023-05-06,2023-05-09,Pune,Mumbai_WH,Road,Supplier_B,Transport Breakdown
+O-2555,2023-08-08,2023-08-09,2023-08-15,2023-08-17,Bengaluru,Delhi_WH,Rail,Supplier_C,Traffic
+O-2556,2023-10-26,2023-10-28,2023-10-31,2023-11-02,Hyderabad,Mumbai_WH,Rail,Supplier_C,Customs Delay
+O-2557,2023-12-29,2023-12-31,2024-01-05,2024-01-05,Chennai,Ahmedabad_WH,Rail,Supplier_D,None
+O-2558,2023-06-22,2023-06-24,2023-06-28,2023-06-28,Hyderabad,Delhi_WH,Road,Supplier_C,None
+O-2559,2023-01-26,2023-01-29,2023-02-02,2023-02-01,Bengaluru,Delhi_WH,Road,Supplier_D,None
+O-2560,2023-11-01,2023-11-02,2023-11-04,2023-11-04,Pune,Kolkata_WH,Sea,Supplier_B,None
+O-2561,2023-04-05,2023-04-06,2023-04-11,2023-04-12,Bengaluru,Ahmedabad_WH,Rail,Supplier_A,Traffic
+O-2562,2023-08-18,2023-08-20,2023-08-23,2023-08-23,Pune,Kolkata_WH,Air,Supplier_B,None
+O-2563,2023-03-28,2023-03-29,2023-04-03,2023-04-03,Chennai,Delhi_WH,Rail,Supplier_C,None
+O-2564,2023-08-21,2023-08-23,2023-08-25,2023-08-26,Hyderabad,Kolkata_WH,Air,Supplier_A,Weather
+O-2565,2023-11-03,2023-11-04,2023-11-06,2023-11-08,Hyderabad,Ahmedabad_WH,Rail,Supplier_A,Transport Breakdown
+O-2566,2023-12-10,2023-12-13,2023-12-16,2023-12-17,Pune,Mumbai_WH,Sea,Supplier_C,Customs Delay
+O-2567,2023-11-19,2023-11-22,2023-11-25,2023-11-24,Pune,Mumbai_WH,Air,Supplier_C,None
+O-2568,2023-01-29,2023-01-30,2023-02-02,2023-02-03,Hyderabad,Mumbai_WH,Rail,Supplier_B,Traffic
+O-2569,2023-10-28,2023-10-30,2023-11-01,2023-11-02,Hyderabad,Delhi_WH,Air,Supplier_C,Customs Delay
+O-2570,2023-04-30,2023-05-03,2023-05-05,2023-05-07,Chennai,Kolkata_WH,Road,Supplier_A,Traffic
+O-2571,2023-12-21,2023-12-23,2023-12-27,2023-12-28,Bengaluru,Kolkata_WH,Road,Supplier_D,Transport Breakdown
+O-2572,2023-03-10,2023-03-11,2023-03-17,2023-03-18,Bengaluru,Ahmedabad_WH,Air,Supplier_D,Transport Breakdown
+O-2573,2023-08-24,2023-08-25,2023-08-29,2023-08-29,Hyderabad,Ahmedabad_WH,Air,Supplier_C,None
+O-2574,2023-11-04,2023-11-05,2023-11-10,2023-11-13,Bengaluru,Mumbai_WH,Air,Supplier_A,Traffic
+O-2575,2023-11-02,2023-11-03,2023-11-07,2023-11-06,Pune,Ahmedabad_WH,Sea,Supplier_A,None
+O-2576,2023-01-01,2023-01-04,2023-01-10,2023-01-09,Hyderabad,Mumbai_WH,Rail,Supplier_B,None
+O-2577,2023-11-06,2023-11-08,2023-11-14,2023-11-17,Bengaluru,Ahmedabad_WH,Road,Supplier_B,Weather
+O-2578,2023-07-14,2023-07-17,2023-07-23,2023-07-25,Bengaluru,Ahmedabad_WH,Rail,Supplier_C,Transport Breakdown
+O-2579,2023-05-08,2023-05-09,2023-05-15,2023-05-14,Chennai,Kolkata_WH,Sea,Supplier_D,None
+O-2580,2023-09-04,2023-09-05,2023-09-07,2023-09-07,Hyderabad,Ahmedabad_WH,Road,Supplier_B,None
+O-2581,2023-03-15,2023-03-17,2023-03-19,2023-03-19,Bengaluru,Delhi_WH,Rail,Supplier_B,None
+O-2582,2023-11-20,2023-11-22,2023-11-25,2023-11-28,Hyderabad,Ahmedabad_WH,Air,Supplier_B,Transport Breakdown
+O-2583,2023-06-10,2023-06-11,2023-06-17,2023-06-18,Pune,Mumbai_WH,Road,Supplier_A,Customs Delay
+O-2584,2023-07-03,2023-07-04,2023-07-10,2023-07-13,Hyderabad,Mumbai_WH,Air,Supplier_B,Transport Breakdown
+O-2585,2023-07-15,2023-07-18,2023-07-23,2023-07-25,Bengaluru,Kolkata_WH,Air,Supplier_C,Traffic
+O-2586,2023-07-31,2023-08-02,2023-08-07,2023-08-06,Pune,Delhi_WH,Road,Supplier_A,None
+O-2587,2023-06-17,2023-06-18,2023-06-23,2023-06-25,Hyderabad,Delhi_WH,Rail,Supplier_B,Weather
+O-2588,2023-05-01,2023-05-03,2023-05-05,2023-05-06,Chennai,Ahmedabad_WH,Road,Supplier_A,Weather
+O-2589,2023-01-04,2023-01-06,2023-01-08,2023-01-07,Chennai,Ahmedabad_WH,Rail,Supplier_A,None
+O-2590,2023-06-05,2023-06-08,2023-06-13,2023-06-15,Hyderabad,Mumbai_WH,Rail,Supplier_C,Customs Delay
+O-2591,2023-02-13,2023-02-16,2023-02-19,2023-02-19,Bengaluru,Kolkata_WH,Rail,Supplier_C,None
+O-2592,2023-02-21,2023-02-23,2023-03-01,2023-03-03,Hyderabad,Ahmedabad_WH,Road,Supplier_A,Customs Delay
+O-2593,2023-08-21,2023-08-24,2023-08-28,2023-08-27,Pune,Delhi_WH,Air,Supplier_D,None
+O-2594,2023-11-11,2023-11-13,2023-11-15,2023-11-15,Chennai,Ahmedabad_WH,Sea,Supplier_A,None
+O-2595,2023-05-04,2023-05-05,2023-05-07,2023-05-06,Hyderabad,Ahmedabad_WH,Road,Supplier_C,None
+O-2596,2023-08-14,2023-08-16,2023-08-22,2023-08-24,Bengaluru,Kolkata_WH,Rail,Supplier_A,Transport Breakdown
+O-2597,2023-01-28,2023-01-30,2023-02-04,2023-02-03,Bengaluru,Delhi_WH,Road,Supplier_D,None
+O-2598,2023-02-07,2023-02-09,2023-02-11,2023-02-14,Bengaluru,Delhi_WH,Road,Supplier_D,Transport Breakdown
+O-2599,2023-05-24,2023-05-25,2023-05-28,2023-05-28,Hyderabad,Ahmedabad_WH,Rail,Supplier_C,None
+O-2600,2023-01-01,2023-01-02,2023-01-06,2023-01-09,Pune,Mumbai_WH,Sea,Supplier_B,Customs Delay
+O-2601,2023-08-07,2023-08-10,2023-08-13,2023-08-14,Chennai,Kolkata_WH,Air,Supplier_D,Transport Breakdown
+O-2602,2023-12-06,2023-12-07,2023-12-11,2023-12-10,Hyderabad,Ahmedabad_WH,Air,Supplier_D,None
+O-2603,2023-08-25,2023-08-28,2023-08-31,2023-08-30,Chennai,Kolkata_WH,Road,Supplier_D,None
+O-2604,2023-02-22,2023-02-24,2023-02-28,2023-03-01,Hyderabad,Delhi_WH,Road,Supplier_B,Transport Breakdown
+O-2605,2023-03-06,2023-03-09,2023-03-11,2023-03-12,Pune,Kolkata_WH,Air,Supplier_B,Traffic
+O-2606,2023-04-09,2023-04-12,2023-04-16,2023-04-17,Bengaluru,Ahmedabad_WH,Air,Supplier_D,Traffic
+O-2607,2023-09-02,2023-09-03,2023-09-06,2023-09-06,Bengaluru,Ahmedabad_WH,Road,Supplier_D,None
+O-2608,2023-02-05,2023-02-08,2023-02-11,2023-02-11,Pune,Ahmedabad_WH,Road,Supplier_C,None
+O-2609,2023-02-02,2023-02-05,2023-02-08,2023-02-07,Hyderabad,Ahmedabad_WH,Air,Supplier_A,None
+O-2610,2023-05-21,2023-05-22,2023-05-25,2023-05-25,Hyderabad,Ahmedabad_WH,Air,Supplier_D,None
+O-2611,2023-07-14,2023-07-17,2023-07-20,2023-07-22,Bengaluru,Mumbai_WH,Rail,Supplier_D,Weather
+O-2612,2023-09-17,2023-09-18,2023-09-20,2023-09-19,Hyderabad,Ahmedabad_WH,Rail,Supplier_B,None
+O-2613,2023-11-01,2023-11-04,2023-11-06,2023-11-08,Pune,Kolkata_WH,Sea,Supplier_C,Customs Delay
+O-2614,2023-03-01,2023-03-03,2023-03-06,2023-03-08,Hyderabad,Mumbai_WH,Road,Supplier_B,Transport Breakdown
+O-2615,2023-10-20,2023-10-21,2023-10-27,2023-10-28,Chennai,Ahmedabad_WH,Rail,Supplier_D,Transport Breakdown
+O-2616,2023-04-22,2023-04-25,2023-05-01,2023-05-03,Hyderabad,Delhi_WH,Rail,Supplier_D,Customs Delay
+O-2617,2023-07-05,2023-07-07,2023-07-10,2023-07-09,Bengaluru,Delhi_WH,Air,Supplier_A,None
+O-2618,2023-12-16,2023-12-19,2023-12-25,2023-12-28,Bengaluru,Ahmedabad_WH,Road,Supplier_A,Customs Delay
+O-2619,2023-01-12,2023-01-15,2023-01-19,2023-01-19,Bengaluru,Ahmedabad_WH,Sea,Supplier_A,None
+O-2620,2023-11-16,2023-11-19,2023-11-23,2023-11-24,Bengaluru,Mumbai_WH,Road,Supplier_C,Weather
+O-2621,2023-04-17,2023-04-20,2023-04-22,2023-04-21,Hyderabad,Mumbai_WH,Air,Supplier_B,None
+O-2622,2023-11-24,2023-11-26,2023-11-29,2023-12-01,Pune,Mumbai_WH,Air,Supplier_B,Weather
+O-2623,2023-11-10,2023-11-12,2023-11-18,2023-11-20,Hyderabad,Ahmedabad_WH,Road,Supplier_A,Weather
+O-2624,2023-12-18,2023-12-21,2023-12-25,2023-12-26,Bengaluru,Delhi_WH,Road,Supplier_D,Weather
+O-2625,2023-03-02,2023-03-04,2023-03-06,2023-03-07,Pune,Delhi_WH,Sea,Supplier_B,Traffic
+O-2626,2023-03-10,2023-03-13,2023-03-19,2023-03-18,Chennai,Mumbai_WH,Rail,Supplier_B,None
+O-2627,2023-03-31,2023-04-02,2023-04-05,2023-04-08,Hyderabad,Ahmedabad_WH,Road,Supplier_C,Weather
+O-2628,2023-02-12,2023-02-14,2023-02-18,2023-02-21,Bengaluru,Mumbai_WH,Air,Supplier_D,Traffic
+O-2629,2023-11-08,2023-11-09,2023-11-13,2023-11-14,Chennai,Mumbai_WH,Rail,Supplier_C,Weather
+O-2630,2023-10-31,2023-11-03,2023-11-06,2023-11-05,Chennai,Ahmedabad_WH,Rail,Supplier_A,None
+O-2631,2023-06-28,2023-07-01,2023-07-04,2023-07-04,Bengaluru,Delhi_WH,Road,Supplier_D,None
+O-2632,2023-12-10,2023-12-13,2023-12-19,2023-12-22,Bengaluru,Mumbai_WH,Road,Supplier_D,Customs Delay
+O-2633,2023-11-21,2023-11-23,2023-11-28,2023-11-27,Hyderabad,Delhi_WH,Air,Supplier_B,None
+O-2634,2023-10-22,2023-10-24,2023-10-29,2023-10-29,Pune,Mumbai_WH,Road,Supplier_A,None
+O-2635,2023-12-17,2023-12-20,2023-12-24,2023-12-25,Pune,Ahmedabad_WH,Road,Supplier_C,Weather
+O-2636,2023-07-01,2023-07-04,2023-07-06,2023-07-08,Pune,Ahmedabad_WH,Rail,Supplier_B,Traffic
+O-2637,2023-09-17,2023-09-18,2023-09-23,2023-09-24,Pune,Ahmedabad_WH,Road,Supplier_C,Transport Breakdown
+O-2638,2023-02-18,2023-02-21,2023-02-24,2023-02-25,Hyderabad,Ahmedabad_WH,Road,Supplier_D,Traffic
+O-2639,2023-07-29,2023-08-01,2023-08-07,2023-08-10,Chennai,Mumbai_WH,Air,Supplier_A,Weather
+O-2640,2023-08-23,2023-08-24,2023-08-28,2023-08-29,Chennai,Mumbai_WH,Rail,Supplier_C,Traffic
+O-2641,2023-12-30,2024-01-01,2024-01-05,2024-01-06,Bengaluru,Mumbai_WH,Sea,Supplier_C,Weather
+O-2642,2023-08-29,2023-08-31,2023-09-02,2023-09-02,Pune,Kolkata_WH,Road,Supplier_C,None
+O-2643,2023-03-28,2023-03-29,2023-04-04,2023-04-04,Bengaluru,Mumbai_WH,Road,Supplier_D,None
+O-2644,2023-03-06,2023-03-08,2023-03-11,2023-03-12,Pune,Delhi_WH,Road,Supplier_C,Transport Breakdown
+O-2645,2023-12-14,2023-12-16,2023-12-18,2023-12-17,Bengaluru,Kolkata_WH,Air,Supplier_B,None
+O-2646,2023-02-01,2023-02-04,2023-02-09,2023-02-10,Chennai,Mumbai_WH,Road,Supplier_B,Weather
+O-2647,2023-10-27,2023-10-28,2023-11-01,2023-11-02,Bengaluru,Mumbai_WH,Sea,Supplier_A,Traffic
+O-2648,2023-10-23,2023-10-25,2023-10-31,2023-10-31,Bengaluru,Mumbai_WH,Road,Supplier_B,None
+O-2649,2023-08-16,2023-08-19,2023-08-23,2023-08-23,Chennai,Ahmedabad_WH,Sea,Supplier_B,None
+O-2650,2023-03-19,2023-03-20,2023-03-26,2023-03-25,Hyderabad,Mumbai_WH,Road,Supplier_A,None
+O-2651,2023-07-29,2023-07-30,2023-08-05,2023-08-07,Pune,Ahmedabad_WH,Sea,Supplier_B,Traffic
+O-2652,2023-09-11,2023-09-14,2023-09-20,2023-09-21,Pune,Ahmedabad_WH,Sea,Supplier_D,Traffic
+O-2653,2023-03-20,2023-03-23,2023-03-27,2023-03-27,Chennai,Ahmedabad_WH,Sea,Supplier_A,None
+O-2654,2023-01-01,2023-01-03,2023-01-06,2023-01-08,Hyderabad,Delhi_WH,Sea,Supplier_A,Traffic
+O-2655,2023-10-23,2023-10-25,2023-10-27,2023-10-27,Pune,Ahmedabad_WH,Sea,Supplier_D,None
+O-2656,2023-02-13,2023-02-16,2023-02-22,2023-02-21,Hyderabad,Delhi_WH,Rail,Supplier_A,None
+O-2657,2023-08-28,2023-08-31,2023-09-02,2023-09-01,Bengaluru,Ahmedabad_WH,Sea,Supplier_B,None
+O-2658,2023-02-12,2023-02-15,2023-02-17,2023-02-18,Pune,Ahmedabad_WH,Road,Supplier_B,Traffic
+O-2659,2023-01-25,2023-01-26,2023-01-30,2023-01-31,Bengaluru,Kolkata_WH,Air,Supplier_B,Transport Breakdown
+O-2660,2023-11-28,2023-11-30,2023-12-04,2023-12-04,Hyderabad,Kolkata_WH,Sea,Supplier_C,None
+O-2661,2023-02-12,2023-02-14,2023-02-18,2023-02-17,Bengaluru,Kolkata_WH,Rail,Supplier_B,None
+O-2662,2023-10-21,2023-10-24,2023-10-30,2023-11-01,Hyderabad,Ahmedabad_WH,Road,Supplier_D,Transport Breakdown
+O-2663,2023-09-22,2023-09-25,2023-09-27,2023-09-28,Pune,Ahmedabad_WH,Road,Supplier_C,Weather
+O-2664,2023-04-18,2023-04-19,2023-04-23,2023-04-24,Bengaluru,Ahmedabad_WH,Rail,Supplier_C,Customs Delay
+O-2665,2023-09-19,2023-09-22,2023-09-28,2023-09-29,Hyderabad,Ahmedabad_WH,Air,Supplier_C,Customs Delay
+O-2666,2023-03-21,2023-03-22,2023-03-27,2023-03-28,Bengaluru,Delhi_WH,Rail,Supplier_C,Customs Delay
+O-2667,2023-05-25,2023-05-27,2023-05-31,2023-06-03,Chennai,Delhi_WH,Sea,Supplier_A,Weather
+O-2668,2023-08-09,2023-08-10,2023-08-15,2023-08-15,Bengaluru,Kolkata_WH,Sea,Supplier_B,None
+O-2669,2023-06-19,2023-06-21,2023-06-25,2023-06-26,Hyderabad,Ahmedabad_WH,Sea,Supplier_D,Weather
+O-2670,2023-11-05,2023-11-07,2023-11-10,2023-11-12,Bengaluru,Kolkata_WH,Road,Supplier_D,Weather
+O-2671,2023-08-05,2023-08-08,2023-08-12,2023-08-14,Hyderabad,Mumbai_WH,Road,Supplier_C,Traffic
+O-2672,2023-11-11,2023-11-13,2023-11-19,2023-11-18,Hyderabad,Kolkata_WH,Rail,Supplier_A,None
+O-2673,2023-10-02,2023-10-04,2023-10-07,2023-10-08,Hyderabad,Delhi_WH,Sea,Supplier_B,Weather
+O-2674,2023-07-22,2023-07-24,2023-07-26,2023-07-27,Hyderabad,Delhi_WH,Rail,Supplier_B,Weather
+O-2675,2023-06-23,2023-06-24,2023-06-26,2023-06-26,Chennai,Mumbai_WH,Sea,Supplier_A,None
+O-2676,2023-06-18,2023-06-19,2023-06-21,2023-06-21,Hyderabad,Delhi_WH,Road,Supplier_C,None
+O-2677,2023-04-17,2023-04-19,2023-04-24,2023-04-27,Chennai,Delhi_WH,Rail,Supplier_B,Transport Breakdown
+O-2678,2023-03-18,2023-03-19,2023-03-25,2023-03-27,Bengaluru,Mumbai_WH,Air,Supplier_D,Transport Breakdown
+O-2679,2023-06-25,2023-06-27,2023-06-30,2023-06-30,Hyderabad,Mumbai_WH,Air,Supplier_C,None
+O-2680,2023-03-06,2023-03-08,2023-03-11,2023-03-11,Chennai,Delhi_WH,Air,Supplier_D,None
+O-2681,2023-05-29,2023-05-31,2023-06-06,2023-06-09,Pune,Kolkata_WH,Sea,Supplier_C,Customs Delay
+O-2682,2023-07-24,2023-07-27,2023-08-01,2023-08-01,Hyderabad,Kolkata_WH,Sea,Supplier_C,None
+O-2683,2023-04-17,2023-04-18,2023-04-21,2023-04-24,Hyderabad,Mumbai_WH,Air,Supplier_D,Traffic
+O-2684,2023-10-26,2023-10-29,2023-11-02,2023-11-02,Pune,Kolkata_WH,Sea,Supplier_B,None
+O-2685,2023-12-22,2023-12-23,2023-12-26,2023-12-29,Chennai,Delhi_WH,Road,Supplier_B,Transport Breakdown
+O-2686,2023-07-07,2023-07-08,2023-07-11,2023-07-13,Bengaluru,Delhi_WH,Air,Supplier_A,Weather
+O-2687,2023-12-04,2023-12-07,2023-12-11,2023-12-13,Pune,Ahmedabad_WH,Rail,Supplier_D,Weather
+O-2688,2023-08-15,2023-08-16,2023-08-20,2023-08-23,Chennai,Delhi_WH,Rail,Supplier_D,Weather
+O-2689,2023-11-29,2023-12-01,2023-12-03,2023-12-02,Bengaluru,Ahmedabad_WH,Air,Supplier_B,None
+O-2690,2023-08-26,2023-08-27,2023-08-29,2023-09-01,Hyderabad,Kolkata_WH,Rail,Supplier_D,Customs Delay
+O-2691,2023-08-12,2023-08-13,2023-08-17,2023-08-16,Chennai,Mumbai_WH,Rail,Supplier_A,None
+O-2692,2023-11-08,2023-11-10,2023-11-12,2023-11-12,Pune,Ahmedabad_WH,Air,Supplier_A,None
+O-2693,2023-09-15,2023-09-18,2023-09-22,2023-09-24,Chennai,Kolkata_WH,Air,Supplier_C,Traffic
+O-2694,2023-03-19,2023-03-20,2023-03-23,2023-03-26,Bengaluru,Delhi_WH,Air,Supplier_B,Traffic
+O-2695,2023-06-04,2023-06-06,2023-06-09,2023-06-09,Hyderabad,Ahmedabad_WH,Road,Supplier_A,None
+O-2696,2023-03-19,2023-03-20,2023-03-25,2023-03-27,Bengaluru,Ahmedabad_WH,Road,Supplier_B,Transport Breakdown
+O-2697,2023-01-19,2023-01-21,2023-01-23,2023-01-22,Hyderabad,Kolkata_WH,Air,Supplier_A,None
+O-2698,2023-06-26,2023-06-27,2023-07-02,2023-07-04,Hyderabad,Ahmedabad_WH,Air,Supplier_C,Weather
+O-2699,2023-11-25,2023-11-28,2023-11-30,2023-11-29,Chennai,Ahmedabad_WH,Road,Supplier_A,None
+O-2700,2023-01-07,2023-01-09,2023-01-15,2023-01-18,Hyderabad,Delhi_WH,Sea,Supplier_D,Weather
+O-2701,2023-02-25,2023-02-28,2023-03-04,2023-03-07,Bengaluru,Ahmedabad_WH,Road,Supplier_A,Traffic
+O-2702,2023-06-22,2023-06-25,2023-06-30,2023-07-01,Bengaluru,Ahmedabad_WH,Air,Supplier_B,Weather
+O-2703,2023-10-09,2023-10-11,2023-10-15,2023-10-16,Chennai,Kolkata_WH,Road,Supplier_C,Weather
+O-2704,2023-10-08,2023-10-11,2023-10-16,2023-10-16,Hyderabad,Mumbai_WH,Sea,Supplier_D,None
+O-2705,2023-07-31,2023-08-02,2023-08-06,2023-08-09,Pune,Kolkata_WH,Sea,Supplier_D,Transport Breakdown
+O-2706,2023-09-04,2023-09-06,2023-09-08,2023-09-07,Chennai,Ahmedabad_WH,Rail,Supplier_C,None
+O-2707,2023-02-05,2023-02-06,2023-02-11,2023-02-14,Chennai,Ahmedabad_WH,Road,Supplier_C,Transport Breakdown
+O-2708,2023-07-14,2023-07-16,2023-07-20,2023-07-20,Pune,Kolkata_WH,Sea,Supplier_C,None
+O-2709,2023-11-20,2023-11-23,2023-11-27,2023-11-28,Pune,Kolkata_WH,Rail,Supplier_B,Weather
+O-2710,2023-04-23,2023-04-26,2023-05-01,2023-05-04,Hyderabad,Mumbai_WH,Rail,Supplier_B,Transport Breakdown
+O-2711,2023-05-13,2023-05-14,2023-05-20,2023-05-23,Bengaluru,Mumbai_WH,Sea,Supplier_D,Traffic
+O-2712,2023-10-15,2023-10-17,2023-10-20,2023-10-22,Pune,Kolkata_WH,Road,Supplier_B,Transport Breakdown
+O-2713,2023-11-10,2023-11-13,2023-11-18,2023-11-20,Pune,Kolkata_WH,Rail,Supplier_C,Weather
+O-2714,2023-11-28,2023-11-30,2023-12-03,2023-12-04,Hyderabad,Delhi_WH,Sea,Supplier_A,Weather
+O-2715,2023-09-21,2023-09-24,2023-09-29,2023-09-28,Hyderabad,Kolkata_WH,Road,Supplier_B,None
+O-2716,2023-05-19,2023-05-22,2023-05-26,2023-05-29,Chennai,Delhi_WH,Road,Supplier_A,Weather
+O-2717,2023-03-28,2023-03-31,2023-04-06,2023-04-08,Chennai,Ahmedabad_WH,Sea,Supplier_B,Weather
+O-2718,2023-02-12,2023-02-14,2023-02-20,2023-02-23,Hyderabad,Delhi_WH,Road,Supplier_D,Customs Delay
+O-2719,2023-08-02,2023-08-03,2023-08-05,2023-08-06,Bengaluru,Delhi_WH,Rail,Supplier_D,Transport Breakdown
+O-2720,2023-04-19,2023-04-22,2023-04-28,2023-05-01,Pune,Ahmedabad_WH,Air,Supplier_B,Weather
+O-2721,2023-03-30,2023-04-01,2023-04-03,2023-04-03,Pune,Mumbai_WH,Road,Supplier_B,None
+O-2722,2023-01-10,2023-01-11,2023-01-17,2023-01-19,Hyderabad,Ahmedabad_WH,Air,Supplier_D,Weather
+O-2723,2023-04-07,2023-04-10,2023-04-15,2023-04-14,Bengaluru,Delhi_WH,Road,Supplier_A,None
+O-2724,2023-09-13,2023-09-16,2023-09-18,2023-09-21,Chennai,Delhi_WH,Rail,Supplier_B,Customs Delay
+O-2725,2023-09-01,2023-09-03,2023-09-07,2023-09-08,Pune,Delhi_WH,Rail,Supplier_D,Transport Breakdown
+O-2726,2023-01-02,2023-01-03,2023-01-06,2023-01-07,Hyderabad,Kolkata_WH,Air,Supplier_D,Weather
+O-2727,2023-07-10,2023-07-12,2023-07-15,2023-07-15,Pune,Mumbai_WH,Road,Supplier_C,None
+O-2728,2023-11-28,2023-11-29,2023-12-03,2023-12-05,Pune,Mumbai_WH,Sea,Supplier_D,Transport Breakdown
+O-2729,2023-04-10,2023-04-11,2023-04-16,2023-04-18,Hyderabad,Mumbai_WH,Air,Supplier_D,Customs Delay
+O-2730,2023-06-22,2023-06-25,2023-06-28,2023-06-27,Chennai,Mumbai_WH,Road,Supplier_D,None
+O-2731,2023-05-17,2023-05-18,2023-05-21,2023-05-21,Hyderabad,Delhi_WH,Air,Supplier_B,None
+O-2732,2023-10-08,2023-10-11,2023-10-13,2023-10-14,Pune,Ahmedabad_WH,Air,Supplier_B,Transport Breakdown
+O-2733,2023-06-07,2023-06-09,2023-06-12,2023-06-11,Pune,Kolkata_WH,Rail,Supplier_C,None
+O-2734,2023-09-25,2023-09-28,2023-10-02,2023-10-05,Chennai,Ahmedabad_WH,Rail,Supplier_D,Customs Delay
+O-2735,2023-12-22,2023-12-24,2023-12-26,2023-12-26,Chennai,Delhi_WH,Air,Supplier_B,None
+O-2736,2023-08-12,2023-08-14,2023-08-20,2023-08-22,Bengaluru,Ahmedabad_WH,Sea,Supplier_C,Traffic
+O-2737,2023-11-12,2023-11-13,2023-11-15,2023-11-15,Chennai,Kolkata_WH,Rail,Supplier_B,None
+O-2738,2023-10-21,2023-10-24,2023-10-29,2023-10-29,Pune,Mumbai_WH,Rail,Supplier_D,None
+O-2739,2023-04-12,2023-04-13,2023-04-18,2023-04-17,Hyderabad,Kolkata_WH,Sea,Supplier_C,None
+O-2740,2023-07-19,2023-07-22,2023-07-27,2023-07-27,Chennai,Kolkata_WH,Air,Supplier_B,None
+O-2741,2023-01-18,2023-01-21,2023-01-23,2023-01-24,Bengaluru,Delhi_WH,Sea,Supplier_A,Transport Breakdown
+O-2742,2023-11-19,2023-11-21,2023-11-23,2023-11-25,Pune,Kolkata_WH,Road,Supplier_D,Transport Breakdown
+O-2743,2023-06-29,2023-07-01,2023-07-04,2023-07-05,Bengaluru,Kolkata_WH,Sea,Supplier_A,Transport Breakdown
+O-2744,2023-07-19,2023-07-21,2023-07-25,2023-07-24,Bengaluru,Kolkata_WH,Air,Supplier_B,None
+O-2745,2023-09-18,2023-09-20,2023-09-26,2023-09-26,Bengaluru,Ahmedabad_WH,Road,Supplier_C,None
+O-2746,2023-04-29,2023-05-01,2023-05-05,2023-05-08,Chennai,Kolkata_WH,Rail,Supplier_C,Transport Breakdown
+O-2747,2023-08-03,2023-08-06,2023-08-10,2023-08-12,Pune,Kolkata_WH,Road,Supplier_B,Transport Breakdown
+O-2748,2023-04-06,2023-04-07,2023-04-09,2023-04-10,Hyderabad,Delhi_WH,Air,Supplier_A,Traffic
+O-2749,2023-03-04,2023-03-06,2023-03-12,2023-03-15,Bengaluru,Kolkata_WH,Air,Supplier_A,Customs Delay
+O-2750,2023-03-27,2023-03-30,2023-04-03,2023-04-05,Bengaluru,Delhi_WH,Road,Supplier_C,Customs Delay
+O-2751,2023-12-01,2023-12-02,2023-12-08,2023-12-09,Bengaluru,Ahmedabad_WH,Air,Supplier_C,Traffic
+O-2752,2023-09-14,2023-09-16,2023-09-21,2023-09-20,Hyderabad,Delhi_WH,Sea,Supplier_D,None
+O-2753,2023-11-04,2023-11-06,2023-11-08,2023-11-08,Hyderabad,Delhi_WH,Air,Supplier_A,None
+O-2754,2023-09-02,2023-09-05,2023-09-07,2023-09-09,Bengaluru,Mumbai_WH,Rail,Supplier_A,Transport Breakdown
+O-2755,2023-11-29,2023-11-30,2023-12-02,2023-12-04,Chennai,Delhi_WH,Road,Supplier_D,Weather
+O-2756,2023-12-14,2023-12-17,2023-12-23,2023-12-23,Chennai,Mumbai_WH,Air,Supplier_A,None
+O-2757,2023-11-04,2023-11-06,2023-11-12,2023-11-15,Pune,Kolkata_WH,Road,Supplier_A,Traffic
+O-2758,2023-03-14,2023-03-15,2023-03-18,2023-03-20,Bengaluru,Delhi_WH,Road,Supplier_B,Traffic
+O-2759,2023-05-12,2023-05-13,2023-05-19,2023-05-19,Hyderabad,Delhi_WH,Rail,Supplier_A,None
+O-2760,2023-12-21,2023-12-23,2023-12-27,2023-12-28,Hyderabad,Mumbai_WH,Sea,Supplier_A,Transport Breakdown
+O-2761,2023-12-07,2023-12-10,2023-12-12,2023-12-13,Pune,Mumbai_WH,Sea,Supplier_A,Weather
+O-2762,2023-11-06,2023-11-07,2023-11-13,2023-11-14,Hyderabad,Ahmedabad_WH,Road,Supplier_D,Customs Delay
+O-2763,2023-12-18,2023-12-20,2023-12-23,2023-12-26,Bengaluru,Mumbai_WH,Sea,Supplier_C,Transport Breakdown
+O-2764,2023-09-05,2023-09-08,2023-09-10,2023-09-09,Hyderabad,Ahmedabad_WH,Sea,Supplier_C,None
+O-2765,2023-03-17,2023-03-19,2023-03-22,2023-03-23,Chennai,Delhi_WH,Air,Supplier_B,Customs Delay
+O-2766,2023-01-29,2023-01-31,2023-02-03,2023-02-02,Bengaluru,Kolkata_WH,Rail,Supplier_B,None
+O-2767,2023-05-28,2023-05-31,2023-06-03,2023-06-03,Pune,Mumbai_WH,Air,Supplier_A,None
+O-2768,2023-12-24,2023-12-27,2023-12-29,2023-12-30,Bengaluru,Kolkata_WH,Sea,Supplier_B,Traffic
+O-2769,2023-09-29,2023-09-30,2023-10-03,2023-10-02,Bengaluru,Ahmedabad_WH,Air,Supplier_A,None
+O-2770,2023-07-29,2023-07-31,2023-08-05,2023-08-08,Pune,Mumbai_WH,Air,Supplier_B,Transport Breakdown
+O-2771,2023-11-17,2023-11-18,2023-11-22,2023-11-23,Chennai,Ahmedabad_WH,Air,Supplier_B,Weather
+O-2772,2023-04-28,2023-05-01,2023-05-07,2023-05-07,Pune,Kolkata_WH,Sea,Supplier_C,None
+O-2773,2023-02-10,2023-02-13,2023-02-16,2023-02-15,Pune,Ahmedabad_WH,Sea,Supplier_C,None
+O-2774,2023-12-03,2023-12-06,2023-12-08,2023-12-10,Chennai,Delhi_WH,Road,Supplier_D,Weather
+O-2775,2023-06-30,2023-07-03,2023-07-08,2023-07-09,Hyderabad,Kolkata_WH,Air,Supplier_B,Weather
+O-2776,2023-11-12,2023-11-14,2023-11-16,2023-11-15,Chennai,Ahmedabad_WH,Road,Supplier_D,None
+O-2777,2023-09-01,2023-09-04,2023-09-09,2023-09-08,Bengaluru,Delhi_WH,Air,Supplier_D,None
+O-2778,2023-04-18,2023-04-19,2023-04-21,2023-04-21,Pune,Delhi_WH,Air,Supplier_D,None
+O-2779,2023-10-12,2023-10-14,2023-10-18,2023-10-20,Chennai,Ahmedabad_WH,Sea,Supplier_C,Transport Breakdown
+O-2780,2023-10-09,2023-10-10,2023-10-12,2023-10-12,Chennai,Mumbai_WH,Air,Supplier_D,None
+O-2781,2023-12-29,2023-12-30,2024-01-05,2024-01-05,Hyderabad,Kolkata_WH,Air,Supplier_B,None
+O-2782,2023-05-20,2023-05-23,2023-05-27,2023-05-27,Hyderabad,Delhi_WH,Road,Supplier_D,None
+O-2783,2023-06-29,2023-06-30,2023-07-03,2023-07-04,Pune,Ahmedabad_WH,Road,Supplier_A,Customs Delay
+O-2784,2023-02-12,2023-02-15,2023-02-20,2023-02-21,Pune,Delhi_WH,Rail,Supplier_D,Weather
+O-2785,2023-12-19,2023-12-21,2023-12-25,2023-12-28,Hyderabad,Mumbai_WH,Air,Supplier_B,Transport Breakdown
+O-2786,2023-09-06,2023-09-08,2023-09-14,2023-09-13,Pune,Delhi_WH,Rail,Supplier_B,None
+O-2787,2023-12-14,2023-12-16,2023-12-21,2023-12-20,Chennai,Delhi_WH,Rail,Supplier_B,None
+O-2788,2023-07-31,2023-08-02,2023-08-07,2023-08-10,Chennai,Mumbai_WH,Road,Supplier_C,Customs Delay
+O-2789,2023-11-18,2023-11-21,2023-11-27,2023-11-30,Bengaluru,Kolkata_WH,Rail,Supplier_D,Traffic
+O-2790,2023-03-02,2023-03-03,2023-03-06,2023-03-06,Bengaluru,Ahmedabad_WH,Sea,Supplier_B,None
+O-2791,2023-02-23,2023-02-26,2023-03-02,2023-03-03,Pune,Ahmedabad_WH,Air,Supplier_C,Transport Breakdown
+O-2792,2023-07-31,2023-08-01,2023-08-07,2023-08-09,Chennai,Mumbai_WH,Sea,Supplier_D,Weather
+O-2793,2023-04-19,2023-04-22,2023-04-25,2023-04-27,Hyderabad,Kolkata_WH,Rail,Supplier_D,Weather
+O-2794,2023-09-23,2023-09-25,2023-09-30,2023-10-02,Pune,Kolkata_WH,Rail,Supplier_D,Weather
+O-2795,2023-07-06,2023-07-07,2023-07-12,2023-07-14,Pune,Delhi_WH,Road,Supplier_B,Customs Delay
+O-2796,2023-05-24,2023-05-27,2023-05-29,2023-05-31,Hyderabad,Kolkata_WH,Rail,Supplier_B,Traffic
+O-2797,2023-12-23,2023-12-25,2023-12-27,2023-12-29,Pune,Delhi_WH,Sea,Supplier_D,Customs Delay
+O-2798,2023-01-24,2023-01-27,2023-01-30,2023-02-01,Pune,Delhi_WH,Air,Supplier_A,Weather
+O-2799,2023-01-20,2023-01-21,2023-01-24,2023-01-24,Hyderabad,Ahmedabad_WH,Sea,Supplier_C,None
+O-2800,2023-01-11,2023-01-12,2023-01-17,2023-01-19,Bengaluru,Delhi_WH,Sea,Supplier_A,Traffic
+O-2801,2023-01-12,2023-01-14,2023-01-16,2023-01-17,Chennai,Mumbai_WH,Air,Supplier_B,Weather
+O-2802,2023-04-06,2023-04-08,2023-04-10,2023-04-12,Hyderabad,Delhi_WH,Rail,Supplier_B,Transport Breakdown
+O-2803,2023-10-19,2023-10-20,2023-10-23,2023-10-23,Bengaluru,Mumbai_WH,Sea,Supplier_D,None
+O-2804,2023-12-22,2023-12-25,2023-12-27,2023-12-29,Bengaluru,Kolkata_WH,Road,Supplier_D,Traffic
+O-2805,2023-09-20,2023-09-21,2023-09-23,2023-09-23,Hyderabad,Kolkata_WH,Rail,Supplier_C,None
+O-2806,2023-04-05,2023-04-08,2023-04-10,2023-04-13,Chennai,Ahmedabad_WH,Air,Supplier_C,Traffic
+O-2807,2023-05-14,2023-05-16,2023-05-18,2023-05-21,Pune,Kolkata_WH,Air,Supplier_D,Weather
+O-2808,2023-07-05,2023-07-06,2023-07-09,2023-07-08,Bengaluru,Delhi_WH,Air,Supplier_D,None
+O-2809,2023-05-06,2023-05-07,2023-05-12,2023-05-15,Pune,Delhi_WH,Rail,Supplier_C,Traffic
+O-2810,2023-01-03,2023-01-04,2023-01-08,2023-01-08,Bengaluru,Kolkata_WH,Air,Supplier_B,None
+O-2811,2023-06-27,2023-06-29,2023-07-05,2023-07-06,Chennai,Delhi_WH,Air,Supplier_A,Transport Breakdown
+O-2812,2023-02-13,2023-02-16,2023-02-19,2023-02-21,Bengaluru,Kolkata_WH,Air,Supplier_B,Customs Delay
+O-2813,2023-09-28,2023-10-01,2023-10-03,2023-10-04,Hyderabad,Ahmedabad_WH,Road,Supplier_C,Weather
+O-2814,2023-12-29,2023-12-31,2024-01-06,2024-01-09,Pune,Delhi_WH,Road,Supplier_A,Weather
+O-2815,2023-08-16,2023-08-18,2023-08-24,2023-08-25,Pune,Delhi_WH,Rail,Supplier_B,Weather
+O-2816,2023-06-18,2023-06-20,2023-06-25,2023-06-27,Hyderabad,Ahmedabad_WH,Sea,Supplier_B,Transport Breakdown
+O-2817,2023-11-12,2023-11-13,2023-11-15,2023-11-17,Hyderabad,Ahmedabad_WH,Rail,Supplier_B,Traffic
+O-2818,2023-04-12,2023-04-15,2023-04-21,2023-04-22,Hyderabad,Mumbai_WH,Sea,Supplier_D,Transport Breakdown
+O-2819,2023-03-05,2023-03-06,2023-03-09,2023-03-11,Hyderabad,Kolkata_WH,Sea,Supplier_A,Customs Delay
+O-2820,2023-07-06,2023-07-08,2023-07-14,2023-07-14,Pune,Kolkata_WH,Rail,Supplier_A,None
+O-2821,2023-12-25,2023-12-27,2024-01-01,2024-01-04,Pune,Ahmedabad_WH,Rail,Supplier_B,Traffic
+O-2822,2023-10-14,2023-10-16,2023-10-19,2023-10-18,Pune,Ahmedabad_WH,Sea,Supplier_C,None
+O-2823,2023-02-15,2023-02-16,2023-02-20,2023-02-21,Pune,Delhi_WH,Road,Supplier_A,Customs Delay
+O-2824,2023-05-05,2023-05-07,2023-05-13,2023-05-12,Chennai,Ahmedabad_WH,Air,Supplier_B,None
+O-2825,2023-08-19,2023-08-22,2023-08-24,2023-08-26,Pune,Kolkata_WH,Sea,Supplier_B,Transport Breakdown
+O-2826,2023-08-11,2023-08-13,2023-08-18,2023-08-19,Chennai,Ahmedabad_WH,Sea,Supplier_C,Customs Delay
+O-2827,2023-11-01,2023-11-04,2023-11-08,2023-11-11,Chennai,Ahmedabad_WH,Sea,Supplier_D,Traffic
+O-2828,2023-10-19,2023-10-22,2023-10-26,2023-10-26,Hyderabad,Mumbai_WH,Road,Supplier_C,None
+O-2829,2023-05-18,2023-05-21,2023-05-26,2023-05-28,Bengaluru,Ahmedabad_WH,Road,Supplier_D,Transport Breakdown
+O-2830,2023-03-12,2023-03-13,2023-03-15,2023-03-15,Hyderabad,Ahmedabad_WH,Sea,Supplier_C,None
+O-2831,2023-01-27,2023-01-29,2023-02-02,2023-02-03,Hyderabad,Mumbai_WH,Rail,Supplier_C,Transport Breakdown
+O-2832,2023-02-04,2023-02-07,2023-02-10,2023-02-12,Pune,Kolkata_WH,Sea,Supplier_A,Transport Breakdown
+O-2833,2023-05-09,2023-05-11,2023-05-14,2023-05-13,Pune,Mumbai_WH,Road,Supplier_D,None
+O-2834,2023-10-20,2023-10-23,2023-10-27,2023-10-26,Bengaluru,Delhi_WH,Rail,Supplier_C,None
+O-2835,2023-08-05,2023-08-07,2023-08-10,2023-08-10,Chennai,Ahmedabad_WH,Sea,Supplier_B,None
+O-2836,2023-07-06,2023-07-07,2023-07-10,2023-07-13,Bengaluru,Delhi_WH,Rail,Supplier_D,Traffic
+O-2837,2023-02-18,2023-02-19,2023-02-23,2023-02-23,Pune,Ahmedabad_WH,Rail,Supplier_B,None
+O-2838,2023-08-08,2023-08-09,2023-08-11,2023-08-14,Chennai,Delhi_WH,Air,Supplier_A,Customs Delay
+O-2839,2023-05-06,2023-05-07,2023-05-13,2023-05-13,Bengaluru,Kolkata_WH,Sea,Supplier_B,None
+O-2840,2023-07-02,2023-07-04,2023-07-10,2023-07-09,Bengaluru,Ahmedabad_WH,Sea,Supplier_D,None
+O-2841,2023-03-15,2023-03-17,2023-03-21,2023-03-20,Hyderabad,Delhi_WH,Road,Supplier_D,None
+O-2842,2023-07-16,2023-07-18,2023-07-24,2023-07-24,Bengaluru,Delhi_WH,Air,Supplier_B,None
+O-2843,2023-08-31,2023-09-01,2023-09-06,2023-09-09,Hyderabad,Kolkata_WH,Air,Supplier_A,Weather
+O-2844,2023-03-15,2023-03-18,2023-03-20,2023-03-21,Bengaluru,Delhi_WH,Road,Supplier_C,Traffic
+O-2845,2023-08-02,2023-08-03,2023-08-06,2023-08-05,Chennai,Mumbai_WH,Rail,Supplier_C,None
+O-2846,2023-01-17,2023-01-20,2023-01-23,2023-01-22,Hyderabad,Ahmedabad_WH,Sea,Supplier_B,None
+O-2847,2023-02-17,2023-02-19,2023-02-25,2023-02-26,Chennai,Ahmedabad_WH,Road,Supplier_B,Transport Breakdown
+O-2848,2023-12-18,2023-12-20,2023-12-24,2023-12-27,Bengaluru,Delhi_WH,Sea,Supplier_A,Traffic
+O-2849,2023-01-23,2023-01-25,2023-01-29,2023-01-30,Pune,Kolkata_WH,Air,Supplier_A,Weather
+O-2850,2023-04-03,2023-04-04,2023-04-09,2023-04-12,Pune,Ahmedabad_WH,Sea,Supplier_A,Weather
+O-2851,2023-09-20,2023-09-21,2023-09-23,2023-09-22,Bengaluru,Ahmedabad_WH,Air,Supplier_A,None
+O-2852,2023-12-08,2023-12-09,2023-12-15,2023-12-14,Hyderabad,Ahmedabad_WH,Rail,Supplier_B,None
+O-2853,2023-02-21,2023-02-22,2023-02-28,2023-03-01,Hyderabad,Mumbai_WH,Sea,Supplier_B,Transport Breakdown
+O-2854,2023-07-01,2023-07-02,2023-07-05,2023-07-06,Chennai,Delhi_WH,Air,Supplier_B,Transport Breakdown
+O-2855,2023-05-17,2023-05-20,2023-05-26,2023-05-28,Hyderabad,Ahmedabad_WH,Air,Supplier_A,Transport Breakdown
+O-2856,2023-12-02,2023-12-05,2023-12-09,2023-12-09,Pune,Kolkata_WH,Air,Supplier_B,None
+O-2857,2023-11-24,2023-11-27,2023-11-29,2023-11-29,Pune,Ahmedabad_WH,Sea,Supplier_D,None
+O-2858,2023-10-12,2023-10-14,2023-10-20,2023-10-20,Bengaluru,Mumbai_WH,Road,Supplier_B,None
+O-2859,2023-03-11,2023-03-14,2023-03-18,2023-03-21,Chennai,Delhi_WH,Rail,Supplier_D,Transport Breakdown
+O-2860,2023-03-12,2023-03-15,2023-03-18,2023-03-17,Chennai,Mumbai_WH,Sea,Supplier_B,None
+O-2861,2023-06-16,2023-06-18,2023-06-23,2023-06-25,Bengaluru,Kolkata_WH,Sea,Supplier_C,Traffic
+O-2862,2023-06-30,2023-07-01,2023-07-07,2023-07-07,Pune,Ahmedabad_WH,Sea,Supplier_A,None
+O-2863,2023-04-13,2023-04-16,2023-04-18,2023-04-20,Pune,Mumbai_WH,Sea,Supplier_B,Transport Breakdown
+O-2864,2023-02-04,2023-02-05,2023-02-09,2023-02-09,Bengaluru,Delhi_WH,Sea,Supplier_C,None
+O-2865,2023-04-20,2023-04-21,2023-04-27,2023-04-27,Hyderabad,Delhi_WH,Rail,Supplier_A,None
+O-2866,2023-08-23,2023-08-25,2023-08-30,2023-08-29,Chennai,Kolkata_WH,Road,Supplier_A,None
+O-2867,2023-04-29,2023-05-01,2023-05-05,2023-05-07,Chennai,Delhi_WH,Air,Supplier_A,Customs Delay
+O-2868,2023-12-17,2023-12-18,2023-12-20,2023-12-22,Pune,Ahmedabad_WH,Air,Supplier_C,Traffic
+O-2869,2023-04-01,2023-04-02,2023-04-05,2023-04-05,Pune,Delhi_WH,Rail,Supplier_A,None
+O-2870,2023-04-09,2023-04-10,2023-04-13,2023-04-15,Pune,Delhi_WH,Rail,Supplier_C,Transport Breakdown
+O-2871,2023-08-31,2023-09-03,2023-09-06,2023-09-09,Bengaluru,Kolkata_WH,Rail,Supplier_D,Traffic
+O-2872,2023-05-29,2023-05-30,2023-06-03,2023-06-02,Pune,Delhi_WH,Road,Supplier_B,None
+O-2873,2023-03-25,2023-03-28,2023-03-30,2023-03-29,Bengaluru,Delhi_WH,Sea,Supplier_B,None
+O-2874,2023-10-06,2023-10-07,2023-10-13,2023-10-13,Pune,Kolkata_WH,Sea,Supplier_D,None
+O-2875,2023-06-10,2023-06-11,2023-06-14,2023-06-13,Pune,Delhi_WH,Road,Supplier_C,None
+O-2876,2023-10-06,2023-10-08,2023-10-10,2023-10-10,Pune,Mumbai_WH,Air,Supplier_B,None
+O-2877,2023-05-07,2023-05-09,2023-05-12,2023-05-12,Chennai,Kolkata_WH,Sea,Supplier_A,None
+O-2878,2023-06-04,2023-06-05,2023-06-11,2023-06-13,Hyderabad,Ahmedabad_WH,Air,Supplier_D,Transport Breakdown
+O-2879,2023-03-16,2023-03-18,2023-03-23,2023-03-23,Bengaluru,Ahmedabad_WH,Rail,Supplier_A,None
+O-2880,2023-04-23,2023-04-26,2023-04-28,2023-05-01,Pune,Mumbai_WH,Air,Supplier_B,Customs Delay
+O-2881,2023-06-30,2023-07-02,2023-07-05,2023-07-04,Chennai,Mumbai_WH,Rail,Supplier_C,None
+O-2882,2023-01-30,2023-02-01,2023-02-03,2023-02-05,Pune,Ahmedabad_WH,Sea,Supplier_B,Traffic
+O-2883,2023-07-13,2023-07-16,2023-07-21,2023-07-23,Pune,Ahmedabad_WH,Road,Supplier_B,Customs Delay
+O-2884,2023-10-26,2023-10-28,2023-11-01,2023-10-31,Chennai,Kolkata_WH,Air,Supplier_B,None
+O-2885,2023-11-02,2023-11-04,2023-11-09,2023-11-10,Bengaluru,Delhi_WH,Road,Supplier_A,Weather
+O-2886,2023-05-02,2023-05-04,2023-05-07,2023-05-07,Bengaluru,Ahmedabad_WH,Air,Supplier_C,None
+O-2887,2023-09-22,2023-09-23,2023-09-28,2023-09-27,Bengaluru,Mumbai_WH,Air,Supplier_B,None
+O-2888,2023-02-06,2023-02-07,2023-02-11,2023-02-14,Hyderabad,Mumbai_WH,Air,Supplier_B,Customs Delay
+O-2889,2023-05-01,2023-05-04,2023-05-06,2023-05-09,Bengaluru,Delhi_WH,Air,Supplier_C,Traffic
+O-2890,2023-10-06,2023-10-07,2023-10-12,2023-10-11,Pune,Delhi_WH,Air,Supplier_A,None
+O-2891,2023-01-06,2023-01-07,2023-01-10,2023-01-09,Pune,Ahmedabad_WH,Rail,Supplier_A,None
+O-2892,2023-05-31,2023-06-02,2023-06-04,2023-06-03,Bengaluru,Delhi_WH,Road,Supplier_A,None
+O-2893,2023-11-02,2023-11-04,2023-11-09,2023-11-11,Chennai,Mumbai_WH,Road,Supplier_B,Customs Delay
+O-2894,2023-08-13,2023-08-15,2023-08-17,2023-08-17,Hyderabad,Ahmedabad_WH,Sea,Supplier_D,None
+O-2895,2023-04-26,2023-04-27,2023-05-01,2023-05-02,Pune,Ahmedabad_WH,Rail,Supplier_A,Traffic
+O-2896,2023-06-09,2023-06-12,2023-06-14,2023-06-14,Hyderabad,Ahmedabad_WH,Road,Supplier_A,None
+O-2897,2023-01-17,2023-01-19,2023-01-23,2023-01-24,Hyderabad,Mumbai_WH,Air,Supplier_B,Customs Delay
+O-2898,2023-01-28,2023-01-31,2023-02-05,2023-02-04,Bengaluru,Mumbai_WH,Rail,Supplier_D,None
+O-2899,2023-05-25,2023-05-26,2023-05-31,2023-06-03,Pune,Kolkata_WH,Sea,Supplier_B,Transport Breakdown
+O-2900,2023-12-14,2023-12-17,2023-12-19,2023-12-20,Hyderabad,Mumbai_WH,Rail,Supplier_A,Traffic
+O-2901,2023-12-22,2023-12-24,2023-12-30,2024-01-01,Bengaluru,Delhi_WH,Sea,Supplier_C,Transport Breakdown
+O-2902,2023-08-29,2023-08-30,2023-09-01,2023-08-31,Pune,Ahmedabad_WH,Road,Supplier_A,None
+O-2903,2023-05-06,2023-05-07,2023-05-11,2023-05-13,Bengaluru,Ahmedabad_WH,Sea,Supplier_B,Transport Breakdown
+O-2904,2023-07-26,2023-07-29,2023-08-01,2023-08-02,Chennai,Kolkata_WH,Road,Supplier_D,Transport Breakdown
+O-2905,2023-07-02,2023-07-05,2023-07-10,2023-07-11,Bengaluru,Kolkata_WH,Road,Supplier_B,Traffic
+O-2906,2023-07-15,2023-07-18,2023-07-23,2023-07-24,Chennai,Kolkata_WH,Rail,Supplier_B,Traffic
+O-2907,2023-11-24,2023-11-25,2023-11-27,2023-11-29,Bengaluru,Delhi_WH,Sea,Supplier_A,Traffic
+O-2908,2023-08-13,2023-08-16,2023-08-19,2023-08-20,Chennai,Ahmedabad_WH,Rail,Supplier_C,Customs Delay
+O-2909,2023-12-26,2023-12-27,2024-01-02,2024-01-03,Chennai,Ahmedabad_WH,Rail,Supplier_C,Weather
+O-2910,2023-01-17,2023-01-18,2023-01-21,2023-01-21,Pune,Kolkata_WH,Air,Supplier_A,None
+O-2911,2023-01-15,2023-01-17,2023-01-21,2023-01-20,Bengaluru,Kolkata_WH,Sea,Supplier_B,None
+O-2912,2023-12-27,2023-12-30,2024-01-04,2024-01-06,Chennai,Kolkata_WH,Sea,Supplier_C,Transport Breakdown
+O-2913,2023-07-17,2023-07-20,2023-07-26,2023-07-29,Hyderabad,Delhi_WH,Sea,Supplier_A,Customs Delay
+O-2914,2023-10-26,2023-10-27,2023-10-30,2023-10-29,Hyderabad,Delhi_WH,Road,Supplier_C,None
+O-2915,2023-10-21,2023-10-24,2023-10-27,2023-10-27,Hyderabad,Delhi_WH,Rail,Supplier_A,None
+O-2916,2023-03-09,2023-03-11,2023-03-13,2023-03-13,Bengaluru,Mumbai_WH,Rail,Supplier_D,None
+O-2917,2023-09-13,2023-09-16,2023-09-20,2023-09-23,Hyderabad,Delhi_WH,Rail,Supplier_B,Transport Breakdown
+O-2918,2023-08-13,2023-08-16,2023-08-18,2023-08-21,Pune,Mumbai_WH,Air,Supplier_D,Customs Delay
+O-2919,2023-08-25,2023-08-27,2023-08-31,2023-08-30,Hyderabad,Delhi_WH,Rail,Supplier_D,None
+O-2920,2023-01-04,2023-01-05,2023-01-08,2023-01-11,Bengaluru,Kolkata_WH,Road,Supplier_A,Customs Delay
+O-2921,2023-04-04,2023-04-05,2023-04-11,2023-04-11,Hyderabad,Kolkata_WH,Rail,Supplier_D,None
+O-2922,2023-06-26,2023-06-27,2023-06-29,2023-06-28,Chennai,Delhi_WH,Air,Supplier_D,None
+O-2923,2023-09-12,2023-09-13,2023-09-17,2023-09-18,Pune,Mumbai_WH,Air,Supplier_D,Transport Breakdown
+O-2924,2023-11-15,2023-11-16,2023-11-19,2023-11-21,Bengaluru,Ahmedabad_WH,Air,Supplier_C,Transport Breakdown
+O-2925,2023-09-27,2023-09-28,2023-10-03,2023-10-06,Pune,Delhi_WH,Road,Supplier_D,Traffic
+O-2926,2023-05-06,2023-05-09,2023-05-13,2023-05-16,Pune,Mumbai_WH,Road,Supplier_C,Transport Breakdown
+O-2927,2023-03-27,2023-03-28,2023-03-30,2023-04-02,Bengaluru,Mumbai_WH,Sea,Supplier_D,Traffic
+O-2928,2023-08-16,2023-08-19,2023-08-25,2023-08-27,Bengaluru,Delhi_WH,Rail,Supplier_B,Transport Breakdown
+O-2929,2023-06-01,2023-06-04,2023-06-09,2023-06-09,Pune,Delhi_WH,Air,Supplier_C,None
+O-2930,2023-06-07,2023-06-08,2023-06-14,2023-06-15,Chennai,Delhi_WH,Road,Supplier_C,Weather
+O-2931,2023-08-06,2023-08-09,2023-08-14,2023-08-16,Pune,Delhi_WH,Road,Supplier_B,Weather
+O-2932,2023-11-27,2023-11-29,2023-12-04,2023-12-04,Bengaluru,Ahmedabad_WH,Sea,Supplier_A,None
+O-2933,2023-02-07,2023-02-08,2023-02-12,2023-02-15,Hyderabad,Delhi_WH,Road,Supplier_D,Customs Delay
+O-2934,2023-11-18,2023-11-21,2023-11-24,2023-11-26,Bengaluru,Ahmedabad_WH,Road,Supplier_C,Weather
+O-2935,2023-06-25,2023-06-27,2023-06-29,2023-06-29,Hyderabad,Mumbai_WH,Rail,Supplier_B,None
+O-2936,2023-03-14,2023-03-17,2023-03-21,2023-03-21,Pune,Mumbai_WH,Rail,Supplier_A,None
+O-2937,2023-01-16,2023-01-17,2023-01-21,2023-01-20,Bengaluru,Mumbai_WH,Air,Supplier_D,None
+O-2938,2023-01-23,2023-01-25,2023-01-27,2023-01-26,Bengaluru,Ahmedabad_WH,Sea,Supplier_D,None
+O-2939,2023-04-11,2023-04-13,2023-04-19,2023-04-21,Pune,Kolkata_WH,Sea,Supplier_D,Traffic
+O-2940,2023-07-11,2023-07-14,2023-07-19,2023-07-21,Pune,Kolkata_WH,Air,Supplier_A,Traffic
+O-2941,2023-03-30,2023-04-01,2023-04-04,2023-04-05,Bengaluru,Ahmedabad_WH,Road,Supplier_C,Customs Delay
+O-2942,2023-04-19,2023-04-20,2023-04-22,2023-04-23,Hyderabad,Delhi_WH,Rail,Supplier_A,Weather
+O-2943,2023-06-11,2023-06-13,2023-06-19,2023-06-22,Bengaluru,Kolkata_WH,Road,Supplier_D,Customs Delay
+O-2944,2023-08-10,2023-08-12,2023-08-17,2023-08-18,Pune,Ahmedabad_WH,Sea,Supplier_D,Transport Breakdown
+O-2945,2023-07-06,2023-07-07,2023-07-11,2023-07-14,Bengaluru,Ahmedabad_WH,Air,Supplier_B,Transport Breakdown
+O-2946,2023-11-07,2023-11-08,2023-11-14,2023-11-17,Bengaluru,Ahmedabad_WH,Air,Supplier_C,Transport Breakdown
+O-2947,2023-03-25,2023-03-26,2023-03-30,2023-03-30,Bengaluru,Mumbai_WH,Road,Supplier_B,None
+O-2948,2023-07-01,2023-07-03,2023-07-09,2023-07-12,Bengaluru,Ahmedabad_WH,Rail,Supplier_C,Weather
+O-2949,2023-06-27,2023-06-29,2023-07-05,2023-07-05,Hyderabad,Kolkata_WH,Rail,Supplier_D,None
+O-2950,2023-08-06,2023-08-09,2023-08-14,2023-08-14,Pune,Ahmedabad_WH,Air,Supplier_C,None
+O-2951,2023-12-21,2023-12-22,2023-12-28,2023-12-31,Hyderabad,Delhi_WH,Sea,Supplier_C,Traffic
+O-2952,2023-03-01,2023-03-03,2023-03-09,2023-03-11,Hyderabad,Kolkata_WH,Sea,Supplier_B,Customs Delay
+O-2953,2023-04-07,2023-04-10,2023-04-15,2023-04-15,Chennai,Delhi_WH,Road,Supplier_C,None
+O-2954,2023-08-02,2023-08-05,2023-08-08,2023-08-08,Pune,Kolkata_WH,Road,Supplier_B,None
+O-2955,2023-07-16,2023-07-17,2023-07-21,2023-07-21,Chennai,Mumbai_WH,Road,Supplier_C,None
+O-2956,2023-09-28,2023-09-30,2023-10-03,2023-10-04,Chennai,Kolkata_WH,Sea,Supplier_A,Traffic
+O-2957,2023-01-13,2023-01-16,2023-01-18,2023-01-20,Chennai,Delhi_WH,Road,Supplier_C,Transport Breakdown
+O-2958,2023-08-13,2023-08-14,2023-08-19,2023-08-20,Hyderabad,Delhi_WH,Air,Supplier_D,Transport Breakdown
+O-2959,2023-04-02,2023-04-04,2023-04-06,2023-04-06,Chennai,Kolkata_WH,Road,Supplier_B,None
+O-2960,2023-08-17,2023-08-19,2023-08-22,2023-08-22,Chennai,Kolkata_WH,Road,Supplier_C,None
+O-2961,2023-12-08,2023-12-09,2023-12-13,2023-12-13,Pune,Ahmedabad_WH,Road,Supplier_C,None
+O-2962,2023-05-09,2023-05-10,2023-05-15,2023-05-16,Chennai,Ahmedabad_WH,Rail,Supplier_C,Weather
+O-2963,2023-03-26,2023-03-28,2023-04-02,2023-04-05,Hyderabad,Mumbai_WH,Rail,Supplier_A,Customs Delay
+O-2964,2023-01-21,2023-01-22,2023-01-24,2023-01-27,Pune,Mumbai_WH,Road,Supplier_B,Traffic
+O-2965,2023-03-03,2023-03-05,2023-03-08,2023-03-11,Pune,Ahmedabad_WH,Sea,Supplier_D,Weather
+O-2966,2023-06-21,2023-06-23,2023-06-28,2023-06-28,Pune,Delhi_WH,Rail,Supplier_D,None
+O-2967,2023-12-27,2023-12-30,2024-01-03,2024-01-06,Hyderabad,Kolkata_WH,Rail,Supplier_D,Transport Breakdown
+O-2968,2023-01-05,2023-01-08,2023-01-11,2023-01-11,Chennai,Delhi_WH,Air,Supplier_C,None
+O-2969,2023-07-31,2023-08-01,2023-08-05,2023-08-04,Hyderabad,Ahmedabad_WH,Rail,Supplier_B,None
+O-2970,2023-03-04,2023-03-05,2023-03-11,2023-03-11,Chennai,Mumbai_WH,Rail,Supplier_B,None
+O-2971,2023-01-14,2023-01-16,2023-01-21,2023-01-24,Chennai,Kolkata_WH,Air,Supplier_D,Weather
+O-2972,2023-06-09,2023-06-11,2023-06-16,2023-06-18,Hyderabad,Mumbai_WH,Sea,Supplier_A,Transport Breakdown
+O-2973,2023-06-21,2023-06-24,2023-06-27,2023-06-28,Bengaluru,Kolkata_WH,Air,Supplier_C,Transport Breakdown
+O-2974,2023-07-31,2023-08-03,2023-08-09,2023-08-09,Chennai,Kolkata_WH,Sea,Supplier_D,None
+O-2975,2023-01-24,2023-01-26,2023-01-28,2023-01-29,Hyderabad,Delhi_WH,Road,Supplier_D,Transport Breakdown
+O-2976,2023-11-06,2023-11-08,2023-11-10,2023-11-10,Pune,Kolkata_WH,Rail,Supplier_B,None
+O-2977,2023-10-06,2023-10-07,2023-10-09,2023-10-11,Bengaluru,Mumbai_WH,Rail,Supplier_B,Customs Delay
+O-2978,2023-01-15,2023-01-16,2023-01-21,2023-01-21,Chennai,Mumbai_WH,Road,Supplier_A,None
+O-2979,2023-12-14,2023-12-15,2023-12-19,2023-12-18,Hyderabad,Mumbai_WH,Air,Supplier_B,None
+O-2980,2023-05-06,2023-05-07,2023-05-12,2023-05-14,Pune,Delhi_WH,Sea,Supplier_B,Weather
+O-2981,2023-04-19,2023-04-20,2023-04-24,2023-04-25,Hyderabad,Kolkata_WH,Rail,Supplier_D,Customs Delay
+O-2982,2023-08-27,2023-08-30,2023-09-01,2023-09-04,Bengaluru,Delhi_WH,Road,Supplier_D,Transport Breakdown
+O-2983,2023-04-02,2023-04-03,2023-04-06,2023-04-05,Pune,Delhi_WH,Sea,Supplier_B,None
+O-2984,2023-07-16,2023-07-17,2023-07-21,2023-07-21,Chennai,Ahmedabad_WH,Road,Supplier_C,None
+O-2985,2023-12-14,2023-12-15,2023-12-17,2023-12-16,Hyderabad,Ahmedabad_WH,Sea,Supplier_B,None
+O-2986,2023-09-17,2023-09-19,2023-09-23,2023-09-23,Pune,Mumbai_WH,Sea,Supplier_A,None
+O-2987,2023-12-11,2023-12-12,2023-12-16,2023-12-16,Bengaluru,Kolkata_WH,Road,Supplier_B,None
+O-2988,2023-07-31,2023-08-02,2023-08-07,2023-08-06,Chennai,Kolkata_WH,Air,Supplier_C,None
+O-2989,2023-12-04,2023-12-06,2023-12-08,2023-12-09,Hyderabad,Kolkata_WH,Rail,Supplier_D,Customs Delay
+O-2990,2023-03-02,2023-03-05,2023-03-11,2023-03-11,Chennai,Delhi_WH,Air,Supplier_B,None
+O-2991,2023-01-16,2023-01-17,2023-01-21,2023-01-20,Bengaluru,Kolkata_WH,Sea,Supplier_A,None
+O-2992,2023-10-04,2023-10-06,2023-10-11,2023-10-14,Hyderabad,Kolkata_WH,Sea,Supplier_A,Transport Breakdown
+O-2993,2023-03-05,2023-03-06,2023-03-10,2023-03-11,Bengaluru,Delhi_WH,Sea,Supplier_B,Transport Breakdown
+O-2994,2023-10-18,2023-10-19,2023-10-21,2023-10-23,Hyderabad,Delhi_WH,Rail,Supplier_A,Transport Breakdown
+O-2995,2023-08-20,2023-08-23,2023-08-26,2023-08-28,Chennai,Kolkata_WH,Air,Supplier_C,Transport Breakdown
+O-2996,2023-03-31,2023-04-02,2023-04-05,2023-04-08,Pune,Ahmedabad_WH,Air,Supplier_B,Customs Delay
+O-2997,2024-01-01,2024-01-04,2024-01-10,2024-01-11,Hyderabad,Mumbai_WH,Rail,Supplier_D,Transport Breakdown
+O-2998,2023-10-11,2023-10-14,2023-10-20,2023-10-22,Chennai,Delhi_WH,Sea,Supplier_B,Transport Breakdown
+O-2999,2023-07-30,2023-08-01,2023-08-04,2023-08-04,Bengaluru,Delhi_WH,Rail,Supplier_B,None
